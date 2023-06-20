@@ -23,15 +23,15 @@ Sequence(
 newTrial("intro",
 
     newText("Welcome","Welcome! This experiment has two halves. In the first half, you will be asked to complete sentence fragments. It is important for us that you try to be vivid with your examples, and do not repeat the same sentence fragments. Following the first half, you will see a link to the second half, in which you will judge sentences from other participants. <p>To participate in this experiment, you must meet the following requirements.<p>(1) You must be a native speaker of English.<p>(2) You must be older than 18 years old.<p>(3) You must use your computer, and not your phone or tablet.<p>(4) You must have a working mouse and keyboard.<p>If you meet these requirements, please enter your Prolific ID, language, and age below and click Next:")
-        .settings.css("font-size", "2em")
+        .settings.css("font-size", "1em")
         .print()
     ,
     
     newTextInput("ProlificID")
         .before(newText("ID", "Your Prolific ID:")
-                .settings.css("font-size", "2em")
+                .settings.css("font-size", "1em")
         )
-        .settings.css("font-size", "2em")
+        .settings.css("font-size", "1em")
         .settings.css('width', '50%')
         .settings.css('margin', 'auto')
         .print()
@@ -40,9 +40,9 @@ newTrial("intro",
     
     newTextInput("Age")
         .before(newText("AGE", "Your age:")
-                .settings.css("font-size", "2em")
+                .settings.css("font-size", "1em")
         )
-        .settings.css("font-size", "2em")
+        .settings.css("font-size", "1em")
         .settings.css('width', '50%')
         .settings.css('margin', 'auto')
         .print()
@@ -51,9 +51,9 @@ newTrial("intro",
 
     newTextInput("Language")
         .before(newText("LANG", "Your native language:")
-                .settings.css("font-size", "2em")
+                .settings.css("font-size", "1em")
         )
-        .settings.css("font-size", "2em")
+        .settings.css("font-size", "1em")
         .settings.css('width', '50%')
         .settings.css('margin', 'auto')
         .print()
@@ -62,7 +62,7 @@ newTrial("intro",
 
     newButton("Next","Next")
         .center()
-        .settings.css("font-size", "2em")
+        .settings.css("font-size", "1em")
         .settings.css('margin', '40px')
         .settings.size(500, 48)
         .print()
@@ -71,13 +71,13 @@ newTrial("intro",
 
 newTrial( "consent" ,
     newText("Please click <a href='https://google.com' target='_blank'>here</a> to download the consent form for this study. If you read it and agree to participate in this study, click 'I Agree' below. If you do not agree to participate in this study, you can leave this study by closing the tab. You can leave the experiment at any time by closing the tab during the experiment.")
-        .settings.css("font-size", "2em")
+        .settings.css("font-size", "1em")
         .print()
     ,
     
     newButton("Agree","I Agree")
         .center()
-        .settings.css("font-size", "2em")
+        .settings.css("font-size", "1em")
         .settings.css('margin', '40px')
         .settings.size(500, 48)
         .print()
