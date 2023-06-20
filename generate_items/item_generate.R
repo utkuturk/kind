@@ -9,6 +9,7 @@ fname_input <- "./generate_items/engItemList_LauLiao.csv"
 fname_latin <- "./generate_items/balanced_latin.py"
 fname_output_exp <- "./chunk_includes/ExpPreambles.csv"
 fname_output_fil <- "./chunk_includes/FillerPreambles.csv"
+fname_output_prac <- "./chunk_includes/PracticePreambles.csv"
 lau <- read_csv(fname_input)
 item_per_condition <- 32
 
@@ -219,3 +220,21 @@ fillers <- bind_rows(
 
 # write to file ------
 write_csv(fillers, fname_output_fil)
+
+
+# Practice Items ------------------
+
+prac <- data.frame(
+  preamble = c(
+    "Blind artists",
+    "If I drink more water,",
+    "I am happy that I went to the doctor because",
+    "That the kid cried constantly",
+    "Lord of the rings is one of the"
+  ),
+  condition = "practice",
+  itemnum = 1:5, check.rows = TRUE, check.names = TRUE
+)
+
+# write to file ------
+write_csv(prac, fname_output_prac)
