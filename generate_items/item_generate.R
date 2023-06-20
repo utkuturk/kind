@@ -7,7 +7,8 @@ library(dplyr)
 # Read -----
 fname_input <- "./generate_items/engItemList_LauLiao.csv"
 fname_latin <- "./generate_items/balanced_latin.py"
-fname_output <- "./chunk_includes/ExpPreambles.csv"
+fname_output_exp <- "./chunk_includes/ExpPreambles.csv"
+fname_output_fil <- "./chunk_includes/FillerPreambles.csv"
 lau <- read_csv(fname_input)
 item_per_condition <- 32
 
@@ -100,11 +101,12 @@ items$group <- rep(balanced_latin(8), (item_per_condition / 8))
 # items$group <- latin[sort(c(seq_along(latin), seq(1, length(latin), 2)))]
 
 # write to file ------
-write_csv(items, fname_output)
+write_csv(items, fname_output_exp)
 
 
 # Fillers------------------
-rc_fillers <- c(
+rc_fillers <- data.frame(
+  preamble = c(
   "The car that raced through the streets", 
   "The book that kept me up all night",
   "The dog that barked incessantly",
@@ -114,10 +116,13 @@ rc_fillers <- c(
   "The computer that crashed in a spectacular display of sparks",
   "The movie that mesmerized audiences with its breathtaking visuals",
   "The restaurant that delighted taste buds with tantalizing flavors",
-  "The flower that bloomed like a radiant burst of sunshine"
-)
+  "The flower that bloomed like a radiant burst of sunshine"),
+  condition = "filler",
+  type = "rc"
+  , check.rows = TRUE, check.names = TRUE)
 
-name_fillers <- c(
+name_fillers <- data.frame(
+  preamble = c(
   "Sarah and John,",
   "Emily, Michael, and Samantha",
   "The Smith family",
@@ -127,23 +132,29 @@ name_fillers <- c(
   "Professor Thompson and his brilliant student, Alice",
   "The Johnson siblings, Ethan and Olivia ",
   "Jake, Lisa, and Alex ",
-  "The Jones twins, Emma and Ethan"
-)
+  "The Jones twins, Emma and Ethan"),
+  condition = "filler",
+  type = "name"
+  , check.rows = TRUE, check.names = TRUE)
 
-adjuncts <- c(
+adjuncts <- data.frame(
+  preamble = c(
   "On the golden sandy beach",
   "Amidst the vibrant city lights",
   "Within the serene garden oasis",
   "During a starry summer night",
-  "Along the meandering country road",
+  "Along the road",
   "In the misty mountain valley",
   "At the bustling market square",
   "Within the tranquil coastal village",
-  "Underneath the swaying palm trees",
-  "Atop the rugged cliffside lookout"
-)
+  "Underneath the trees",
+  "Atop the rugged cliffside lookout"),
+  condition = "filler",
+  type = "adjunct"
+  , check.rows = TRUE, check.names = TRUE)
 
-whs <- c(
+whs <- data.frame(
+  preamble = c(
   "Who holds the key",
   "Why the stars shine",
   "When the clock strikes",
@@ -153,10 +164,13 @@ whs <- c(
   "Whose coffee",
   "What to do after",
   "How can we mend",
-  "What if you dare"
-)
+  "What if you dare"),
+  condition = "filler",
+  type = "wh"
+  , check.rows = TRUE, check.names = TRUE)
 
-quantifiers <- c(
+quantifiers <- data.frame(
+  preamble = c(
   "All stars",
   "Some dreams",
   "Few opportunities",
@@ -166,5 +180,42 @@ quantifiers <- c(
   "Many passionate voices, echoing through the room,",
   "Several blissful moments, spent in each other's arms,",
   "Few precious chances, which had eluded them for so long,",
-  "Most vivid dreams, which transported them to fantastical realms,"
-)
+  "Most vivid dreams, which transported them to fantastical realms,"),
+  condition = "filler",
+  type = "quantifier"
+  , check.rows = TRUE, check.names = TRUE)
+
+ifs <- data.frame(
+  preamble = c(
+  "If time and money were no obstacles,",
+  "If sentient robots roamed the Earth,",
+  "If a portal to the Dune universe would open today,",
+  "If artists from different eras collaborated with Billie Eilish,",
+  "If the world was ruled by cats,",
+  "If I could travel back in time, it would be the time when",
+  "Were I to be the mayor of College Park,",
+  "Were I to open a bakery shop,",
+  "Were I to save someone from the past,",
+  "Were I to relive yesterday,"),
+  condition = "filler",
+  type = "if"
+  , check.rows = TRUE, check.names = TRUE)
+
+corrs <- data.frame(
+  preamble = c(
+  "Whatever happened",
+  "Wherever the party was",
+  "Whoever was responsible",
+  "Whichever path they chose"),
+  condition = "filler",
+  type = "correlative"
+  , check.rows = TRUE, check.names = TRUE)
+
+fillers <- bind_rows(
+  rc_fillers, name_fillers, adjuncts, whs, quantifiers, ifs, corrs
+) %>%
+  mutate(itemnum = 1:nrow(.))
+
+
+# write to file ------
+write_csv(fillers, fname_output_fil)
