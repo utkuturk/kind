@@ -105,7 +105,6 @@ newTrial("instruction2",
 	newText("In the experiment you will see sentence fragments as the following")
 		.print()
 	,
-  newTrial("example",
     newText("example_premable", "Mehmet Efendi")
       .center()
       .cssContainer({ "margin-right": "2em" })
@@ -119,7 +118,6 @@ newTrial("instruction2",
       .cssContainer("display", "inline")
       .print()
       .wait(getTextInput("answer").testNot.text(""))
-  )
   ,
   newText("<p>You can complete this fragment as follows: <ol>" +
     "<li>is a Turkish coffee brand.</li>" +
