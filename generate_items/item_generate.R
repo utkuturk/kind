@@ -1,5 +1,4 @@
 # Packages ------
-library(readr)
 library(magrittr)
 library(tidyverse)
 library(dplyr)
@@ -10,7 +9,7 @@ fname_latin <- "./generate_items/balanced_latin.py"
 fname_output_exp <- "./chunk_includes/ExpPreambles.csv"
 fname_output_fil <- "./chunk_includes/FillerPreambles.csv"
 fname_output_prac <- "./chunk_includes/PracticePreambles.csv"
-lau <- read_csv(fname_input)
+lau <- readr::read_csv(fname_input)
 item_per_condition <- 32
 
 # Functions ----
@@ -100,6 +99,9 @@ items <- bind_rows(a, b, c, d, e, f, g, h) %>%
 reticulate::source_python(fname_latin)
 items$group <- rep(balanced_latin(8), (item_per_condition / 8))
 # items$group <- latin[sort(c(seq_along(latin), seq(1, length(latin), 2)))]
+
+# sentence case
+items$preamble %<>% stringr::str_to_sentence()
 
 # write to file ------
 write_csv(items, fname_output_exp)
