@@ -318,5 +318,17 @@ newTrial(
   ).print(),
 
   newButton().wait() // Wait for a click on a non-displayed button = wait here forever
+
+// newTrial("bye" ,
+// 	newText(
+// 		"Thank you for your participation! Please go to the following link to verify your participation: "+
+// 		"<a href='https://app.prolific.co/submissions/complete?cc=2C35D14F'>https://app.prolific.co/submissions/complete?cc=2C35D14F</a>"
+// 	)
+// 		.print()
+// 	,
+	
+// 	newButton()
+// 		.wait()
+// )
 ).setOption("countsForProgressBar", false);
 // Make sure the progress bar is full upon reaching this last (non-)trial
