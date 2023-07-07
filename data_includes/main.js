@@ -23,6 +23,7 @@ Sequence(
   "consent",
   "instruction1",
   "instruction2",
+  "instruction3",
   randomize("practice"),
   "warn",
   rshuffle("trial", "filler"),
@@ -146,18 +147,59 @@ newTrial(
             .print()
         )
     ),
-  newText(
-    "<p>You can complete this fragment as follows:<ol>" +
-      "<li>are produced only in certain parts of the world.<br><br></li>" +
-      "<li>that I bought from Whole Foods were really fresh.<br><br></li>" +
-      "<li>make me miss my hometown.</li></ol>" +
-      "<br><br>Now, you will go through some practice items to get you used to the task." 
-  ).print(),
-  newButton("Click here to begin practice trials!")
+    newText(
+      "<p>You could have completed this fragment as follows:<ol>" +
+        "<li>are produced only in certain parts of the world.<br></li>" +
+        "<li>that I bought from Whole Foods were really fresh.<br></li>" +
+        "<li>make me miss my hometown.</li></ol>"
+    ).print(),
+  newButton("Next")
     .center()
     .settings.css("margin", "40px")
     .print()
     .wait()
+);
+
+newTrial(
+  "instruction3",
+  newText(
+    "In the experiment you will see sentence fragments in the following fashion. Now, try to complete following sentences and hit <b>ENTER</b>.<br><br><br>"
+  ).print(),
+  newText(
+    "Some fragment may include elements that you are not familiar with. " +
+      "In this case, you can write whatever comes to your mind; you do not have to be correct or accurate.<br>" 
+  ).print(),
+  newText("example_premable2", "Patterns in the mind")
+    .center()
+    .cssContainer({ "margin-right": "1em" })
+    .print(),
+  newTextInput("answer")
+    .settings.before(getText("example_premable2"))
+    .log("validate")
+    .lines(1)
+    .css(underline_blank)
+    .print()
+    .wait(
+      getTextInput("answer")
+        .test.text(/^(.{10,500})$/)
+        .failure(
+          newText("<b>Please write more.</b>")
+            .settings.color("red")
+            .print()
+        )
+    ),
+  newText(
+    "<p>You can complete this fragment as follows:<ol>" +
+      "<li>is the title of a very important book written by Jackendoff.<br></li>" +
+      "<li>allow us to understand language.<br></li>" +
+      "<li>always interested many scienties throughout the ages.</li></ol>" +
+      "<br>Now, you will go through some practice items to get you used to the task." 
+  ).print(),
+  newButton("Click here to begin practice trials!")
+  .center()
+  .settings.css("margin", "40px")
+  .print()
+  .wait()
 );
 
 newTrial(

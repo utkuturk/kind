@@ -231,11 +231,13 @@ prac <- data.frame(
     "Spicy pickles are",
     "Even though multiverse stories",
     "What would happen if",
-    "The studious kids",
-    "The soundtrack of the movie Dune"
+    "The studious kids were",
+    "The soundtrack of the movie Dune",
+    "Facebook used to be",
+    "The new restaurant"
   ),
   condition = "practice",
-  itemnum = 1:5, check.rows = TRUE, check.names = TRUE
+  itemnum = 1:7, check.rows = TRUE, check.names = TRUE
 )
 
 # write to file ------
