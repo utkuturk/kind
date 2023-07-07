@@ -1,257 +1,257 @@
 preamble,itemnum,condition,the,and,adj,group
-scissors,1,BP,FALSE,FALSE,FALSE,A
-stains and scissors,1,BPand,FALSE,TRUE,FALSE,B
-blunt scissors,1,AdjBP,FALSE,FALSE,TRUE,C
-ghastly stains and blunt scissors,1,AdjBPand,FALSE,TRUE,TRUE,D
-the scissors,1,theBP,TRUE,FALSE,FALSE,E
-the stains and the scissors,1,theBPand,TRUE,TRUE,FALSE,F
-the blunt scissors,1,theAdjBP,TRUE,FALSE,TRUE,G
-the ghastly stains and the blunt scissors,1,theAdjBPand,TRUE,TRUE,TRUE,H
-tables,2,BP,FALSE,FALSE,FALSE,H
-funerals and tables,2,BPand,FALSE,TRUE,FALSE,A
-cozy tables,2,AdjBP,FALSE,FALSE,TRUE,B
-hasty funerals and cozy tables,2,AdjBPand,FALSE,TRUE,TRUE,C
-the tables,2,theBP,TRUE,FALSE,FALSE,D
-the funerals and the tables,2,theBPand,TRUE,TRUE,FALSE,E
-the cozy tables,2,theAdjBP,TRUE,FALSE,TRUE,F
-the hasty funerals and the cozy tables,2,theAdjBPand,TRUE,TRUE,TRUE,G
-doors,3,BP,FALSE,FALSE,FALSE,B
-doors and debts,3,BPand,FALSE,TRUE,FALSE,C
-solid doors,3,AdjBP,FALSE,FALSE,TRUE,D
-solid doors and huge debts,3,AdjBPand,FALSE,TRUE,TRUE,E
-the doors,3,theBP,TRUE,FALSE,FALSE,F
-the doors and the debts,3,theBPand,TRUE,TRUE,FALSE,G
-the solid doors,3,theAdjBP,TRUE,FALSE,TRUE,H
-the solid doors and the huge debts,3,theAdjBPand,TRUE,TRUE,TRUE,A
-rivers,4,BP,FALSE,FALSE,FALSE,G
-rivers and rooms,4,BPand,FALSE,TRUE,FALSE,H
-broad rivers,4,AdjBP,FALSE,FALSE,TRUE,A
-broad rivers and cheery rooms,4,AdjBPand,FALSE,TRUE,TRUE,B
-the rivers,4,theBP,TRUE,FALSE,FALSE,C
-the rivers and the rooms,4,theBPand,TRUE,TRUE,FALSE,D
-the broad rivers,4,theAdjBP,TRUE,FALSE,TRUE,E
-the broad rivers and the cheery rooms,4,theAdjBPand,TRUE,TRUE,TRUE,F
-journeys,5,BP,FALSE,FALSE,FALSE,C
-mirrors and journeys,5,BPand,FALSE,TRUE,FALSE,D
-blissful journeys,5,AdjBP,FALSE,FALSE,TRUE,E
-steamy mirrors and blissful journeys,5,AdjBPand,FALSE,TRUE,TRUE,F
-the journeys,5,theBP,TRUE,FALSE,FALSE,G
-the mirrors and the journeys,5,theBPand,TRUE,TRUE,FALSE,H
-the blissful journeys,5,theAdjBP,TRUE,FALSE,TRUE,A
-the steamy mirrors and the blissful journeys,5,theAdjBPand,TRUE,TRUE,TRUE,B
-maids,6,BP,FALSE,FALSE,FALSE,F
-mysteries and maids,6,BPand,FALSE,TRUE,FALSE,G
-bashful maids,6,AdjBP,FALSE,FALSE,TRUE,H
-stubborn mysteries and bashful maids,6,AdjBPand,FALSE,TRUE,TRUE,A
-the maids,6,theBP,TRUE,FALSE,FALSE,B
-the mysteries and the maids,6,theBPand,TRUE,TRUE,FALSE,C
-the bashful maids,6,theAdjBP,TRUE,FALSE,TRUE,D
-the stubborn mysteries and the bashful maids,6,theAdjBPand,TRUE,TRUE,TRUE,E
-monuments,7,BP,FALSE,FALSE,FALSE,D
-monuments and mobs,7,BPand,FALSE,TRUE,FALSE,E
-pale monuments,7,AdjBP,FALSE,FALSE,TRUE,F
-pale monuments and disheveled mobs,7,AdjBPand,FALSE,TRUE,TRUE,G
-the monuments,7,theBP,TRUE,FALSE,FALSE,H
-the monuments and the mobs,7,theBPand,TRUE,TRUE,FALSE,A
-the pale monuments,7,theAdjBP,TRUE,FALSE,TRUE,B
-the pale monuments and the disheveled mobs,7,theAdjBPand,TRUE,TRUE,TRUE,C
-tulips,8,BP,FALSE,FALSE,FALSE,E
-tulips and remarks,8,BPand,FALSE,TRUE,FALSE,F
-pink tulips,8,AdjBP,FALSE,FALSE,TRUE,G
-pink tulips and unprintable remarks,8,AdjBPand,FALSE,TRUE,TRUE,H
-the tulips,8,theBP,TRUE,FALSE,FALSE,A
-the tulips and the remarks,8,theBPand,TRUE,TRUE,FALSE,B
-the pink tulips,8,theAdjBP,TRUE,FALSE,TRUE,C
-the pink tulips and the unprintable remarks,8,theAdjBPand,TRUE,TRUE,TRUE,D
-sisters,9,BP,FALSE,FALSE,FALSE,A
-sisters and brides,9,BPand,FALSE,TRUE,FALSE,B
-enchanted sisters,9,AdjBP,FALSE,FALSE,TRUE,C
-enchanted sisters and reluctant brides,9,AdjBPand,FALSE,TRUE,TRUE,D
-the sisters,9,theBP,TRUE,FALSE,FALSE,E
-the sisters and the brides,9,theBPand,TRUE,TRUE,FALSE,F
-the enchanted sisters,9,theAdjBP,TRUE,FALSE,TRUE,G
-the enchanted sisters and the reluctant brides,9,theAdjBPand,TRUE,TRUE,TRUE,H
-headaches,10,BP,FALSE,FALSE,FALSE,H
-headaches and rulers,10,BPand,FALSE,TRUE,FALSE,A
-familiar headaches,10,AdjBP,FALSE,FALSE,TRUE,B
-familiar headaches and wooden rulers,10,AdjBPand,FALSE,TRUE,TRUE,C
-the headaches,10,theBP,TRUE,FALSE,FALSE,D
-the headaches and the rulers,10,theBPand,TRUE,TRUE,FALSE,E
-the familiar headaches,10,theAdjBP,TRUE,FALSE,TRUE,F
-the familiar headaches and the wooden rulers,10,theAdjBPand,TRUE,TRUE,TRUE,G
-leggings,11,BP,FALSE,FALSE,FALSE,B
-leggings and cardigans,11,BPand,FALSE,TRUE,FALSE,C
-black leggings,11,AdjBP,FALSE,FALSE,TRUE,D
-black leggings and nerdy cardigans,11,AdjBPand,FALSE,TRUE,TRUE,E
-the leggings,11,theBP,TRUE,FALSE,FALSE,F
-the leggings and the cardigans,11,theBPand,TRUE,TRUE,FALSE,G
-the black leggings,11,theAdjBP,TRUE,FALSE,TRUE,H
-the black leggings and the nerdy cardigans,11,theAdjBPand,TRUE,TRUE,TRUE,A
-spoons,12,BP,FALSE,FALSE,FALSE,G
-spoons and strategies,12,BPand,FALSE,TRUE,FALSE,H
-dainty spoons,12,AdjBP,FALSE,FALSE,TRUE,A
-dainty spoons and bold strategies,12,AdjBPand,FALSE,TRUE,TRUE,B
-the spoons,12,theBP,TRUE,FALSE,FALSE,C
-the spoons and the strategies,12,theBPand,TRUE,TRUE,FALSE,D
-the dainty spoons,12,theAdjBP,TRUE,FALSE,TRUE,E
-the dainty spoons and the bold strategies,12,theAdjBPand,TRUE,TRUE,TRUE,F
-astronauts,13,BP,FALSE,FALSE,FALSE,C
-astronauts and stories,13,BPand,FALSE,TRUE,FALSE,D
-unlucky astronauts,13,AdjBP,FALSE,FALSE,TRUE,E
-unlucky astronauts and ominous stories,13,AdjBPand,FALSE,TRUE,TRUE,F
-the astronauts,13,theBP,TRUE,FALSE,FALSE,G
-the astronauts and the stories,13,theBPand,TRUE,TRUE,FALSE,H
-the unlucky astronauts,13,theAdjBP,TRUE,FALSE,TRUE,A
-the unlucky astronauts and the ominous stories,13,theAdjBPand,TRUE,TRUE,TRUE,B
-ponds,14,BP,FALSE,FALSE,FALSE,F
-ponds and umbrellas,14,BPand,FALSE,TRUE,FALSE,G
-sunlit ponds,14,AdjBP,FALSE,FALSE,TRUE,H
-sunlit ponds and green umbrellas,14,AdjBPand,FALSE,TRUE,TRUE,A
-the ponds,14,theBP,TRUE,FALSE,FALSE,B
-the ponds and the umbrellas,14,theBPand,TRUE,TRUE,FALSE,C
-the sunlit ponds,14,theAdjBP,TRUE,FALSE,TRUE,D
-the sunlit ponds and the green umbrellas,14,theAdjBPand,TRUE,TRUE,TRUE,E
-hoses,15,BP,FALSE,FALSE,FALSE,D
-sofas and hoses,15,BPand,FALSE,TRUE,FALSE,E
-drippy hoses,15,AdjBP,FALSE,FALSE,TRUE,F
-pricey sofas and drippy hoses,15,AdjBPand,FALSE,TRUE,TRUE,G
-the hoses,15,theBP,TRUE,FALSE,FALSE,H
-the sofas and the hoses,15,theBPand,TRUE,TRUE,FALSE,A
-the drippy hoses,15,theAdjBP,TRUE,FALSE,TRUE,B
-the pricey sofas and the drippy hoses,15,theAdjBPand,TRUE,TRUE,TRUE,C
-kings,16,BP,FALSE,FALSE,FALSE,E
-kings and games,16,BPand,FALSE,TRUE,FALSE,F
-gluttonous kings,16,AdjBP,FALSE,FALSE,TRUE,G
-gluttonous kings and friendly games,16,AdjBPand,FALSE,TRUE,TRUE,H
-the kings,16,theBP,TRUE,FALSE,FALSE,A
-the kings and the games,16,theBPand,TRUE,TRUE,FALSE,B
-the gluttonous kings,16,theAdjBP,TRUE,FALSE,TRUE,C
-the gluttonous kings and the friendly games,16,theAdjBPand,TRUE,TRUE,TRUE,D
-sketches,17,BP,FALSE,FALSE,FALSE,A
-sketches and pans,17,BPand,FALSE,TRUE,FALSE,B
-original sketches,17,AdjBP,FALSE,FALSE,TRUE,C
-original sketches and metallic pans,17,AdjBPand,FALSE,TRUE,TRUE,D
-the sketches,17,theBP,TRUE,FALSE,FALSE,E
-the sketches and the pans,17,theBPand,TRUE,TRUE,FALSE,F
-the original sketches,17,theAdjBP,TRUE,FALSE,TRUE,G
-the original sketches and the metallic pans,17,theAdjBPand,TRUE,TRUE,TRUE,H
-ghosts,18,BP,FALSE,FALSE,FALSE,H
-colors and ghosts,18,BPand,FALSE,TRUE,FALSE,A
-evil ghosts,18,AdjBP,FALSE,FALSE,TRUE,B
-lovely colors and evil ghosts,18,AdjBPand,FALSE,TRUE,TRUE,C
-the ghosts,18,theBP,TRUE,FALSE,FALSE,D
-the colors and the ghosts,18,theBPand,TRUE,TRUE,FALSE,E
-the evil ghosts,18,theAdjBP,TRUE,FALSE,TRUE,F
-the lovely colors and the evil ghosts,18,theAdjBPand,TRUE,TRUE,TRUE,G
-artists,19,BP,FALSE,FALSE,FALSE,B
-artists and pickles,19,BPand,FALSE,TRUE,FALSE,C
-blind artists,19,AdjBP,FALSE,FALSE,TRUE,D
-blind artists and spicy pickles,19,AdjBPand,FALSE,TRUE,TRUE,E
-the artists,19,theBP,TRUE,FALSE,FALSE,F
-the artists and the pickles,19,theBPand,TRUE,TRUE,FALSE,G
-the blind artists,19,theAdjBP,TRUE,FALSE,TRUE,H
-the blind artists and the spicy pickles,19,theAdjBPand,TRUE,TRUE,TRUE,A
-bears,20,BP,FALSE,FALSE,FALSE,G
-bears and deputies,20,BPand,FALSE,TRUE,FALSE,H
-hungry bears,20,AdjBP,FALSE,FALSE,TRUE,A
-hungry bears and brave deputies,20,AdjBPand,FALSE,TRUE,TRUE,B
-the bears,20,theBP,TRUE,FALSE,FALSE,C
-the bears and the deputies,20,theBPand,TRUE,TRUE,FALSE,D
-the hungry bears,20,theAdjBP,TRUE,FALSE,TRUE,E
-the hungry bears and the brave deputies,20,theAdjBPand,TRUE,TRUE,TRUE,F
-boys,21,BP,FALSE,FALSE,FALSE,C
-boys and keyboards,21,BPand,FALSE,TRUE,FALSE,D
-anxious boys,21,AdjBP,FALSE,FALSE,TRUE,E
-anxious boys and portable keyboards,21,AdjBPand,FALSE,TRUE,TRUE,F
-the boys,21,theBP,TRUE,FALSE,FALSE,G
-the boys and the keyboards,21,theBPand,TRUE,TRUE,FALSE,H
-the anxious boys,21,theAdjBP,TRUE,FALSE,TRUE,A
-the anxious boys and the portable keyboards,21,theAdjBPand,TRUE,TRUE,TRUE,B
-rugs,22,BP,FALSE,FALSE,FALSE,F
-moms and rugs,22,BPand,FALSE,TRUE,FALSE,G
-decorative rugs,22,AdjBP,FALSE,FALSE,TRUE,H
-busy moms and decorative rugs,22,AdjBPand,FALSE,TRUE,TRUE,A
-the rugs,22,theBP,TRUE,FALSE,FALSE,B
-the moms and the rugs,22,theBPand,TRUE,TRUE,FALSE,C
-the decorative rugs,22,theAdjBP,TRUE,FALSE,TRUE,D
-the busy moms and the decorative rugs,22,theAdjBPand,TRUE,TRUE,TRUE,E
-pizzas,23,BP,FALSE,FALSE,FALSE,D
-dilemmas and pizzas,23,BPand,FALSE,TRUE,FALSE,E
-homemade pizzas,23,AdjBP,FALSE,FALSE,TRUE,F
-national dilemmas and homemade pizzas,23,AdjBPand,FALSE,TRUE,TRUE,G
-the pizzas,23,theBP,TRUE,FALSE,FALSE,H
-the dilemmas and the pizzas,23,theBPand,TRUE,TRUE,FALSE,A
-the homemade pizzas,23,theAdjBP,TRUE,FALSE,TRUE,B
-the national dilemmas and the homemade pizzas,23,theAdjBPand,TRUE,TRUE,TRUE,C
-newspapers,24,BP,FALSE,FALSE,FALSE,E
-newspapers and students,24,BPand,FALSE,TRUE,FALSE,F
-panicky newspapers,24,AdjBP,FALSE,FALSE,TRUE,G
-panicky newspapers and envious students,24,AdjBPand,FALSE,TRUE,TRUE,H
-the newspapers,24,theBP,TRUE,FALSE,FALSE,A
-the newspapers and the students,24,theBPand,TRUE,TRUE,FALSE,B
-the panicky newspapers,24,theAdjBP,TRUE,FALSE,TRUE,C
-the panicky newspapers and the envious students,24,theAdjBPand,TRUE,TRUE,TRUE,D
-answers,25,BP,FALSE,FALSE,FALSE,A
-answers and diamonds,25,BPand,FALSE,TRUE,FALSE,B
-untrue answers,25,AdjBP,FALSE,FALSE,TRUE,C
-untrue answers and outlandish diamonds,25,AdjBPand,FALSE,TRUE,TRUE,D
-the answers,25,theBP,TRUE,FALSE,FALSE,E
-the answers and the diamonds,25,theBPand,TRUE,TRUE,FALSE,F
-the untrue answers,25,theAdjBP,TRUE,FALSE,TRUE,G
-the untrue answers and the outlandish diamonds,25,theAdjBPand,TRUE,TRUE,TRUE,H
-entrances,26,BP,FALSE,FALSE,FALSE,H
-entrances and airports,26,BPand,FALSE,TRUE,FALSE,A
-formal entrances,26,AdjBP,FALSE,FALSE,TRUE,B
-formal entrances and chaotic airports,26,AdjBPand,FALSE,TRUE,TRUE,C
-the entrances,26,theBP,TRUE,FALSE,FALSE,D
-the entrances and the airports,26,theBPand,TRUE,TRUE,FALSE,E
-the formal entrances,26,theAdjBP,TRUE,FALSE,TRUE,F
-the formal entrances and the chaotic airports,26,theAdjBPand,TRUE,TRUE,TRUE,G
-guns,27,BP,FALSE,FALSE,FALSE,B
-guns and babies,27,BPand,FALSE,TRUE,FALSE,C
-inexpensive guns,27,AdjBP,FALSE,FALSE,TRUE,D
-inexpensive guns and active babies,27,AdjBPand,FALSE,TRUE,TRUE,E
-the guns,27,theBP,TRUE,FALSE,FALSE,F
-the guns and the babies,27,theBPand,TRUE,TRUE,FALSE,G
-the inexpensive guns,27,theAdjBP,TRUE,FALSE,TRUE,H
-the inexpensive guns and the active babies,27,theAdjBPand,TRUE,TRUE,TRUE,A
-mosquitos,28,BP,FALSE,FALSE,FALSE,G
-towns and mosquitos,28,BPand,FALSE,TRUE,FALSE,H
-fiendish mosquitos,28,AdjBP,FALSE,FALSE,TRUE,A
-flat towns and fiendish mosquitos,28,AdjBPand,FALSE,TRUE,TRUE,B
-the mosquitos,28,theBP,TRUE,FALSE,FALSE,C
-the towns and the mosquitos,28,theBPand,TRUE,TRUE,FALSE,D
-the fiendish mosquitos,28,theAdjBP,TRUE,FALSE,TRUE,E
-the flat towns and the fiendish mosquitos,28,theAdjBPand,TRUE,TRUE,TRUE,F
-daughters,29,BP,FALSE,FALSE,FALSE,C
-rectangles and daughters,29,BPand,FALSE,TRUE,FALSE,D
-heroic daughters,29,AdjBP,FALSE,FALSE,TRUE,E
-orange rectangles and heroic daughters,29,AdjBPand,FALSE,TRUE,TRUE,F
-the daughters,29,theBP,TRUE,FALSE,FALSE,G
-the rectangles and the daughters,29,theBPand,TRUE,TRUE,FALSE,H
-the heroic daughters,29,theAdjBP,TRUE,FALSE,TRUE,A
-the orange rectangles and the heroic daughters,29,theAdjBPand,TRUE,TRUE,TRUE,B
-dinners,30,BP,FALSE,FALSE,FALSE,F
-smiles and dinners,30,BPand,FALSE,TRUE,FALSE,G
-costly dinners,30,AdjBP,FALSE,FALSE,TRUE,H
-innocent smiles and costly dinners,30,AdjBPand,FALSE,TRUE,TRUE,A
-the dinners,30,theBP,TRUE,FALSE,FALSE,B
-the smiles and the dinners,30,theBPand,TRUE,TRUE,FALSE,C
-the costly dinners,30,theAdjBP,TRUE,FALSE,TRUE,D
-the innocent smiles and the costly dinners,30,theAdjBPand,TRUE,TRUE,TRUE,E
-flowers,31,BP,FALSE,FALSE,FALSE,D
-squares and flowers,31,BPand,FALSE,TRUE,FALSE,E
-gorgeous flowers,31,AdjBP,FALSE,FALSE,TRUE,F
-ceramic squares and gorgeous flowers,31,AdjBPand,FALSE,TRUE,TRUE,G
-the flowers,31,theBP,TRUE,FALSE,FALSE,H
-the squares and the flowers,31,theBPand,TRUE,TRUE,FALSE,A
-the gorgeous flowers,31,theAdjBP,TRUE,FALSE,TRUE,B
-the ceramic squares and the gorgeous flowers,31,theAdjBPand,TRUE,TRUE,TRUE,C
-guests,32,BP,FALSE,FALSE,FALSE,E
-gifts and guests,32,BPand,FALSE,TRUE,FALSE,F
-generous guests,32,AdjBP,FALSE,FALSE,TRUE,G
-bridal gifts and generous guests,32,AdjBPand,FALSE,TRUE,TRUE,H
-the guests,32,theBP,TRUE,FALSE,FALSE,A
-the gifts and the guests,32,theBPand,TRUE,TRUE,FALSE,B
-the generous guests,32,theAdjBP,TRUE,FALSE,TRUE,C
-the bridal gifts and the generous guests,32,theAdjBPand,TRUE,TRUE,TRUE,D
+Scissors,1,BP,FALSE,FALSE,FALSE,A
+Stains and scissors,1,BPand,FALSE,TRUE,FALSE,B
+Blunt scissors,1,AdjBP,FALSE,FALSE,TRUE,C
+Ghastly stains and blunt scissors,1,AdjBPand,FALSE,TRUE,TRUE,D
+The scissors,1,theBP,TRUE,FALSE,FALSE,E
+The stains and the scissors,1,theBPand,TRUE,TRUE,FALSE,F
+The blunt scissors,1,theAdjBP,TRUE,FALSE,TRUE,G
+The ghastly stains and the blunt scissors,1,theAdjBPand,TRUE,TRUE,TRUE,H
+Tables,2,BP,FALSE,FALSE,FALSE,H
+Funerals and tables,2,BPand,FALSE,TRUE,FALSE,A
+Cozy tables,2,AdjBP,FALSE,FALSE,TRUE,B
+Hasty funerals and cozy tables,2,AdjBPand,FALSE,TRUE,TRUE,C
+The tables,2,theBP,TRUE,FALSE,FALSE,D
+The funerals and the tables,2,theBPand,TRUE,TRUE,FALSE,E
+The cozy tables,2,theAdjBP,TRUE,FALSE,TRUE,F
+The hasty funerals and the cozy tables,2,theAdjBPand,TRUE,TRUE,TRUE,G
+Doors,3,BP,FALSE,FALSE,FALSE,B
+Doors and debts,3,BPand,FALSE,TRUE,FALSE,C
+Solid doors,3,AdjBP,FALSE,FALSE,TRUE,D
+Solid doors and huge debts,3,AdjBPand,FALSE,TRUE,TRUE,E
+The doors,3,theBP,TRUE,FALSE,FALSE,F
+The doors and the debts,3,theBPand,TRUE,TRUE,FALSE,G
+The solid doors,3,theAdjBP,TRUE,FALSE,TRUE,H
+The solid doors and the huge debts,3,theAdjBPand,TRUE,TRUE,TRUE,A
+Rivers,4,BP,FALSE,FALSE,FALSE,G
+Rivers and rooms,4,BPand,FALSE,TRUE,FALSE,H
+Broad rivers,4,AdjBP,FALSE,FALSE,TRUE,A
+Broad rivers and cheery rooms,4,AdjBPand,FALSE,TRUE,TRUE,B
+The rivers,4,theBP,TRUE,FALSE,FALSE,C
+The rivers and the rooms,4,theBPand,TRUE,TRUE,FALSE,D
+The broad rivers,4,theAdjBP,TRUE,FALSE,TRUE,E
+The broad rivers and the cheery rooms,4,theAdjBPand,TRUE,TRUE,TRUE,F
+Journeys,5,BP,FALSE,FALSE,FALSE,C
+Mirrors and journeys,5,BPand,FALSE,TRUE,FALSE,D
+Blissful journeys,5,AdjBP,FALSE,FALSE,TRUE,E
+Steamy mirrors and blissful journeys,5,AdjBPand,FALSE,TRUE,TRUE,F
+The journeys,5,theBP,TRUE,FALSE,FALSE,G
+The mirrors and the journeys,5,theBPand,TRUE,TRUE,FALSE,H
+The blissful journeys,5,theAdjBP,TRUE,FALSE,TRUE,A
+The steamy mirrors and the blissful journeys,5,theAdjBPand,TRUE,TRUE,TRUE,B
+Maids,6,BP,FALSE,FALSE,FALSE,F
+Mysteries and maids,6,BPand,FALSE,TRUE,FALSE,G
+Bashful maids,6,AdjBP,FALSE,FALSE,TRUE,H
+Stubborn mysteries and bashful maids,6,AdjBPand,FALSE,TRUE,TRUE,A
+The maids,6,theBP,TRUE,FALSE,FALSE,B
+The mysteries and the maids,6,theBPand,TRUE,TRUE,FALSE,C
+The bashful maids,6,theAdjBP,TRUE,FALSE,TRUE,D
+The stubborn mysteries and the bashful maids,6,theAdjBPand,TRUE,TRUE,TRUE,E
+Monuments,7,BP,FALSE,FALSE,FALSE,D
+Monuments and mobs,7,BPand,FALSE,TRUE,FALSE,E
+Pale monuments,7,AdjBP,FALSE,FALSE,TRUE,F
+Pale monuments and disheveled mobs,7,AdjBPand,FALSE,TRUE,TRUE,G
+The monuments,7,theBP,TRUE,FALSE,FALSE,H
+The monuments and the mobs,7,theBPand,TRUE,TRUE,FALSE,A
+The pale monuments,7,theAdjBP,TRUE,FALSE,TRUE,B
+The pale monuments and the disheveled mobs,7,theAdjBPand,TRUE,TRUE,TRUE,C
+Tulips,8,BP,FALSE,FALSE,FALSE,E
+Tulips and remarks,8,BPand,FALSE,TRUE,FALSE,F
+Pink tulips,8,AdjBP,FALSE,FALSE,TRUE,G
+Pink tulips and unprintable remarks,8,AdjBPand,FALSE,TRUE,TRUE,H
+The tulips,8,theBP,TRUE,FALSE,FALSE,A
+The tulips and the remarks,8,theBPand,TRUE,TRUE,FALSE,B
+The pink tulips,8,theAdjBP,TRUE,FALSE,TRUE,C
+The pink tulips and the unprintable remarks,8,theAdjBPand,TRUE,TRUE,TRUE,D
+Sisters,9,BP,FALSE,FALSE,FALSE,A
+Sisters and brides,9,BPand,FALSE,TRUE,FALSE,B
+Enchanted sisters,9,AdjBP,FALSE,FALSE,TRUE,C
+Enchanted sisters and reluctant brides,9,AdjBPand,FALSE,TRUE,TRUE,D
+The sisters,9,theBP,TRUE,FALSE,FALSE,E
+The sisters and the brides,9,theBPand,TRUE,TRUE,FALSE,F
+The enchanted sisters,9,theAdjBP,TRUE,FALSE,TRUE,G
+The enchanted sisters and the reluctant brides,9,theAdjBPand,TRUE,TRUE,TRUE,H
+Headaches,10,BP,FALSE,FALSE,FALSE,H
+Headaches and rulers,10,BPand,FALSE,TRUE,FALSE,A
+Familiar headaches,10,AdjBP,FALSE,FALSE,TRUE,B
+Familiar headaches and wooden rulers,10,AdjBPand,FALSE,TRUE,TRUE,C
+The headaches,10,theBP,TRUE,FALSE,FALSE,D
+The headaches and the rulers,10,theBPand,TRUE,TRUE,FALSE,E
+The familiar headaches,10,theAdjBP,TRUE,FALSE,TRUE,F
+The familiar headaches and the wooden rulers,10,theAdjBPand,TRUE,TRUE,TRUE,G
+Leggings,11,BP,FALSE,FALSE,FALSE,B
+Leggings and cardigans,11,BPand,FALSE,TRUE,FALSE,C
+Black leggings,11,AdjBP,FALSE,FALSE,TRUE,D
+Black leggings and nerdy cardigans,11,AdjBPand,FALSE,TRUE,TRUE,E
+The leggings,11,theBP,TRUE,FALSE,FALSE,F
+The leggings and the cardigans,11,theBPand,TRUE,TRUE,FALSE,G
+The black leggings,11,theAdjBP,TRUE,FALSE,TRUE,H
+The black leggings and the nerdy cardigans,11,theAdjBPand,TRUE,TRUE,TRUE,A
+Spoons,12,BP,FALSE,FALSE,FALSE,G
+Spoons and strategies,12,BPand,FALSE,TRUE,FALSE,H
+Dainty spoons,12,AdjBP,FALSE,FALSE,TRUE,A
+Dainty spoons and bold strategies,12,AdjBPand,FALSE,TRUE,TRUE,B
+The spoons,12,theBP,TRUE,FALSE,FALSE,C
+The spoons and the strategies,12,theBPand,TRUE,TRUE,FALSE,D
+The dainty spoons,12,theAdjBP,TRUE,FALSE,TRUE,E
+The dainty spoons and the bold strategies,12,theAdjBPand,TRUE,TRUE,TRUE,F
+Astronauts,13,BP,FALSE,FALSE,FALSE,C
+Astronauts and stories,13,BPand,FALSE,TRUE,FALSE,D
+Unlucky astronauts,13,AdjBP,FALSE,FALSE,TRUE,E
+Unlucky astronauts and ominous stories,13,AdjBPand,FALSE,TRUE,TRUE,F
+The astronauts,13,theBP,TRUE,FALSE,FALSE,G
+The astronauts and the stories,13,theBPand,TRUE,TRUE,FALSE,H
+The unlucky astronauts,13,theAdjBP,TRUE,FALSE,TRUE,A
+The unlucky astronauts and the ominous stories,13,theAdjBPand,TRUE,TRUE,TRUE,B
+Ponds,14,BP,FALSE,FALSE,FALSE,F
+Ponds and umbrellas,14,BPand,FALSE,TRUE,FALSE,G
+Sunlit ponds,14,AdjBP,FALSE,FALSE,TRUE,H
+Sunlit ponds and green umbrellas,14,AdjBPand,FALSE,TRUE,TRUE,A
+The ponds,14,theBP,TRUE,FALSE,FALSE,B
+The ponds and the umbrellas,14,theBPand,TRUE,TRUE,FALSE,C
+The sunlit ponds,14,theAdjBP,TRUE,FALSE,TRUE,D
+The sunlit ponds and the green umbrellas,14,theAdjBPand,TRUE,TRUE,TRUE,E
+Hoses,15,BP,FALSE,FALSE,FALSE,D
+Sofas and hoses,15,BPand,FALSE,TRUE,FALSE,E
+Drippy hoses,15,AdjBP,FALSE,FALSE,TRUE,F
+Pricey sofas and drippy hoses,15,AdjBPand,FALSE,TRUE,TRUE,G
+The hoses,15,theBP,TRUE,FALSE,FALSE,H
+The sofas and the hoses,15,theBPand,TRUE,TRUE,FALSE,A
+The drippy hoses,15,theAdjBP,TRUE,FALSE,TRUE,B
+The pricey sofas and the drippy hoses,15,theAdjBPand,TRUE,TRUE,TRUE,C
+Kings,16,BP,FALSE,FALSE,FALSE,E
+Kings and games,16,BPand,FALSE,TRUE,FALSE,F
+Gluttonous kings,16,AdjBP,FALSE,FALSE,TRUE,G
+Gluttonous kings and friendly games,16,AdjBPand,FALSE,TRUE,TRUE,H
+The kings,16,theBP,TRUE,FALSE,FALSE,A
+The kings and the games,16,theBPand,TRUE,TRUE,FALSE,B
+The gluttonous kings,16,theAdjBP,TRUE,FALSE,TRUE,C
+The gluttonous kings and the friendly games,16,theAdjBPand,TRUE,TRUE,TRUE,D
+Sketches,17,BP,FALSE,FALSE,FALSE,A
+Sketches and pans,17,BPand,FALSE,TRUE,FALSE,B
+Original sketches,17,AdjBP,FALSE,FALSE,TRUE,C
+Original sketches and metallic pans,17,AdjBPand,FALSE,TRUE,TRUE,D
+The sketches,17,theBP,TRUE,FALSE,FALSE,E
+The sketches and the pans,17,theBPand,TRUE,TRUE,FALSE,F
+The original sketches,17,theAdjBP,TRUE,FALSE,TRUE,G
+The original sketches and the metallic pans,17,theAdjBPand,TRUE,TRUE,TRUE,H
+Ghosts,18,BP,FALSE,FALSE,FALSE,H
+Colors and ghosts,18,BPand,FALSE,TRUE,FALSE,A
+Evil ghosts,18,AdjBP,FALSE,FALSE,TRUE,B
+Lovely colors and evil ghosts,18,AdjBPand,FALSE,TRUE,TRUE,C
+The ghosts,18,theBP,TRUE,FALSE,FALSE,D
+The colors and the ghosts,18,theBPand,TRUE,TRUE,FALSE,E
+The evil ghosts,18,theAdjBP,TRUE,FALSE,TRUE,F
+The lovely colors and the evil ghosts,18,theAdjBPand,TRUE,TRUE,TRUE,G
+Artists,19,BP,FALSE,FALSE,FALSE,B
+Artists and pickles,19,BPand,FALSE,TRUE,FALSE,C
+Blind artists,19,AdjBP,FALSE,FALSE,TRUE,D
+Blind artists and spicy pickles,19,AdjBPand,FALSE,TRUE,TRUE,E
+The artists,19,theBP,TRUE,FALSE,FALSE,F
+The artists and the pickles,19,theBPand,TRUE,TRUE,FALSE,G
+The blind artists,19,theAdjBP,TRUE,FALSE,TRUE,H
+The blind artists and the spicy pickles,19,theAdjBPand,TRUE,TRUE,TRUE,A
+Bears,20,BP,FALSE,FALSE,FALSE,G
+Bears and deputies,20,BPand,FALSE,TRUE,FALSE,H
+Hungry bears,20,AdjBP,FALSE,FALSE,TRUE,A
+Hungry bears and brave deputies,20,AdjBPand,FALSE,TRUE,TRUE,B
+The bears,20,theBP,TRUE,FALSE,FALSE,C
+The bears and the deputies,20,theBPand,TRUE,TRUE,FALSE,D
+The hungry bears,20,theAdjBP,TRUE,FALSE,TRUE,E
+The hungry bears and the brave deputies,20,theAdjBPand,TRUE,TRUE,TRUE,F
+Boys,21,BP,FALSE,FALSE,FALSE,C
+Boys and keyboards,21,BPand,FALSE,TRUE,FALSE,D
+Anxious boys,21,AdjBP,FALSE,FALSE,TRUE,E
+Anxious boys and portable keyboards,21,AdjBPand,FALSE,TRUE,TRUE,F
+The boys,21,theBP,TRUE,FALSE,FALSE,G
+The boys and the keyboards,21,theBPand,TRUE,TRUE,FALSE,H
+The anxious boys,21,theAdjBP,TRUE,FALSE,TRUE,A
+The anxious boys and the portable keyboards,21,theAdjBPand,TRUE,TRUE,TRUE,B
+Rugs,22,BP,FALSE,FALSE,FALSE,F
+Moms and rugs,22,BPand,FALSE,TRUE,FALSE,G
+Decorative rugs,22,AdjBP,FALSE,FALSE,TRUE,H
+Busy moms and decorative rugs,22,AdjBPand,FALSE,TRUE,TRUE,A
+The rugs,22,theBP,TRUE,FALSE,FALSE,B
+The moms and the rugs,22,theBPand,TRUE,TRUE,FALSE,C
+The decorative rugs,22,theAdjBP,TRUE,FALSE,TRUE,D
+The busy moms and the decorative rugs,22,theAdjBPand,TRUE,TRUE,TRUE,E
+Pizzas,23,BP,FALSE,FALSE,FALSE,D
+Dilemmas and pizzas,23,BPand,FALSE,TRUE,FALSE,E
+Homemade pizzas,23,AdjBP,FALSE,FALSE,TRUE,F
+National dilemmas and homemade pizzas,23,AdjBPand,FALSE,TRUE,TRUE,G
+The pizzas,23,theBP,TRUE,FALSE,FALSE,H
+The dilemmas and the pizzas,23,theBPand,TRUE,TRUE,FALSE,A
+The homemade pizzas,23,theAdjBP,TRUE,FALSE,TRUE,B
+The national dilemmas and the homemade pizzas,23,theAdjBPand,TRUE,TRUE,TRUE,C
+Newspapers,24,BP,FALSE,FALSE,FALSE,E
+Newspapers and students,24,BPand,FALSE,TRUE,FALSE,F
+Panicky newspapers,24,AdjBP,FALSE,FALSE,TRUE,G
+Panicky newspapers and envious students,24,AdjBPand,FALSE,TRUE,TRUE,H
+The newspapers,24,theBP,TRUE,FALSE,FALSE,A
+The newspapers and the students,24,theBPand,TRUE,TRUE,FALSE,B
+The panicky newspapers,24,theAdjBP,TRUE,FALSE,TRUE,C
+The panicky newspapers and the envious students,24,theAdjBPand,TRUE,TRUE,TRUE,D
+Answers,25,BP,FALSE,FALSE,FALSE,A
+Answers and diamonds,25,BPand,FALSE,TRUE,FALSE,B
+Untrue answers,25,AdjBP,FALSE,FALSE,TRUE,C
+Untrue answers and outlandish diamonds,25,AdjBPand,FALSE,TRUE,TRUE,D
+The answers,25,theBP,TRUE,FALSE,FALSE,E
+The answers and the diamonds,25,theBPand,TRUE,TRUE,FALSE,F
+The untrue answers,25,theAdjBP,TRUE,FALSE,TRUE,G
+The untrue answers and the outlandish diamonds,25,theAdjBPand,TRUE,TRUE,TRUE,H
+Entrances,26,BP,FALSE,FALSE,FALSE,H
+Entrances and airports,26,BPand,FALSE,TRUE,FALSE,A
+Formal entrances,26,AdjBP,FALSE,FALSE,TRUE,B
+Formal entrances and chaotic airports,26,AdjBPand,FALSE,TRUE,TRUE,C
+The entrances,26,theBP,TRUE,FALSE,FALSE,D
+The entrances and the airports,26,theBPand,TRUE,TRUE,FALSE,E
+The formal entrances,26,theAdjBP,TRUE,FALSE,TRUE,F
+The formal entrances and the chaotic airports,26,theAdjBPand,TRUE,TRUE,TRUE,G
+Guns,27,BP,FALSE,FALSE,FALSE,B
+Guns and babies,27,BPand,FALSE,TRUE,FALSE,C
+Inexpensive guns,27,AdjBP,FALSE,FALSE,TRUE,D
+Inexpensive guns and active babies,27,AdjBPand,FALSE,TRUE,TRUE,E
+The guns,27,theBP,TRUE,FALSE,FALSE,F
+The guns and the babies,27,theBPand,TRUE,TRUE,FALSE,G
+The inexpensive guns,27,theAdjBP,TRUE,FALSE,TRUE,H
+The inexpensive guns and the active babies,27,theAdjBPand,TRUE,TRUE,TRUE,A
+Mosquitos,28,BP,FALSE,FALSE,FALSE,G
+Towns and mosquitos,28,BPand,FALSE,TRUE,FALSE,H
+Fiendish mosquitos,28,AdjBP,FALSE,FALSE,TRUE,A
+Flat towns and fiendish mosquitos,28,AdjBPand,FALSE,TRUE,TRUE,B
+The mosquitos,28,theBP,TRUE,FALSE,FALSE,C
+The towns and the mosquitos,28,theBPand,TRUE,TRUE,FALSE,D
+The fiendish mosquitos,28,theAdjBP,TRUE,FALSE,TRUE,E
+The flat towns and the fiendish mosquitos,28,theAdjBPand,TRUE,TRUE,TRUE,F
+Daughters,29,BP,FALSE,FALSE,FALSE,C
+Rectangles and daughters,29,BPand,FALSE,TRUE,FALSE,D
+Heroic daughters,29,AdjBP,FALSE,FALSE,TRUE,E
+Orange rectangles and heroic daughters,29,AdjBPand,FALSE,TRUE,TRUE,F
+The daughters,29,theBP,TRUE,FALSE,FALSE,G
+The rectangles and the daughters,29,theBPand,TRUE,TRUE,FALSE,H
+The heroic daughters,29,theAdjBP,TRUE,FALSE,TRUE,A
+The orange rectangles and the heroic daughters,29,theAdjBPand,TRUE,TRUE,TRUE,B
+Dinners,30,BP,FALSE,FALSE,FALSE,F
+Smiles and dinners,30,BPand,FALSE,TRUE,FALSE,G
+Costly dinners,30,AdjBP,FALSE,FALSE,TRUE,H
+Innocent smiles and costly dinners,30,AdjBPand,FALSE,TRUE,TRUE,A
+The dinners,30,theBP,TRUE,FALSE,FALSE,B
+The smiles and the dinners,30,theBPand,TRUE,TRUE,FALSE,C
+The costly dinners,30,theAdjBP,TRUE,FALSE,TRUE,D
+The innocent smiles and the costly dinners,30,theAdjBPand,TRUE,TRUE,TRUE,E
+Flowers,31,BP,FALSE,FALSE,FALSE,D
+Squares and flowers,31,BPand,FALSE,TRUE,FALSE,E
+Gorgeous flowers,31,AdjBP,FALSE,FALSE,TRUE,F
+Ceramic squares and gorgeous flowers,31,AdjBPand,FALSE,TRUE,TRUE,G
+The flowers,31,theBP,TRUE,FALSE,FALSE,H
+The squares and the flowers,31,theBPand,TRUE,TRUE,FALSE,A
+The gorgeous flowers,31,theAdjBP,TRUE,FALSE,TRUE,B
+The ceramic squares and the gorgeous flowers,31,theAdjBPand,TRUE,TRUE,TRUE,C
+Guests,32,BP,FALSE,FALSE,FALSE,E
+Gifts and guests,32,BPand,FALSE,TRUE,FALSE,F
+Generous guests,32,AdjBP,FALSE,FALSE,TRUE,G
+Bridal gifts and generous guests,32,AdjBPand,FALSE,TRUE,TRUE,H
+The guests,32,theBP,TRUE,FALSE,FALSE,A
+The gifts and the guests,32,theBPand,TRUE,TRUE,FALSE,B
+The generous guests,32,theAdjBP,TRUE,FALSE,TRUE,C
+The bridal gifts and the generous guests,32,theAdjBPand,TRUE,TRUE,TRUE,D

@@ -228,11 +228,11 @@ write_csv(fillers, fname_output_fil)
 
 prac <- data.frame(
   preamble = c(
-    "Blind artists",
-    "If I drink more water,",
-    "I am happy that I went to the doctor because",
-    "That the kid cried constantly",
-    "Lord of the rings is one of the"
+    "Spicy pickles are",
+    "Even though multiverse stories",
+    "What would happen if",
+    "The studious kids",
+    "The soundtrack of the movie Dune"
   ),
   condition = "practice",
   itemnum = 1:5, check.rows = TRUE, check.names = TRUE
