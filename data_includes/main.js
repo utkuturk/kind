@@ -20,6 +20,7 @@ var underline_blank = {
 Sequence(
   "setcounter",
   "intro",
+  "how-works",
   "consent",
   "instruction1",
   "instruction2",
@@ -36,7 +37,8 @@ newTrial(
   "intro",
   newText(
     "Welcome",
-    "Welcome! This experiment has two halves. In the first half (20 mins), you will be asked to complete sentence fragments. It is important for us that you try to be vivid with your examples, and do not repeat the same sentence fragments. Following the first half, you will see a link to the second half (10 mins), in which you will judge sentences from other participants. <p>To participate in this experiment, you must meet the following requirements: <b>(1)</b> You must be a native speaker of English, <b>(2)</b> You must be older than 18 years old, <b>(3)</b> You must use your computer, and not your phone or tablet, <b>(4)</b> You must have a working mouse and keyboard.<p>If you meet these requirements, please enter the information below and click <b>Next</b>"
+    "<center><b>Welcome!</b></center>" + 
+    "<p>To participate in this experiment, you must meet the following requirements: <b>(1)</b> You must be a native speaker of English, <b>(2)</b> You must be older than 18 years old, <b>(3)</b> You must use your computer, and not your phone or tablet, <b>(4)</b> You must have a working mouse and keyboard.<p>If you meet these requirements, please enter the information below and click <b>Next</b>"
   ).print(),
   newTextInput("ProlificID")
     .before(newText("ID", "Prolific ID: ").size("8em", "1.5em"))
@@ -92,28 +94,43 @@ newTrial(
             )
         )
     )
-);
+).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
+
+newTrial("how-works",
+  newText(
+    "<center><b>How this experiment works</b></center>" +
+    "<p>This experiment has two halves. In the first half (20 mins), you will be asked to complete sentence fragments. It is important for us that you try to be vivid with your examples, and do not repeat the same sentence fragments." + 
+    "<p>Following the first half, you will see a link to the second half (10 mins), in which you will judge sentences from other participants. "
+  ).print(),
+  newButton("Next", "Next")
+    .center()
+    .settings.css("margin", "40px")
+    .print()
+    .wait()
+).setOption("hideProgressBar", true);
 
 newTrial(
   "consent",
   newText(
-    "Please click <a href='https://utkuturk.com/files/web_consent.pdf' target='_blank'>here</a> to download the consent form for this study. If you read it and agree to participate in this study, click 'I Agree' below. If you do not agree to participate in this study, you can leave this study by closing the tab. You can leave the experiment at any time by closing the tab during the experiment.<br><br><br><b> Researchers:</b> <br>Utku Turk, PhD Student <i> (utkuturk@umd.edu)</i>,<br>Assoc. Prof. Ellen Lau <i>(ellenlau@umd.edu)</i><br>University of Maryland, Department of Linguistics"
+    "<center><b>Consent Form</b></center>"+
+    "<p>Please click <a href='https://utkuturk.com/files/web_consent.pdf' target='_blank'>here</a> to download the consent form for this study. If you read it and agree to participate in this study, click 'I Agree' below. If you do not agree to participate in this study, you can leave this study by closing the tab. You can leave the experiment at any time by closing the tab during the experiment.<br><br><br><b> Researchers:</b> <br>Utku Turk, PhD Student <i> (utkuturk@umd.edu)</i>,<br>Assoc. Prof. Ellen Lau <i>(ellenlau@umd.edu)</i><br>University of Maryland, Department of Linguistics"
   ).print(),
   newButton("Agree", "I Agree")
     .center()
     .settings.css("margin", "40px")
     .print()
     .wait()
-);
+).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
 
 newTrial(
   "instruction1",
   newText(
-    "Please read this instruction carefully! If you fail to understand the task, your data will NOT be usable.<p>" +
+    "<center><b>Instructions</b></center>"+
+    "<p>Please read this instruction carefully! If you fail to understand the task, your data will NOT be usable.<p>" +
       "In each trial in this experiment, you will see a fragment of a sentence. Your task is to <b>read them and " +
-      "complete the sentence fragment by typing the rest. You are given 10 seconds to read the fragment and complete it.</b><p>" +
+      "complete the sentence fragment by typing the rest. You are given 25 seconds to read the fragment and complete it.</b><p>" +
       "You will write the rest of the sentence in the blank provided next to the fragment. " +
-      "To complete a trial, you have to write at least 15 characters." +
+      "To complete a trial, you have to write at least 10 characters." +
       "After the completion, you can press the <b>ENTER</b> key to submit your answer." +
       "It would help us tremendously if you do not complete the sentences in the same manner.<p>" +
       "We understand this is not an easy task. So no need to " +
@@ -121,7 +138,7 @@ newTrial(
       "<p> In the next section, we will go through an example trial."
   ).print(),
   newButton("Next").center().settings.css("margin", "40px").print().wait()
-);
+).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
 
 newTrial(
   "instruction2",
@@ -158,7 +175,7 @@ newTrial(
     .settings.css("margin", "40px")
     .print()
     .wait()
-);
+).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
 
 newTrial(
   "instruction3",
@@ -192,7 +209,7 @@ newTrial(
     "<p>You can complete this fragment as follows:<ol>" +
       "<li>is the title of a very important book written by Jackendoff.<br></li>" +
       "<li>allow us to understand language.<br></li>" +
-      "<li>always interested many scienties throughout the ages.</li></ol>" +
+      "<li>always interested many scientists throughout the ages.</li></ol>" +
       "<br>Now, you will go through some practice items to get you used to the task." 
   ).print(),
   newButton("Click here to begin practice trials!")
@@ -200,7 +217,7 @@ newTrial(
   .settings.css("margin", "40px")
   .print()
   .wait()
-);
+).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
 
 newTrial(
   "warn",
@@ -210,15 +227,15 @@ newTrial(
       "<li>Complete them with a vivid continuation. " +
       "Recall that they will be judged by other participants</li></ol>" +
       "<br><br> If you are ready, click the button below to start the experiment. " + 
-      "You will be expected to complete sentences in less than 10 seconds " + 
-      "and are expected to write more than 15 characters."
+      "You will be expected to complete sentences in less than 25 seconds " + 
+      "and are expected to write more than 10 characters."
   ).print(),
   newButton("Click here to begin the experiment.")
     .center()
     .settings.css("margin", "40px")
     .print()
     .wait()
-);
+).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
 
 // Experimental Trials
 Template("ExpPreambles.csv", (row) =>
@@ -229,7 +246,7 @@ Template("ExpPreambles.csv", (row) =>
       .center()
       .cssContainer({ "margin-right": "1em" })
       .print(),
-    newTimer("hurry", 10000).start(),
+    newTimer("hurry", 25000).start(),
     newTimer("dummy", 1)
       .callback(
         newTextInput("answer")
@@ -240,7 +257,7 @@ Template("ExpPreambles.csv", (row) =>
           .print()
           .wait(
             getTextInput("answer")
-              .test.text(/^(.{15,500})$/)
+              .test.text(/^(.{10,500})$/)
               // .failure(
               //   newText("<b>Please write more.</b>")
               //     .settings.color("red")
@@ -269,7 +286,7 @@ Template("FillerPreambles.csv", (row) =>
       .center()
       .cssContainer({ "margin-right": "1em" })
       .print(),
-    newTimer("hurry", 10000).start(),
+    newTimer("hurry", 25000).start(),
     newTimer("dummy", 1)
       .callback(
         newTextInput("answer")
@@ -280,7 +297,7 @@ Template("FillerPreambles.csv", (row) =>
           .print()
           .wait(
             getTextInput("answer")
-              .test.text(/^(.{15,500})$/)
+              .test.text(/^(.{10,500})$/)
               // .failure(
               //   newText("<b>Please write more.</b>")
               //     .settings.color("red")
@@ -307,7 +324,7 @@ Template("PracticePreambles.csv", (row) =>
       .center()
       .cssContainer({ "margin-right": "1em" })
       .print(),
-    newTimer("hurry", 10000).start(),
+    newTimer("hurry", 25000).start(),
     newTimer("dummy", 1)
       .callback(
         newTextInput("answer")
@@ -318,7 +335,7 @@ Template("PracticePreambles.csv", (row) =>
           .print()
           .wait(
             getTextInput("answer")
-              .test.text(/^(.{15,500})$/)
+              .test.text(/^(.{10,500})$/)
               .failure(
                 newText("<b>Please write more.</b>")
                   .settings.color("red")
