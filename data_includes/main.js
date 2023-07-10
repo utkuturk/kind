@@ -1,5 +1,9 @@
 PennController.ResetPrefix(null); // Shorten command names (keep this line here)
 // DebugOff()
+// TODO: Count for progressbar does not work.
+// TODO: Some texts go to the second line, ugly.
+// TODO: Too much space between the text and the textinput
+// TODO: Spacing in the second instruction example.
 
 SetCounter("setcounter");
 
@@ -96,6 +100,7 @@ newTrial(
     )
 ).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
 
+
 newTrial("how-works",
   newText(
     "<center><b>How this experiment works</b></center>" +
@@ -107,13 +112,13 @@ newTrial("how-works",
     .settings.css("margin", "40px")
     .print()
     .wait()
-).setOption("hideProgressBar", true);
+).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
 
 newTrial(
   "consent",
   newText(
     "<center><b>Consent Form</b></center>"+
-    "<p>Please click <a href='https://utkuturk.com/files/web_consent.pdf' target='_blank'>here</a> to download the consent form for this study. If you read it and agree to participate in this study, click 'I Agree' below. If you do not agree to participate in this study, you can leave this study by closing the tab. You can leave the experiment at any time by closing the tab during the experiment.<br><br><br><b> Researchers:</b> <br>Utku Turk, PhD Student <i> (utkuturk@umd.edu)</i>,<br>Assoc. Prof. Ellen Lau <i>(ellenlau@umd.edu)</i><br>University of Maryland, Department of Linguistics"
+    "<p>Please click <a href='https://utkuturk.com/files/web_consent.pdf' target='_blank'>here</a> to download the consent form for this study. If you read it and agree to participate in this study, click 'I Agree' below. If you do not agree to participate in this study, you can leave this study by closing the tab. You can leave the experiment at any time by closing the tab during the experiment.<br><br><b> Researchers:</b> <br>Utku Turk, PhD Student <i> (utkuturk@umd.edu)</i>,<br>Assoc. Prof. Ellen Lau <i>(ellenlau@umd.edu)</i><br>University of Maryland, Department of Linguistics"
   ).print(),
   newButton("Agree", "I Agree")
     .center()
@@ -127,15 +132,13 @@ newTrial(
   newText(
     "<center><b>Instructions</b></center>"+
     "<p>Please read this instruction carefully! If you fail to understand the task, your data will NOT be usable.<p>" +
-      "In each trial in this experiment, you will see a fragment of a sentence. Your task is to <b>read them and " +
-      "complete the sentence fragment by typing the rest. You are given 25 seconds to read the fragment and complete it.</b><p>" +
-      "You will write the rest of the sentence in the blank provided next to the fragment. " +
-      "To complete a trial, you have to write at least 10 characters." +
-      "After the completion, you can press the <b>ENTER</b> key to submit your answer." +
-      "It would help us tremendously if you do not complete the sentences in the same manner.<p>" +
+    "Your task is to read the fragment and then complete it by typing in what you think should come next. " +
+     "You will be given 25 seconds to read the fragment and complete it.<p>" +
+     "It would help us tremendously if you can please complete the sentences in varied ways, appropriate to each fragment. " +
+     "To complete a trial, you have to write at least 10 characters.<p>" +
       "We understand this is not an easy task. So no need to " +
-      "be concerned if you are not perfect.</b>" +
-      "<p> In the next section, we will go through an example trial."
+      "be concerned if you are not perfect.</b> " +
+      "In the next section, we will go through an example trial."
   ).print(),
   newButton("Next").center().settings.css("margin", "40px").print().wait()
 ).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
@@ -165,9 +168,9 @@ newTrial(
         )
     ),
     newText(
-      "<p>You could have completed this fragment as follows:<ol>" +
+      "<p>Here are three examples of how someone might complete this fragment:<ol>" +
         "<li>are produced only in certain parts of the world.<br></li>" +
-        "<li>that I bought from Whole Foods were really fresh.<br></li>" +
+        "<li>that I bought from the luxury coffee shop were always stale.<br></li>" +
         "<li>make me miss my hometown.</li></ol>"
     ).print(),
   newButton("Next")
@@ -206,9 +209,9 @@ newTrial(
         )
     ),
   newText(
-    "<p>You can complete this fragment as follows:<ol>" +
+    "<p>Here are three examples of how someone might complete this fragment:<ol>" +
       "<li>is the title of a very important book written by Jackendoff.<br></li>" +
-      "<li>allow us to understand language.<br></li>" +
+      "<li>arise when I stare at art.<br></li>" +
       "<li>always interested many scientists throughout the ages.</li></ol>" +
       "<br>Now, you will go through some practice items to get you used to the task." 
   ).print(),
@@ -253,7 +256,7 @@ Template("ExpPreambles.csv", (row) =>
           .settings.before(getText("Preamble"))
           .log("validate")
           .lines(1)
-          .cssContainer("display", "flex")
+          .css(underline_blank)
           .print()
           .wait(
             getTextInput("answer")
@@ -293,7 +296,7 @@ Template("FillerPreambles.csv", (row) =>
           .settings.before(getText("Preamble"))
           .log("validate")
           .lines(1)
-          .cssContainer("display", "flex")
+          .css(underline_blank)
           .print()
           .wait(
             getTextInput("answer")
@@ -331,7 +334,7 @@ Template("PracticePreambles.csv", (row) =>
           .settings.before(getText("Preamble"))
           .log("validate")
           .lines(1)
-          .cssContainer("display", "flex")
+          .css(underline_blank)
           .print()
           .wait(
             getTextInput("answer")
