@@ -1,0 +1,52 @@
+```{r}
+#| label: variables
+#| echo: false
+Npart = 40
+Ntrial = 4
+Ncond = 8
+font = "24-point case Helvetica"
+t_blank = 200
+t_trial = 25
+paid = 5
+```
+# Experiment
+
+## Methods
+
+### Materials
+
+The experiment consisted of two parts, 
+the first part is the preamble completion part. 
+Participants were provided a sentence fragment and 
+were asked to provide an appropriate completion. 
+In the second part of the experiment, 
+participants were asked to judge sentences using a Likert scale(1-5). 
+
+The first part of the experiment compromised 2 x 2 x 2 design 
+(structure: coordination/list x determiner: bare/definite x modification: modified/not-modified). 
+In total, `r Ntrial` trials were presented in each of the `r Ncond` conditions, 
+with each trial containing two noun sequences both of which sharing the same structure. 
+
+- Nadjectives and nouns are selected from this original study randomly @LauLiao2018
+- checked whether or not they form plausible phrase
+- NP was always plural
+- items were randomly paired into 8 different lists following balanced latin square @Bradley1958
+- balanced latin square design made sure that each item would appear in either one of the condition and not any other for a participant. It also removes the immediate carry-over effects: A condition will precede another condition exactly once.
+- fillers, filler types?
+
+### Procedure
+
+- Unlike @LauLiao2018, all experimental items were shown in a random order. 
+- A practice and instrucstions sessions preceded the experiment, in which participants were provided with a set of sentence fragments. 
+- They were told to not repeat themselves in sentence completion and provide vivid completions.
+- Instruction sections included two trials with bare plural noun phrases as sentence fragments, after they were probed to complete them, they were also provided other possible completions which featured both existential and generic examples. 
+- Experiment was carried out online in PCIbex platform [@Drummond2013;@ZehrSchwarz2018]
+- Stimuli and instructions were presented in black `r font` font on a white background.
+- Each trial started with `r t_blank` ms blank screen, and stayed in the screen for `r t_trial` seconds. 
+
+### Participants
+
+- A total of `r Npart` participants were recruited through Prolific. They were paid `r paid` US dollars. Written informed consent was obtained from all participants.
+
+
+# References
