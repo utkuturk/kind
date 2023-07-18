@@ -3,6 +3,8 @@ author: "Utku Turk and Ellen Lau"
 bibliography: refs.bib
 date: today
 fontfamily: lato
+keep-tex: true
+keep-md: true
 fontsize: 10pt
 fontfamilyoptions:
 - default

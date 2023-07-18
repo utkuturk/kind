@@ -1,26 +1,7 @@
-```{r}
-#| label: variables
-# general
-Npart <- "**40?**"
-Nexcl_native <- "**NULL**"
-font <- "**24?**-point case Helvetica"
-paid <- "**5?**"
+::: {.cell}
 
-# part 1
-Ntrial <- 4
-Ncond <- 8
-Nprac <- "**10?**"
-t_blank <- 200
-t_trial <- 25
-t_exp <- "25 minutes"
-ch_limit <- 15
+:::
 
-# part 2
-Nprac2 <- "**10?**"
-t_blank2 <- 200
-t_trial2 <- 25
-t_exp2 <- "25 minutes"
-```
 
 # Experiment
 
@@ -54,30 +35,17 @@ was to make participants be more aware of their completions.
 
 ### Materials
 
-```{r}
-#| label: materials-prep
 
-library(glossr)
-use_glossr()
-clean_ex <- function(data, explabel) {
-    # Filter the data based on the specified column and value
-    filtered_data <- data[data[["label"]] == explabel, ]
+::: {.cell}
 
-    # Find columns with value 0 and deselect them
-    zero_cols <- which(filtered_data == 0, arr.ind = TRUE)[, 2]
-    deselected_data <- filtered_data[, -zero_cols]
+:::
 
-    return(deselected_data)
-}
-
-examples <- read.csv("./examples.csv")
-```
 
 #### Completion Task
 
 The first part of the experiment compromised 2 x 2 x 2 design
 (structure: coordination/list x determiner: bare/definite x modification: modified/not-modified).
-In total, `r Ntrial` trials were presented in each of the `r Ncond` conditions.
+In total, 4 trials were presented in each of the 8 conditions.
 Half of the trials contained two noun phrases both of which sharing the same structure.
 The other half of the experimental trials contained a single noun phrase.
 All experimental items consisted plural nouns.
@@ -85,11 +53,17 @@ Example experimental item (\ref{exp-item}) shows the modified coordinated defini
 and @tbl-conds shows all manipulations.
 
 
-```{r}
-#| label: exp-item
 
-gloss_df(clean_ex(examples, "exp-item"))
-```
+::: {.cell}
+::: {.cell-output-display}
+\lingset{exskip=0pt,belowglpreambleskip=0pt,aboveglftskip=0pt,everyglpreamble=,everygla=,everyglb=,everyglc=,everyglft=}
+:::
+
+::: {.cell-output-display}
+\ex\label{exp-item} \begingl \gla The steamy mirrors and blissful journeys \...//  \endgl \xe
+:::
+:::
+
 
 
 
@@ -143,7 +117,7 @@ They can be categorized into 9 different groups as shown in @tbl-fillers.
 #### Completion Task
 
 The experiment was run online in PCIbex platform [@Drummond2013;@ZehrSchwarz2018].
-Each participant session took approximately `r t_exp`.
+Each participant session took approximately 25 minutes.
 Participants provided demographic information and
 gave informed consent to participate in the experiment.
 A practice and instrucstions sessions preceded the experiment,
@@ -155,18 +129,18 @@ they were also provided other possible completions
 which featured both existential and generic examples.
 In this section, they were told to not repeat themselves while completing sentences and
 provide vivid completions.
-They were also instructed about the character (`r ch_limit`) and time limit (`r t_trial` seconds).
-In the practice section, they were asked to complete `r Nprac` sentence fragments.
+They were also instructed about the character (15) and time limit (25 seconds).
+In the practice section, they were asked to complete **10?** sentence fragments.
 
-Each trial began with `r t_blank` ms blank screen,
+Each trial began with 200 ms blank screen,
 and followed by a full sentence presentation in the center of the screen
-that stayed in the screen for `r t_trial` seconds.
+that stayed in the screen for 25 seconds.
 In this time period, they were expected to write the sentence completiong and
 press \texttt{\textsc{enter}} key.
 During the practice item,
-a warning message in red font appeared if they did not respond within `r t_trial` seconds or
-write more than `r ch_limit` characters, including whitespaces.
-Sentence fragments and instructions were presented in black `r font` font on a white background.
+a warning message in red font appeared if they did not respond within 25 seconds or
+write more than 15 characters, including whitespaces.
+Sentence fragments and instructions were presented in black **24?**-point case Helvetica font on a white background.
 
 Items were randomly paired into 8 different lists
 according to a balanced Latin-square design [@Bradley1958].
@@ -180,28 +154,28 @@ The items in these lists were shuffled as well.
 #### Judgment Task
 
 The experiment was run online in PCIbex platform [@Drummond2013;@ZehrSchwarz2018].
-Each participant session took approximately `r t_exp2`.
+Each participant session took approximately 25 minutes.
 Participants were directed from the previous task,
 and greeted by a welcome screen.
 Following the initial screen, the instruction and the practice screen were presented,
-in which participants judge `r Nprac2` sentences.
+in which participants judge **10?** sentences.
 In the instructions screen,
 participants were told to not judge sentences as fast and accurately as possible.
-They were also instructed about time limit (`r t_trial2` seconds).
+They were also instructed about time limit (25 seconds).
 
-Each trial began with `r t_blank2` ms blank screen,
+Each trial began with 200 ms blank screen,
 <!-- TODO or RSVP decide this. -->
 and followed by a full sentencen presentation in the center of the screen
-that stayed in the screen for `r t_trial2` seconds.
+that stayed in the screen for 25 seconds.
 In this time period, they were expected to read the sentence and
 press judge using the Likert scale presented in the screen.
 During the practice item,
-a warning message in red font appeared if they did not respond within `r t_trial` seconds.
-Sentences and instructions were presented in black `r font` font on a white background.
+a warning message in red font appeared if they did not respond within 25 seconds.
+Sentences and instructions were presented in black **24?**-point case Helvetica font on a white background.
 
 ### Participants
 
-- A total of `r Npart` participants will be recruited through Prolific. They will be paid `r paid` US dollars.
+- A total of **40?** participants will be recruited through Prolific. They will be paid **5?** US dollars.
 - Written informed consent was obtained from all participants.
 
 #### Exclusion Criteria
