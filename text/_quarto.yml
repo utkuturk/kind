@@ -2,10 +2,20 @@ title: "Experiment Details"
 author: "Utku Turk and Ellen Lau"
 bibliography: refs.bib
 date: today
+fontfamily: lato
+fontsize: 10pt
+fontfamilyoptions:
+- default
+- defaultsans
+execute:
+  echo: false
+  warning: false
+  message: false
+  error: false
 format:
   pdf:
       toc: false
-      shift-heading-level-by: 1
+      #shift-heading-level-by: 2
       fig-pos: "H"
       fig-cap-location: top
       # number-sections: true
@@ -16,17 +26,31 @@ format:
         - left=.8in
       link-citations: true
       linkcolor: blue
-      include-in-header: 
+      include-in-header:
         text: |
-          \usepackage{fancyhdr}
-          \usepackage{titling}
-          \pagestyle{fancy}
+          \usepackage{sectsty} % for section font size
+          \usepackage{fancyhdr} % for page style
+          \usepackage{titling} % title as page header
+          \pagestyle{fancy} % page style
           \fancyhf{}
+          % correct \thetitle clash with titlesec
+          \let\oldtitle\title
+          \renewcommand{\title}[1]{\oldtitle{#1}\newcommand{\mythetitle}{#1}}
+          % make the header
           \renewcommand\maketitle{
             \fancyhead[C]{
-              \thetitle
+              \mythetitle
               \ifx \theauthor\empty  \else \ – \theauthor \fi
               \ifx \thedate\empty  \else \ – \thedate \ \fi
             }
           }
           \fancyfoot[C]{\thepage}
+          % section title fontsize
+          %\sectionfont{\fontsize{10}{10}\selectfont}
+          %\subsectionfont{\fontsize{10}{10}\selectfont}
+          %\subsubsectionfont{\fontsize{10}{10}\selectfont}
+          % section title spacing
+          \usepackage[compact]{titlesec} % for section title spacing
+          \titleformat{\section}[runin]{\normalfont\bfseries}{\thesection.}{.5em}{}[.]
+          \titleformat{\subsection}[runin]{\normalfont\bfseries}{\thesubsection}{.5em}{}[.]
+          \titleformat{\subsubsection}[runin]{\normalfont\bfseries}{\thesubsubsection.}{.5em}{}[.]
