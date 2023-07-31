@@ -22,6 +22,7 @@ Participants are asked to provide an appropriate following to sentence fragments
 that consist of bare plurals, definite plurals, their modified and/or coordinated forms,
 as well as various different structures as fillers,
 such as wh-phrases, if clauses, proper names, and adjuncts.
+
 ## Methods
 
 The experiment consisted of two parts,
@@ -110,6 +111,29 @@ They can be categorized into 9 different groups as shown in @tbl-fillers.
 
 #### Judgment Task
 
+The second part of the experiment consisted two types of sentences:
+(i) completed versions of the sentences in the first part and
+(ii) sentences from @FrazierEtAl2007 study.
+Sentences from the first part of the experiment was acquired through a pilot study
+carried out voluntarily by University of Maryland graduate students.
+We selected 30 sentences from these sentences, covering all experimental conditions and filler types.
+From @FrazierEtAl2007 study, we included 20 items using only two conditions from the experiment,
+which used bare plurals in the subject positions.
+We manipulated whether the first sentence is an episodic (\ref{f-item-a}) or a generic sentence (\ref{f-item-c}).
+
+
+
+::: {.cell}
+::: {.cell-output-display}
+\lingset{exskip=0pt,belowglpreambleskip=0pt,aboveglftskip=0pt,everyglpreamble=,everygla=,everyglb=,everyglc=,everyglft=}
+:::
+
+::: {.cell-output-display}
+\pex \a\label{f-item-a} \begingl \gla John noticed a cat on my roof last night, cats are skilled climbers.//  \endgl 
+\a\label{f-item-c} \begingl \gla Cats are skilled climbers, John noticed a cat on my roof last night.//  \endgl  \xe
+:::
+:::
+
 
 
 ### Procedure
@@ -160,15 +184,14 @@ and greeted by a welcome screen.
 Following the initial screen, the instruction and the practice screen were presented,
 in which participants judge **10?** sentences.
 In the instructions screen,
-participants were told to not judge sentences as fast and accurately as possible.
+participants were told to judge sentences as fast and accurately as possible.
 They were also instructed about time limit (25 seconds).
 
 Each trial began with 200 ms blank screen,
-<!-- TODO or RSVP decide this. -->
 and followed by a full sentencen presentation in the center of the screen
 that stayed in the screen for 25 seconds.
 In this time period, they were expected to read the sentence and
-press judge using the Likert scale presented in the screen.
+judge it using the Likert scale presented in the screen.
 During the practice item,
 a warning message in red font appeared if they did not respond within 25 seconds.
 Sentences and instructions were presented in black **24?**-point case Helvetica font on a white background.
@@ -201,19 +224,7 @@ completion materials:
 
 - how many plural and singular heads do participants see?
 
-judgment methods:
-
-- Decide what to use.
-- We can either use Frazier items.
-- We can also use just random completions from the first part of the experiment.
-- We can also use just random experiment sentences.
-- Wait for Ellen's message.
-- Is it Likert or RSVP or what?
-
-
 completion procedure: how many practice items
-
-judgment procedure: RSVP or not? decide this.
 
 :::
 

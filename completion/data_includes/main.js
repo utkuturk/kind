@@ -4,6 +4,7 @@ PennController.ResetPrefix(null); // Shorten command names (keep this line here)
 // TODO: Some texts go to the second line, ugly.
 // TODO: Too much space between the text and the textinput
 // TODO: Spacing in the second instruction example.
+// !!! CHECK IF THE ANSWER IS LOGGED.
 
 SetCounter("setcounter");
 
@@ -41,7 +42,7 @@ newTrial(
   "intro",
   newText(
     "Welcome",
-    "<center><b>Welcome!</b></center>" + 
+    "<center><b>Welcome!</b></center>" +
     "<p>To participate in this experiment, you must meet the following requirements: <b>(1)</b> You must be a native speaker of English, <b>(2)</b> You must be older than 18 years old, <b>(3)</b> You must use your computer, and not your phone or tablet, <b>(4)</b> You must have a working mouse and keyboard.<p>If you meet these requirements, please enter the information below and click <b>Next</b>"
   ).print(),
   newTextInput("ProlificID")
@@ -104,7 +105,7 @@ newTrial(
 newTrial("how-works",
   newText(
     "<center><b>How this experiment works</b></center>" +
-    "<p>This experiment has two halves. In the first half (20 mins), you will be asked to complete sentence fragments. It is important for us that you try to be vivid with your examples, and do not repeat the same sentence fragments." + 
+    "<p>This experiment has two halves. In the first half (20 mins), you will be asked to complete sentence fragments. It is important for us that you try to be vivid with your examples, and do not repeat the same sentence fragments." +
     "<p>Following the first half, you will see a link to the second half (10 mins), in which you will judge sentences from other participants. "
   ).print(),
   newButton("Next", "Next")
@@ -187,7 +188,7 @@ newTrial(
   ).print(),
   newText(
     "Some fragment may include elements that you are not familiar with. " +
-      "In this case, you can write whatever comes to your mind; you do not have to be correct or accurate.<br>" 
+      "In this case, you can write whatever comes to your mind; you do not have to be correct or accurate.<br>"
   ).print(),
   newText("example_premable2", "Patterns in the mind")
     .center()
@@ -213,7 +214,7 @@ newTrial(
       "<li>is the title of a very important book written by Jackendoff.<br></li>" +
       "<li>arise when I stare at art.<br></li>" +
       "<li>always interested many scientists throughout the ages.</li></ol>" +
-      "<br>Now, you will go through some practice items to get you used to the task." 
+      "<br>Now, you will go through some practice items to get you used to the task."
   ).print(),
   newButton("Click here to begin practice trials!")
   .center()
@@ -225,12 +226,12 @@ newTrial(
 newTrial(
   "warn",
   newText(
-    "<p>Practice done! Now, you are ready to start the experiment! Remember, your task is to:<ol>" +
+    "<p>Practice done! Now, you are ready to start the experiment! Your task is to:<ol>" +
       "<li>Read the sentence fragments and complete them.</li>" +
       "<li>Complete them with a vivid continuation. " +
-      "Recall that they will be judged by other participants</li></ol>" +
-      "<br><br> If you are ready, click the button below to start the experiment. " + 
-      "You will be expected to complete sentences in less than 25 seconds " + 
+      "Remember that they will be judged by other participants</li></ol>" +
+      "<br><br> If you are ready, click the button below to start the experiment. " +
+      "You will be expected to complete sentences in less than 25 seconds " +
       "and are expected to write more than 10 characters."
   ).print(),
   newButton("Click here to begin the experiment.")
@@ -388,7 +389,7 @@ newTrial(
 // 	)
 // 		.print()
 // 	,
-	
+
 // 	newButton()
 // 		.wait()
 // )

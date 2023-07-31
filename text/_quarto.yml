@@ -28,6 +28,7 @@ format:
         - left=.8in
       link-citations: true
       linkcolor: blue
+      filters: [citeproc.lua, wordcount.lua]
       include-in-header:
         text: |
           \usepackage{sectsty} % for section font size
@@ -44,6 +45,7 @@ format:
               \mythetitle
               \ifx \theauthor\empty  \else \ – \theauthor \fi
               \ifx \thedate\empty  \else \ – \thedate \ \fi
+              – Word Count: 1169
             }
           }
           \fancyfoot[C]{\thepage}

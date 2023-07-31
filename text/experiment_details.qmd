@@ -41,6 +41,7 @@ Participants are asked to provide an appropriate following to sentence fragments
 that consist of bare plurals, definite plurals, their modified and/or coordinated forms,
 as well as various different structures as fillers,
 such as wh-phrases, if clauses, proper names, and adjuncts.
+
 ## Methods
 
 The experiment consisted of two parts,
@@ -70,7 +71,7 @@ clean_ex <- function(data, explabel) {
     return(deselected_data)
 }
 
-examples <- read.csv("./examples.csv")
+examples <- read.csv("examples.csv")
 ```
 
 #### Completion Task
@@ -87,8 +88,9 @@ and @tbl-conds shows all manipulations.
 
 ```{r}
 #| label: exp-item
+by_label <- gloss_factory(examples, ignore_columns = c("parsed", "translation", "language", "source"))
 
-gloss_df(clean_ex(examples, "exp-item"))
+by_label("exp-item")
 ```
 
 
@@ -136,6 +138,22 @@ They can be categorized into 9 different groups as shown in @tbl-fillers.
 
 #### Judgment Task
 
+The second part of the experiment consisted two types of sentences:
+(i) completed versions of the sentences in the first part and
+(ii) sentences from @FrazierEtAl2007 study.
+Sentences from the first part of the experiment was acquired through a pilot study
+carried out voluntarily by University of Maryland graduate students.
+We selected 30 sentences from these sentences, covering all experimental conditions and filler types.
+From @FrazierEtAl2007 study, we included 20 items using only two conditions from the experiment,
+which used bare plurals in the subject positions.
+We manipulated whether the first sentence is an episodic (\ref{f-item-a}) or a generic sentence (\ref{f-item-c}).
+
+
+```{r}
+#| label: Frazier-item
+
+gloss_list(by_label("f-item-a", "f-item-c"))
+```
 
 
 ### Procedure
@@ -186,15 +204,14 @@ and greeted by a welcome screen.
 Following the initial screen, the instruction and the practice screen were presented,
 in which participants judge `r Nprac2` sentences.
 In the instructions screen,
-participants were told to not judge sentences as fast and accurately as possible.
+participants were told to judge sentences as fast and accurately as possible.
 They were also instructed about time limit (`r t_trial2` seconds).
 
 Each trial began with `r t_blank2` ms blank screen,
-<!-- TODO or RSVP decide this. -->
 and followed by a full sentencen presentation in the center of the screen
 that stayed in the screen for `r t_trial2` seconds.
 In this time period, they were expected to read the sentence and
-press judge using the Likert scale presented in the screen.
+judge it using the Likert scale presented in the screen.
 During the practice item,
 a warning message in red font appeared if they did not respond within `r t_trial` seconds.
 Sentences and instructions were presented in black `r font` font on a white background.
@@ -227,19 +244,7 @@ completion materials:
 
 - how many plural and singular heads do participants see?
 
-judgment methods:
-
-- Decide what to use.
-- We can either use Frazier items.
-- We can also use just random completions from the first part of the experiment.
-- We can also use just random experiment sentences.
-- Wait for Ellen's message.
-- Is it Likert or RSVP or what?
-
-
 completion procedure: how many practice items
-
-judgment procedure: RSVP or not? decide this.
 
 :::
 
