@@ -2,3 +2,6 @@
 [submodule "judgment"]
 	path = judgment
 	url = https://github.com/utkuturk/kind_judgment_experiment.git
+[submodule "completion"]
+	path = completion
+	url = https://github.com/utkuturk/kind_completion_experiment.git
