@@ -1,1 +1,4 @@
 
+[submodule "judgment"]
+	path = judgment
+	url = https://github.com/utkuturk/kind_judgment_experiment.git
