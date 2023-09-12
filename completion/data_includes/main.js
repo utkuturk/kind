@@ -1,12 +1,17 @@
 PennController.ResetPrefix(null); // Shorten command names (keep this line here)
-// DebugOff()
+DebugOff();
 // TODO: Count for progressbar does not work.
 // TODO: Some texts go to the second line, ugly.
 // TODO: Too much space between the text and the textinput
 // TODO: Spacing in the second instruction example.
-// !!! CHECK IF THE ANSWER IS LOGGED.
+// TODO: right now it is 40 seconds, think about it.
+// TODO: Edit the question
+// TODO: Add Zach's things.
 
 SetCounter("setcounter");
+
+let pilot = 0
+let prolific = 1
 
 var underline_blank = {
   outline: "none",
@@ -22,127 +27,280 @@ var underline_blank = {
   display: "inline",
 };
 
-Sequence(
-  "setcounter",
-  "intro",
-  "how-works",
-  "consent",
-  "instruction1",
-  "instruction2",
-  "instruction3",
-  randomize("practice"),
-  "warn",
-  rshuffle("trial", "filler"),
-  // "feedback",
-  SendResults(),
-  "bye"
-);
-// Should we specify monolingual speakers of English?
-newTrial(
-  "intro",
-  newText(
-    "Welcome",
-    "<center><b>Welcome!</b></center>" +
-    "<p>To participate in this experiment, you must meet the following requirements: <b>(1)</b> You must be a native speaker of English, <b>(2)</b> You must be older than 18 years old, <b>(3)</b> You must use your computer, and not your phone or tablet, <b>(4)</b> You must have a working mouse and keyboard.<p>If you meet these requirements, please enter the information below and click <b>Next</b>"
-  ).print(),
-  newTextInput("ProlificID")
-    .before(newText("ID", "Prolific ID: ").size("8em", "1.5em"))
-    .size("6em", "1.5em")
-    .lines(1)
-    .css(underline_blank)
-    .print()
-    .log(),
-  newTextInput("Age")
-    .before(newText("AGE", "Age:").size("8em", "1.5em"))
-    .size("6em", "1.5em")
-    .lines(1)
-    .css(underline_blank)
-    .print()
-    .log(),
-  newTextInput("Language")
-    .before(newText("LANG", "Native language:").size("8em", "1.5em"))
-    .size("6em", "1.5em")
-    .lines(1)
-    .css(underline_blank)
-    .print()
-    .log(),
-  newButton("Next", "Next")
-    .center()
-    .settings.css("margin", "40px")
-    .print()
-    .wait(
-      getTextInput("Age")
-        .test.text(/^\d+$/)
-        .failure(
-          newText("Age should be a numberic value")
-            .settings.color("red")
-            .print()
-        )
-        .and(
-          getTextInput("Language")
-            .testNot.text("")
-            .failure(
-              newText("Please enter your languages you speak fluently")
-                .settings.color("red")
-                .print()
-            )
-        )
-        .and(
-          getTextInput("ProlificID")
-            .testNot.text("")
-            .failure(
-              newText(
-                "Please Enter your ProlificID, if you do not have one write 0"
+
+if (pilot ) {
+  Sequence(
+    "setcounter",
+    "intro",
+    "how-works",
+    //"consent",
+    "instruction1",
+    "instruction2",
+    "instruction3",
+    randomize("practice"),
+    "warn",
+    rshuffle("trial", "filler"),
+    "feedback",
+    SendResults(),
+    "bye"
+  );
+  Header(newVar("pilot").global()).log("pilot", 1);
+
+  newTrial(
+    "intro",
+    newText(
+      "Welcome",
+      "<center><b>Welcome!</b></center>" +
+        "<p>Thanks for participating in the pilot! If you wanna get a free coffee (or better Turkish coffee), just write down your name :)."
+    ).print(),
+    newTextInput("Name")
+      .before(newText("ID", "Name: ").size("8em", "1.5em"))
+      .size("6em", "1.5em")
+      .lines(1)
+      .css(underline_blank)
+      .print()
+      .log(),
+    newTextInput("CoffeeType")
+      .before(newText("coffee", "Coffee Type: ").size("8em", "1.5em"))
+      .size("6em", "1.5em")
+      .lines(1)
+      .css(underline_blank)
+      .print()
+      .log(),
+    newTextInput("Age")
+      .before(newText("AGE", "Age:").size("8em", "1.5em"))
+      .size("6em", "1.5em")
+      .lines(1)
+      .css(underline_blank)
+      .print()
+      .log(),
+    newTextInput("Language")
+      .before(newText("LANG", "Native language:").size("8em", "1.5em"))
+      .size("6em", "1.5em")
+      .lines(1)
+      .css(underline_blank)
+      .print()
+      .log(),
+    newButton("Next", "Next")
+      .center()
+      .settings.css("margin", "40px")
+      .print()
+      .wait(
+        getTextInput("Age")
+          .test.text(/^\d+$/)
+          .failure(
+            newText("Age should be a numberic value")
+              .settings.color("red")
+              .print()
+          )
+          .and(
+            getTextInput("Language")
+              .testNot.text("")
+              .failure(
+                newText("Please enter your languages you speak fluently")
+                  .settings.color("red")
+                  .print()
               )
+          )
+          .and(
+            getTextInput("Name")
+              .testNot.text("")
+              .failure(
+                newText(
+                  "Please Enter your name, if you do not wanna write it, just write 0"
+                )
+                  .settings.color("red")
+                  .print()
+              )
+          )
+          .and(
+            getTextInput("CoffeeType")
+              .testNot.text("")
+              .failure(
+                newText(
+                  "How would you like to get your coffee? (e.g. Turkish coffee, Americano, Latte, etc.)"
+                )
+                  .settings.color("red")
+                  .print()
+              )
+          )
+      )
+  )
+    .setOption("hideProgressBar", true)
+    .setOption("countsForProgressBar", false);
+
+    newTrial(
+      "how-works",
+      newText(
+        "<center><b>How this experiment works</b></center>" +
+          "<p>This experiment has two halves, but you will only see the first half. In the first half (20 mins), you will be asked to complete sentence fragments. It is important for us that you try to be vivid with your examples, and do not repeat the same sentence fragments." +
+          "<p>Following the first half, other participants will see a link to the second half (10 mins), in which they will judge sentences from other participants. "
+      ).print(),
+      newButton("Next", "Next")
+        .center()
+        .settings.css("margin", "40px")
+        .print()
+        .wait()
+    )
+      .setOption("hideProgressBar", true)
+      .setOption("countsForProgressBar", false);
+}
+
+if (prolific) {
+  Sequence(
+    "setcounter",
+    "intro",
+    "how-works",
+    "consent",
+    "instruction1",
+    "instruction2",
+    "instruction3",
+    randomize("practice"),
+    "warn",
+    rshuffle("trial", "filler"),
+    // "feedback",
+    SendResults(),
+    "bye"
+  );
+  Header(newVar("pilot").global()).log("pilot", 0);
+
+  newTrial(
+    "intro",
+    newText(
+      "Welcome",
+      "<center><b>Welcome!</b></center>" +
+        "<p>To participate in this experiment, you must meet the following requirements: <b>(1)</b> You must be a native speaker of English, <b>(2)</b> You must be older than 18 years old, <b>(3)</b> You must use your computer, and not your phone or tablet, <b>(4)</b> You must have a working mouse and keyboard.<p>If you meet these requirements, please enter the information below and click <b>Next</b>"
+    ).print(),
+    newTextInput("ProlificID")
+      .before(newText("ID", "Prolific ID: ").size("8em", "1.5em"))
+      .size("6em", "1.5em")
+      .lines(1)
+      .css(underline_blank)
+      .print()
+      .log(),
+    newTextInput("Age")
+      .before(newText("AGE", "Age:").size("8em", "1.5em"))
+      .size("6em", "1.5em")
+      .lines(1)
+      .css(underline_blank)
+      .print()
+      .log(),
+    newTextInput("Language")
+      .before(newText("LANG", "Native language:").size("8em", "1.5em"))
+      .size("6em", "1.5em")
+      .lines(1)
+      .css(underline_blank)
+      .print()
+      .log(),
+    newButton("Next", "Next")
+      .center()
+      .settings.css("margin", "40px")
+      .print()
+      .wait(
+        getTextInput("Age")
+          .test.text(/^\d+$/)
+          .failure(
+            newText("Age should be a numberic value")
+              .settings.color("red")
+              .print()
+          )
+          .and(
+            getTextInput("Language")
+              .testNot.text("")
+              .failure(
+                newText("Please enter your languages you speak fluently")
+                  .settings.color("red")
+                  .print()
+              )
+          )
+          .and(
+            getTextInput("ProlificID")
+              .testNot.text("")
+              .failure(
+                newText(
+                  "Please Enter your ProlificID, if you do not have one write 0"
+                )
+                  .settings.color("red")
+                  .print()
+              )
+          )
+      )
+  )
+    .setOption("hideProgressBar", true)
+    .setOption("countsForProgressBar", false);
+
+    newTrial(
+      "how-works",
+      newText(
+        "<center><b>How this experiment works</b></center>" +
+          "<p>This experiment has two halves. In the first half (20 mins), you will be asked to complete sentence fragments. It is important for us that you try to be vivid with your examples, and do not repeat the same sentence fragments." +
+          "<p>Following the first half, you will see a link to the second half (10 mins), in which you will judge sentences from other participants. " +
+          "<p> What are you supposed to do in the first part of this study?"
+      ).print(),
+      newScale(
+        "instruction",
+        "A) Edit each sentence to make it better",
+        "B) Complete sentences ...",
+        "C) Decide which sentence is better",
+        "D) Point out the mistakes in the sentence"
+      )
+        .vertical()
+        .radio()
+        .labelsPosition("right")
+        .print()
+        .log(),
+      newButton("Next", "Next")
+        .center()
+        .settings.css("margin", "40px")
+        .print()
+        .wait(
+          getScale("instruction")
+            .test.selected()
+            .failure(
+              newText("Please select one of the options")
                 .settings.color("red")
                 .print()
             )
         )
     )
-).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
+      .setOption("hideProgressBar", true)
+      .setOption("countsForProgressBar", false);
+}
 
 
-newTrial("how-works",
-  newText(
-    "<center><b>How this experiment works</b></center>" +
-    "<p>This experiment has two halves. In the first half (20 mins), you will be asked to complete sentence fragments. It is important for us that you try to be vivid with your examples, and do not repeat the same sentence fragments." +
-    "<p>Following the first half, you will see a link to the second half (10 mins), in which you will judge sentences from other participants. "
-  ).print(),
-  newButton("Next", "Next")
-    .center()
-    .settings.css("margin", "40px")
-    .print()
-    .wait()
-).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
 
 newTrial(
   "consent",
   newText(
-    "<center><b>Consent Form</b></center>"+
-    "<p>Please click <a href='https://utkuturk.com/files/web_consent.pdf' target='_blank'>here</a> to download the consent form for this study. If you read it and agree to participate in this study, click 'I Agree' below. If you do not agree to participate in this study, you can leave this study by closing the tab. You can leave the experiment at any time by closing the tab during the experiment.<br><br><b> Researchers:</b> <br>Utku Turk, PhD Student <i> (utkuturk@umd.edu)</i>,<br>Assoc. Prof. Ellen Lau <i>(ellenlau@umd.edu)</i><br>University of Maryland, Department of Linguistics"
+    "<center><b>Consent Form</b></center>" +
+      "<p>Please click <a href='https://utkuturk.com/files/web_consent.pdf' target='_blank'>here</a> to download the consent form for this study. If you read it and agree to participate in this study, click 'I Agree' below. If you do not agree to participate in this study, you can leave this study by closing the tab. You can leave the experiment at any time by closing the tab during the experiment.<br><br><b> Researchers:</b> <br>Utku Turk, PhD Student <i> (utkuturk@umd.edu)</i>,<br>Assoc. Prof. Ellen Lau <i>(ellenlau@umd.edu)</i><br>University of Maryland, Department of Linguistics"
   ).print(),
   newButton("Agree", "I Agree")
     .center()
     .settings.css("margin", "40px")
     .print()
     .wait()
-).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
+)
+  .setOption("hideProgressBar", true)
+  .setOption("countsForProgressBar", false);
 
 newTrial(
   "instruction1",
   newText(
-    "<center><b>Instructions</b></center>"+
-    "<p>Please read this instruction carefully! If you fail to understand the task, your data will NOT be usable.<p>" +
-    "Your task is to read the fragment and then complete it by typing in what you think should come next. " +
-     "You will be given 25 seconds to read the fragment and complete it.<p>" +
-     "It would help us tremendously if you can please complete the sentences in varied ways, appropriate to each fragment. " +
-     "To complete a trial, you have to write at least 10 characters.<p>" +
+    "<center><b>Instructions</b></center>" +
+      "<p>Please read this instruction carefully! If you fail to understand the task, your data will NOT be usable.<p>" +
+      "Your task is to read the fragment and then complete it by typing in what you think should come next. " +
+      "You will be given 40 seconds to read the fragment and complete it.<p>" +
+      "It would help us tremendously if you can please complete the sentences in varied ways, appropriate to each fragment. " +
+      "To complete a trial, you have to write at least 10 characters.<p>" +
       "We understand this is not an easy task. So no need to " +
       "be concerned if you are not perfect.</b> " +
       "In the next section, we will go through an example trial."
   ).print(),
   newButton("Next").center().settings.css("margin", "40px").print().wait()
-).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
+)
+  .setOption("hideProgressBar", true)
+  .setOption("countsForProgressBar", false);
 
 newTrial(
   "instruction2",
@@ -163,23 +321,19 @@ newTrial(
       getTextInput("answer")
         .test.text(/^(.{10,500})$/)
         .failure(
-          newText("<b>Please write more.</b>")
-            .settings.color("red")
-            .print()
+          newText("<b>Please write more.</b>").settings.color("red").print()
         )
     ),
-    newText(
-      "<p>Here are three examples of how someone might complete this fragment:<ol>" +
-        "<li>are produced only in certain parts of the world.<br></li>" +
-        "<li>that I bought from the luxury coffee shop were always stale.<br></li>" +
-        "<li>make me miss my hometown.</li></ol>"
-    ).print(),
-  newButton("Next")
-    .center()
-    .settings.css("margin", "40px")
-    .print()
-    .wait()
-).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
+  newText(
+    "<p>Here are three examples of how someone might complete this fragment:<ol>" +
+      "<li>are produced only in certain parts of the world.<br></li>" +
+      "<li>that I bought from the luxury coffee shop were always stale.<br></li>" +
+      "<li>make me miss my hometown.</li></ol>"
+  ).print(),
+  newButton("Next").center().settings.css("margin", "40px").print().wait()
+)
+  .setOption("hideProgressBar", true)
+  .setOption("countsForProgressBar", false);
 
 newTrial(
   "instruction3",
@@ -204,9 +358,7 @@ newTrial(
       getTextInput("answer")
         .test.text(/^(.{10,500})$/)
         .failure(
-          newText("<b>Please write more.</b>")
-            .settings.color("red")
-            .print()
+          newText("<b>Please write more.</b>").settings.color("red").print()
         )
     ),
   newText(
@@ -217,21 +369,23 @@ newTrial(
       "<br>Now, you will go through some practice items to get you used to the task."
   ).print(),
   newButton("Click here to begin practice trials!")
-  .center()
-  .settings.css("margin", "40px")
-  .print()
-  .wait()
-).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
+    .center()
+    .settings.css("margin", "40px")
+    .print()
+    .wait()
+)
+  .setOption("hideProgressBar", true)
+  .setOption("countsForProgressBar", false);
 
 newTrial(
   "warn",
   newText(
-    "<p>Practice done! Now, you are ready to start the experiment! Your task is to:<ol>" +
+    "<p>Practice done! Now, you are ready to start the experiment! Remember, your task is to:<ol>" +
       "<li>Read the sentence fragments and complete them.</li>" +
       "<li>Complete them with a vivid continuation. " +
-      "Remember that they will be judged by other participants</li></ol>" +
+      "Recall that they will be judged by other participants</li></ol>" +
       "<br><br> If you are ready, click the button below to start the experiment. " +
-      "You will be expected to complete sentences in less than 25 seconds " +
+      "You will be expected to complete sentences in less than 40 seconds " +
       "and are expected to write more than 10 characters."
   ).print(),
   newButton("Click here to begin the experiment.")
@@ -239,7 +393,9 @@ newTrial(
     .settings.css("margin", "40px")
     .print()
     .wait()
-).setOption("hideProgressBar", true).setOption("countsForProgressBar", false);
+)
+  .setOption("hideProgressBar", true)
+  .setOption("countsForProgressBar", false);
 
 // Experimental Trials
 Template("ExpPreambles.csv", (row) =>
@@ -250,7 +406,7 @@ Template("ExpPreambles.csv", (row) =>
       .center()
       .cssContainer({ "margin-right": "1em" })
       .print(),
-    newTimer("hurry", 25000).start(),
+    newTimer("hurry", 40000).start(),
     newTimer("dummy", 1)
       .callback(
         newTextInput("answer")
@@ -260,13 +416,12 @@ Template("ExpPreambles.csv", (row) =>
           .css(underline_blank)
           .print()
           .wait(
-            getTextInput("answer")
-              .test.text(/^(.{10,500})$/)
-              // .failure(
-              //   newText("<b>Please write more.</b>")
-              //     .settings.color("red")
-              //     .print()
-              // )
+            getTextInput("answer").test.text(/^(.{10,500})$/)
+            // .failure(
+            //   newText("<b>Please write more.</b>")
+            //     .settings.color("red")
+            //     .print()
+            // )
           ),
         getTimer("hurry").stop()
       )
@@ -290,7 +445,7 @@ Template("FillerPreambles.csv", (row) =>
       .center()
       .cssContainer({ "margin-right": "1em" })
       .print(),
-    newTimer("hurry", 25000).start(),
+    newTimer("hurry", 40000).start(),
     newTimer("dummy", 1)
       .callback(
         newTextInput("answer")
@@ -300,13 +455,12 @@ Template("FillerPreambles.csv", (row) =>
           .css(underline_blank)
           .print()
           .wait(
-            getTextInput("answer")
-              .test.text(/^(.{10,500})$/)
-              // .failure(
-              //   newText("<b>Please write more.</b>")
-              //     .settings.color("red")
-              //     .print()
-              // )
+            getTextInput("answer").test.text(/^(.{10,500})$/)
+            // .failure(
+            //   newText("<b>Please write more.</b>")
+            //     .settings.color("red")
+            //     .print()
+            // )
           ),
         getTimer("hurry").stop()
       )
@@ -328,7 +482,7 @@ Template("PracticePreambles.csv", (row) =>
       .center()
       .cssContainer({ "margin-right": "1em" })
       .print(),
-    newTimer("hurry", 25000).start(),
+    newTimer("hurry", 40000).start(),
     newTimer("dummy", 1)
       .callback(
         newTextInput("answer")
@@ -357,22 +511,22 @@ Template("PracticePreambles.csv", (row) =>
     .log("ItemNumber", row.itemnum)
 );
 
-// PennController(
-//   "feedback",
-//   newText(
-//     "feedback_instruction",
-//     "If you have any feedback on the first half of the experiment, please leave it here.<p>"
-//   )
-//     .center()
-//     .print(),
-//   newTextInput("feedback", "").center().log().lines(0).size(420, 200).print(),
-//   newButton("send", "Send")
-//     .center()
-//     .settings.size(500, 48)
-//     .settings.css("margin", "40px")
-//     .print()
-//     .wait()
-// );
+PennController(
+  "feedback",
+  newText(
+    "feedback_instruction",
+    "If you have any feedback on the first half of the experiment, please leave it here.<p>"
+  )
+    .center()
+    .print(),
+  newTextInput("feedback", "").center().log().lines(0).size(420, 200).print(),
+  newButton("send", "Send")
+    .center()
+    .settings.size(500, 48)
+    .settings.css("margin", "40px")
+    .print()
+    .wait()
+);
 
 newTrial(
   "bye",
@@ -382,16 +536,26 @@ newTrial(
 
   newButton().wait() // Wait for a click on a non-displayed button = wait here forever
 
-// newTrial("bye" ,
-// 	newText(
-// 		"Thank you for your participation! Please go to the following link to verify your participation: "+
-// 		"<a href='https://app.prolific.co/submissions/complete?cc=2C35D14F'>https://app.prolific.co/submissions/complete?cc=2C35D14F</a>"
-// 	)
-// 		.print()
-// 	,
+  // newTrial("bye" ,
+  // 	newText(
+  // 		"Thank you for your participation! Please go to the following link to verify your participation: "+
+  // 		"<a href='https://app.prolific.co/submissions/complete?cc=2C35D14F'>https://app.prolific.co/submissions/complete?cc=2C35D14F</a>"
+  // 	)
+  // 		.print()
+  // 	,
 
-// 	newButton()
-// 		.wait()
-// )
+  // 	newButton()
+  // 		.wait()
+  // )
 ).setOption("countsForProgressBar", false);
 // Make sure the progress bar is full upon reaching this last (non-)trial
+
+// var MAX_PARTICIPANTS = 40;
+// function modifyRunningOrder(ro) {
+//   if (__counter_value_from_server__ >= MAX_PARTICIPANTS) {
+//     alert("This experiment is now closed");
+//     throw "";
+//   } else {
+//     return ro;
+//   }
+// }

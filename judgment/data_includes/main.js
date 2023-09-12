@@ -3,12 +3,11 @@ PennController.ResetPrefix(null); // Shorten command names (keep this line here)
 
 /*
 TODOs:
-- Time limit
-- Item prep
-- Logging
 - Prolific
 - Scale texts
 */
+
+let itemTimer = 1000;
 
 SetCounter("setcounter");
 
@@ -18,7 +17,7 @@ Sequence(
   "instruction",
   randomize("practice"),
   "warn",
-  rshuffle("trial", "filler"),
+  rshuffle("frazier", "trial", "filler"),
   SendResults(),
   "bye"
 );
@@ -48,7 +47,7 @@ newTrial(
     "<center><b>Instructions</b></center>" +
       "In the second part of the experiment, you will see completed sentences in the following fashion and judge them using your mouse. Now, read the following sentence and rate how natural the sentence is to you.<br><br><br>"
   ).print(),
-  newController("FlashSentence", {s: "Utku eve geldi."})
+  newController("FlashSentence", { s: "Utku eve geldi." })
     .center()
     .print()
     .log(),
@@ -58,8 +57,8 @@ newTrial(
     .print(),
   newScale("grade", "1", "2", "3", "4", "5", "6", "7")
     .labelsPosition("bottom")
-    .before(newText("left", "Totally unnatural"))
-    .after(newText("right", "Totally natural"))
+    .before(newText("left", "Unnatural"))
+    .after(newText("right", "Natural"))
     .center()
     .keys()
     .print()
@@ -97,99 +96,149 @@ newTrial(
   .setOption("countsForProgressBar", false);
 
 // Practice
-Template("practice.csv", (filler) =>
+Template("practice.csv", (row) =>
   newTrial(
     "practice",
     newText("sep", "*").css("font-size", "24pt").center().print(),
     newTimer("wait", 500).start().wait(),
     getText("sep").remove(),
-    newController("FlashSentence", { s: filler.Sentence })
-      .center()
-      .print()
-      .log(),
+    newController("FlashSentence", { s: row.sentence }).center().print().log(),
+    newTimer("hurry", itemTimer).start(),
     newText("question", " ")
       .cssContainer({ "margin-bottom": "2em" })
       .center()
       .print(),
-    newScale("grade", "1", "2", "3", "4", "5", "6", "7")
-      .labelsPosition("bottom")
-      .before(newText("left", "Totalmente inaceptable"))
-      .after(newText("right", "Totalmente aceptable"))
-      .radio()
-      .center()
-      .keys()
-      .once()
-      .print()
-      .wait()
-      .log()
+    newTimer("dummy", 1)
+      .callback(
+        newScale("grade", "1", "2", "3", "4", "5", "6", "7")
+          .labelsPosition("bottom")
+          .before(newText("left", "Unnatural"))
+          .after(newText("right", "Natural"))
+          .radio()
+          .center()
+          .keys()
+          .once()
+          .print()
+          .wait()
+          .log(),
+        getTimer("hurry").stop()
+      )
+      .start(),
+    getTimer("hurry").wait()
   )
-    .log("item", filler.itemnum)
-    .log("condA", filler.cond_A)
-    .log("condB", filler.cond_B)
-    .log("EXP", filler.Expt_type)
+    .log("itemnum", row.itemnum)
+    .log("type", row.type)
+    .log("sentence", row.sentence)
 );
 // Exp
-Template("experimental.csv", (exp) =>
+Template("from-comp-exp.csv", (row) =>
   newTrial(
     "trial",
     newText("sep", "*").css("font-size", "18pt").center().print(),
     newTimer("wait", 500).start().wait(),
     getText("sep").remove(),
-    newController("FlashSentence", { s: exp.Sentence })
-      .center()
-      .print()
-      .log(),
-    newText("question", "")
+    newController("FlashSentence", { s: row.sentence }).center().print().log(),
+    newTimer("hurry", itemTimer).start(),
+    newText("question", " ")
       .cssContainer({ "margin-bottom": "2em" })
       .center()
       .print(),
-    newScale("grade", "1", "2", "3", "4", "5", "6", "7")
-      .labelsPosition("bottom")
-      .before(newText("left", "Totalmente inaceptable"))
-      .after(newText("right", "Totalmente aceptable"))
-      .center()
-      .keys()
-      .print()
-      .wait()
-      .log()
+    newTimer("dummy", 1)
+      .callback(
+        newScale("grade", "1", "2", "3", "4", "5", "6", "7")
+          .labelsPosition("bottom")
+          .before(newText("left", "Unnatural"))
+          .after(newText("right", "Natural"))
+          .radio()
+          .center()
+          .keys()
+          .once()
+          .print()
+          .wait()
+          .log(),
+        getTimer("hurry").stop()
+      )
+      .start(),
+    getTimer("hurry").wait()
   )
-    .log("group", exp.group)
-    .log("item", exp.itemnum)
-    .log("condA", exp.cond_A)
-    .log("condB", exp.cond_B)
-    .log("EXP", exp.Expt_type)
+    .log("sentence", row.sentence) // add these three columns to the results lines of these Template-based trials
+    .log("itemnum", row.itemnum)
+    .log("condition", row.condition)
+    .log("Is_definite", row.the)
+    .log("Is_modified", row.adj)
+    .log("Is_coordinated", row.and)
 );
+// Frazier
+Template("frazier.csv", (row) =>
+  newTrial(
+    "trial",
+    newText("sep", "*").css("font-size", "18pt").center().print(),
+    newTimer("wait", 500).start().wait(),
+    getText("sep").remove(),
+    newController("FlashSentence", { s: row.sentence }).center().print().log(),
+    newTimer("hurry", itemTimer).start(),
+    newText("question", " ")
+      .cssContainer({ "margin-bottom": "2em" })
+      .center()
+      .print(),
+    newTimer("dummy", 1)
+      .callback(
+        newScale("grade", "1", "2", "3", "4", "5", "6", "7")
+          .labelsPosition("bottom")
+          .before(newText("left", "Unnatural"))
+          .after(newText("right", "Natural"))
+          .radio()
+          .center()
+          .keys()
+          .once()
+          .print()
+          .wait()
+          .log(),
+        getTimer("hurry").stop()
+      )
+      .start(),
+    getTimer("hurry").wait()
+  )
+    .log("sentence", row.sentence) // add these three columns to the results lines of these Template-based trials
+    .log("itemnum", row.itemnum)
+    .log("condition", row.condition)
+);
+
 // Filler
-Template("fillers.csv", (filler) =>
+Template("from-comp-filler.csv", (row) =>
   newTrial(
     "filler",
     newText("sep", "*").css("font-size", "24pt").center().print(),
     newTimer("wait", 500).start().wait(),
     getText("sep").remove(),
-    newController("FlashSentence", { s: filler.Sentence })
-      .center()
-      .print()
-      .log(),
+    newController("FlashSentence", { s: row.sentence }).center().print().log(),
+    newTimer("hurry", itemTimer).start(),
     newText("question", " ")
       .cssContainer({ "margin-bottom": "2em" })
       .center()
       .print(),
-    newScale("grade", "1", "2", "3", "4", "5", "6", "7")
-      .labelsPosition("bottom")
-      .before(newText("left", "Totalmente inaceptable"))
-      .after(newText("right", "Totalmente aceptable"))
-      .radio()
-      .center()
-      .keys()
-      .once()
-      .print()
-      .wait()
-      .log()
+    newTimer("dummy", 1)
+      .callback(
+        newScale("grade", "1", "2", "3", "4", "5", "6", "7")
+          .labelsPosition("bottom")
+          .before(newText("left", "Unnatural"))
+          .after(newText("right", "Natural"))
+          .radio()
+          .center()
+          .keys()
+          .once()
+          .print()
+          .wait()
+          .log(),
+        getTimer("hurry").stop()
+      )
+      .start(),
+    getTimer("hurry").wait()
   )
-    .log("item", filler.itemnum)
-    .log("condA", filler.cond_A)
-    .log("condB", filler.cond_B)
-    .log("EXP", filler.Expt_type)
+    .log("sentence", row.sentence) // add these three columns to the results lines of these Template-based trials
+    .log("type", row.type)
+    .log("condition", row.condition)
+    .log("itemnum", row.itemnum)
 );
 // bye
 newTrial(

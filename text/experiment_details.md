@@ -5,8 +5,7 @@
 
 # Experiment
 
-Given previous discussion about @LauLiao2018
-and following work,\footnote{mainly discuss how syntactic structure might not be the main thing.}
+Given previous discussion about @LauLiao2018 and following work,
 the semantic contribution of the items is need to be discussed.
 Even though there are multitude of theoretical discussions on the nature of bare plurals in English,
 there is no clear agreement on the nature of their mental or behavioral representations.
@@ -92,7 +91,7 @@ we included 64 filler sentences.
 Fillers consisted of structures that are different from the experimental items.
 They can be categorized into 9 different groups as shown in @tbl-fillers.
 
-<!-- TODO write how many plurals heads or singular heads participants are seeing in total. -->
+
 
 | Filler Type             | Example                                                  |       Count |
 | ----------------------- | -------------------------------------------------------- | ----------: |
@@ -109,6 +108,9 @@ They can be categorized into 9 different groups as shown in @tbl-fillers.
 
 : All filler types, examples, and counts. {#tbl-fillers}
 
+Within the whole experiment,
+the number of preambles that may serve as a plural head was 0.53% of the total items.
+
 #### Judgment Task
 
 The second part of the experiment consisted two types of sentences:
@@ -116,7 +118,8 @@ The second part of the experiment consisted two types of sentences:
 (ii) sentences from @FrazierEtAl2007 study.
 Sentences from the first part of the experiment was acquired through a pilot study
 carried out voluntarily by University of Maryland graduate students.
-We selected 30 sentences from these sentences, covering all experimental conditions and filler types.
+We selected 22 filler sentences and 32 experimental sentences from the pilot study,
+covering all experimental conditions (except definite ones) and filler types.
 From @FrazierEtAl2007 study, we included 20 items using only two conditions from the experiment,
 which used bare plurals in the subject positions.
 We manipulated whether the first sentence is an episodic (\ref{f-item-a}) or a generic sentence (\ref{f-item-c}).
@@ -144,17 +147,19 @@ The experiment was run online in PCIbex platform [@Drummond2013;@ZehrSchwarz2018
 Each participant session took approximately 25 minutes.
 Participants provided demographic information and
 gave informed consent to participate in the experiment.
-A practice and instrucstions sessions preceded the experiment,
-<!-- TODO How many practice items? -->
+A practice and instructions sessions preceded the experiment,
 in which participants were provided with a set of sentence fragments.
-Instruction sections included two trials with bare plural noun phrases as sentence fragments,
+Instruction sections included a comprehension question to
+confirm that they understood the task.
+This section also included
+two trials with bare plural noun phrases as sentence fragments,
 after they were probed to complete them,
 they were also provided other possible completions
 which featured both existential and generic examples.
 In this section, they were told to not repeat themselves while completing sentences and
 provide vivid completions.
 They were also instructed about the character (15) and time limit (25 seconds).
-In the practice section, they were asked to complete **10?** sentence fragments.
+In the practice section, they were asked to complete 7 sentence fragments.
 
 Each trial began with 200 ms blank screen,
 and followed by a full sentence presentation in the center of the screen
@@ -164,7 +169,7 @@ press \texttt{\textsc{enter}} key.
 During the practice item,
 a warning message in red font appeared if they did not respond within 25 seconds or
 write more than 15 characters, including whitespaces.
-Sentence fragments and instructions were presented in black **24?**-point case Helvetica font on a white background.
+Sentence fragments and instructions were presented in black 16-point case Helvetica font on a white background.
 
 Items were randomly paired into 8 different lists
 according to a balanced Latin-square design [@Bradley1958].
@@ -188,29 +193,37 @@ participants were told to judge sentences as fast and accurately as possible.
 They were also instructed about time limit (25 seconds).
 
 Each trial began with 200 ms blank screen,
-and followed by a full sentencen presentation in the center of the screen
-that stayed in the screen for 25 seconds.
+and followed by a asterisk in the middle of the screen as a fixation point,
+that stayed in the screen for 500 ms
+and presented in black 16-point case Helvetica font on a white background.
+
+Following blank screen and fixation point,
+the full sentence was presented in the center of the screen
+and stayed on the screen for 25 seconds.
 In this time period, they were expected to read the sentence and
-judge it using the Likert scale presented in the screen.
+judge it using the Likert (1-7) scale presented in the screen.
 During the practice item,
 a warning message in red font appeared if they did not respond within 25 seconds.
-Sentences and instructions were presented in black **24?**-point case Helvetica font on a white background.
+Sentences and instructions were presented in black 16-point case Helvetica font on a white background.
 
 ### Participants
 
-- A total of **40?** participants will be recruited through Prolific. They will be paid **5?** US dollars.
-- Written informed consent was obtained from all participants.
+A total of 40 participants will be recruited through Prolific.
+They will be paid **5?** US dollars.
+Written informed consent was obtained from all participants.
+All participants are intented to be English native speakers from United States, and
+participants that are not native English speakers will be excluded.
+Participants who answered the comprehension question in the instructions wrongly
+will be excluded as well.
+In order to detect bots, we included a dialect recognition task following @Maher2023,
+in which participants will listen an audio recording and select the dialect used in the audio.
+Participants that failed to correctly recognize the dialect task will be exclude, since they will be treated as bots.
+Participants that complete sentence in an inappropriate or repeating way,
+such as completions in the same manner all the time or completions as random strings, will also be excluded.
 
-#### Exclusion Criteria
-
-- Speakers that were not native English speakers were excluded.
-- Participants that failed to XXX task will be exclude, since they will be treated as bots.
-- Participants that complete sentence in an inappropriate or repeating way will be excluded.
-- Such as completions in the same manner all the time or completions as random strings.
 
 
-
-:::{.callout-important}
+<!-- :::{.callout-important}
 ## To-dos
 
 experiment:
@@ -219,15 +232,10 @@ experiment:
 - include zach's task or counting task.
 - maybe include in the instructions that there are some special tasks
 - when a task start with "!!!" give only the correct answer.
+::: -->
 
-completion materials:
 
-- how many plural and singular heads do participants see?
+### References
 
-completion procedure: how many practice items
-
+::: {#refs}
 :::
-
-
-# References
-$~$

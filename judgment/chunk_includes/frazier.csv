@@ -1,0 +1,41 @@
+sentence,itemnum,condition,group
+John noticed a cat on my roof last night; cats are skilled climbers.,1,a,A
+Cats are skilled climbers; John noticed a cat on my roof last night.,1,c,B
+Seth found a dog near the picnic basket yesterday; dogs are really smart.,2,a,B
+Dogs are really smart; Seth found a dog near the picnic basket yesterday.,2,c,A
+Tom saw a horned owl last winter; horned owls are difficult to spot.,3,a,A
+Horned owls are difficult to spot; Tom saw a horned owl last winter.,3,c,B
+Today Ann saw a deer in her backyard; deer will forage anywhere these days.,4,a,B
+Deer will forage anywhere these days; today Ann saw a deer in her backyard.,4,c,A
+Kurt saw a bald eagle in Alaska; bald eagle are rare in most places.,5,a,A
+Bard eagle are rare in most places; Kurt saw a bald eagle in Alaska.,5,c,B
+Kyle noticed a new Porsche at work today; Porsches are expensive.,6,a,B
+Porsches are expensive; Kyle noticed a new Porsche at work today.,6,c,A
+Paula saw an ostrich at the zoo; ostriches are incredibly fast.,7,a,A
+Ostriches are incredibly fast; Paula saw an ostrich at the zoo.,7,c,B
+Debbi took care of a horse at the ranch; horses are temperamental animals.,8,a,B
+Horses are temperamental animals; Debbi took care of a horse at the ranch.,8,c,A
+Lisa bought a guinea pig yesterday; guinea pigs make great pets.,9,a,A
+Guinea pigs make great pets; Lisa bought a guinea pig yesterday.,9,c,B
+Elizabeth scared a porcupine last night; porcupines startle easily.,10,a,B
+Porcupines startle easily; Elizabeth scared a porcupine last night.,10,c,A
+Jim spotted a reporter near the ambulance; reporters are cruel sometimes.,11,a,A
+Reporters are cruel sometimes; Jim spotted a reporter near the ambulance.,11,c,B
+Sue cursed an antique dealer yesterday; antique dealers are quite cunning.,12,a,B
+Antique dealers are quite cunning; Sue cursed an antique dealer yesterday.,12,c,A
+Ray spoke to a travel agent for hours today; travel agents are very talkative.,13,a,A
+Travel agents are very talkative; Ray spoke to a travel agent for hours today.,13,c,B
+"Megan hired a carpenter last month, carpenters are really handy.",14,a,B
+Carpenters are really handy; Megan hired a carpenter last month.,14,c,A
+Pat interviewed an architect for the show; architects are quite reserved.,15,a,A
+Architects are quite reserved; Pat interviewed an architect for the show.,15,c,B
+Jen met a social worker at her last job; social workers are nice and friendly.,16,a,B
+Social workers are nice and friendly; Jen met a social worker at her last job.,16,c,A
+Sara dated a rock star two years ago; rock starts are usually unconventional.,17,a,A
+Rock starts are usually unconventional; Sara dated a rock star two years ago.,17,c,B
+Ken photographed a model today; models attract lots of attention.,18,a,B
+Models attract lots of attention; Ken photographed a model today.,18,c,A
+Daniel invited a journalist for dinner; journalists like free food.,19,a,A
+Journalists like free food; Daniel invited a journalist for dinner.,19,c,B
+Peter praised a policeman last week; policemen have a dangerous job.,20,a,B
+Policemen have a dangerous job; Peter praised a policeman last week.,20,c,A

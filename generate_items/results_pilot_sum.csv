@@ -1,0 +1,648 @@
+subject,Label,Preamble,Value,Condition,ItemNumber,Is_definite,Is_modified,Is_coordinated
+S[1],filler,Most vivid dreams%2C which transported them to fantastical realms%2C,were written in her diary,filler,quantifier,50,NULL,NA
+S[1],filler,Whoever was responsible,needs to speak up,filler,correlative,63,NULL,NA
+S[1],trial,The broad rivers and the cheery rooms,reminded him of his youth,theAdjBPand,4,TRUE,TRUE,TRUE
+S[1],filler,The movie that mesmerized audiences with its breathtaking visuals,was too long,filler,rc,8,NULL,NA
+S[1],filler,Most challenges,are better faced with friends,filler,quantifier,45,NULL,NA
+S[1],trial,The answers and the diamonds,were not enough to convince her,theBPand,25,TRUE,FALSE,TRUE
+S[1],filler,The city that buzzed with vibrant energy day and night,was suddenly dead during the pandemic,filler,rc,6,NULL,NA
+S[1],filler,Were I to be the mayor of College Park%2C,i would fix the damn roads,filler,if,57,NULL,NA
+S[1],filler,Within the serene garden oasis,he saw the princess,filler,adjunct,23,NULL,NA
+S[1],filler,All stars,twinkle but planets don'tt,filler,quantifier,41,NULL,NA
+S[1],trial,The cozy tables,were made from oak,theAdjBP,2,TRUE,TRUE,FALSE
+S[1],filler,Whatever happened,to that guy that lives down the street,filler,correlative,61,NULL,NA
+S[1],filler,Few opportunities,arise without putting yourself out there,filler,quantifier,43,NULL,NA
+S[1],trial,Dinners,are served every weeknight,BP,30,FALSE,FALSE,FALSE
+S[1],filler,What to do after,you finish school is the perennial challenge,filler,wh,38,NULL,NA
+S[1],filler,Some dreams,are achievable if you try,filler,quantifier,42,NULL,NA
+S[1],trial,The doors,are open,theBP,3,TRUE,FALSE,FALSE
+S[1],trial,The doors,opened before her,theBP,3,TRUE,FALSE,FALSE
+S[1],filler,Many voices,were heard coming from inside the room,filler,quantifier,44,NULL,NA
+S[1],trial,Steamy mirrors and blissful journeys,are what you'd expect of an adventure,AdjBPand,5,FALSE,TRUE,TRUE
+S[1],filler,The dog that barked incessantly,was suddenly quiet one night,filler,rc,3,NULL,NA
+S[1],filler,The Smith family,is a normal family to mos,filler,name,13,NULL,NA
+S[1],trial,The guns,were on the table in front of them,theBP,27,TRUE,FALSE,FALSE
+S[1],filler,The dynamic duo of Lucy and Max ,is always chaoic,filler,name,16,NULL,NA
+S[1],filler,What if you dare,to speak before the queen,filler,wh,40,NULL,NA
+S[1],trial,The leggings,were on sale so i bought them,theBP,11,TRUE,FALSE,FALSE
+S[1],filler,Wherever the party was,for didn't even show up,filler,correlative,62,NULL,NA
+S[1],filler,Were I to save someone from the past%2C,it would make for a good story,filler,if,59,NULL,NA
+S[1],trial,Unlucky astronauts and ominous stories,go hand in hand,AdjBPand,13,FALSE,TRUE,TRUE
+S[1],filler,Jake%2C Lisa%2C and Alex ,are an unseparable trio,filler,name,19,NULL,NA
+S[1],filler,If the world was ruled by cats%2C,it would be a free-for-all,filler,if,55,NULL,NA
+S[1],trial,Rugs,%2C when good quality%2C are quite expensive,BP,22,FALSE,FALSE,FALSE
+S[1],filler,Underneath the trees,sat the young girl,filler,adjunct,29,NULL,NA
+S[1],filler,If I could travel back in time%2C it would be the time when,i was happiesttt,filler,if,56,NULL,NA
+S[1],trial,Ponds,are a beautiful place to have a picnic b y,BP,14,FALSE,FALSE,FALSE
+S[1],filler,The book that kept me up all night,is on this shelf here,filler,rc,2,NULL,NA
+S[1],filler,Were I to open a bakery shop%2C,it would have the best croissants,filler,if,58,NULL,NA
+S[1],filler,Whose coffee,is this that was left on the table,filler,wh,37,NULL,NA
+S[1],trial,The familiar headaches,plagued her yet again,theAdjBP,10,TRUE,TRUE,FALSE
+S[1],filler,In the misty mountain valley,lived an old grandfather and his granddaughter,filler,adjunct,26,NULL,NA
+S[1],filler,Whichever path they chose,is the one that they must follow,filler,correlative,64,NULL,NA
+S[1],trial,The flat towns and the fiendish mosquitos,made for a hellish vacation,theAdjBPand,28,TRUE,TRUE,TRUE
+S[1],filler,During a starry summer night,they sat watching the sky,filler,adjunct,24,NULL,NA
+S[1],filler,The car that raced through the streets,was definitely stolen,filler,rc,1,NULL,NA
+S[1],trial,Pale monuments,dotted the town,AdjBP,7,FALSE,TRUE,FALSE
+S[1],filler,Who holds the key,holds the power,filler,wh,31,NULL,NA
+S[1],filler,If sentient robots roamed the Earth%2C,i really wouldn't be surprised,filler,if,52,NULL,NA
+S[1],trial,The sketches and the pans,were strewn across the messy room,theBPand,17,TRUE,FALSE,TRUE
+S[1],filler,Along the road,were flowers of all different colors,filler,adjunct,25,NULL,NA
+S[1],filler,At the bustling market square,i saw some flowers for sale,filler,adjunct,27,NULL,NA
+S[1],trial,Gorgeous flowers,lined the sides of the mountain road,AdjBP,31,FALSE,TRUE,FALSE
+S[1],filler,How can we mend,this shirt when it's been so torn apar,filler,wh,39,NULL,NA
+S[1],filler,The Johnson siblings%2C Ethan and Olivia ,were known for causing trouble,filler,name,18,NULL,NA
+S[1],trial,The stains and the scissors,were on her mind,theBPand,1,TRUE,FALSE,TRUE
+S[1],filler,The tree that shaded the picnic area,was cut down today,filler,rc,4,NULL,NA
+S[1],trial,Gifts and guests,are important aspects of a good party,BPand,32,FALSE,FALSE,TRUE
+S[1],filler,If artists from different eras collaborated with Billie Eilish%2C,it would probably be a hi,filler,if,54,NULL,NA
+S[1],filler,Which path to choose,is a question i ask myself every day,filler,wh,34,NULL,NA
+S[1],trial,The formal entrances,were decorated with flowers,theAdjBP,26,TRUE,TRUE,FALSE
+S[1],filler,All eager eyes%2C filled with anticipation%2C,were on the last contestantt,filler,quantifier,46,NULL,NA
+S[1],filler,The restaurant that delighted taste buds with tantalizing flavors,has a michelin star,filler,rc,9,NULL,NA
+S[1],trial,The hungry bears and the brave deputies,faced off in the middle of the camp today,theAdjBPand,20,TRUE,TRUE,TRUE
+S[1],filler,The flower that bloomed like a radiant burst of sunshine,was in the field,filler,rc,10,NULL,NA
+S[1],filler,The city that never slept,was a place for all kinds of people,filler,rc,5,NULL,NA
+S[1],trial,Tulips and remarks,regarding her appearance were all that he gave her,BPand,8,FALSE,FALSE,TRUE
+S[1],filler,David and Rebecca,are two peas in a pod,filler,name,14,NULL,NA
+S[1],filler,The Jones twins%2C Emma and Ethan,were actually not identical,filler,name,20,NULL,NA
+S[1],trial,The evil ghosts,haunted the abandoned school,theAdjBP,18,TRUE,TRUE,FALSE
+S[1],filler,The computer that crashed in a spectacular display of sparks,held the only copy of my dissertation,filler,rc,7,NULL,NA
+S[1],filler,Many passionate voices%2C echoing through the room%2C,were heard from outside the hall,filler,quantifier,47,NULL,NA
+S[1],filler,Were I to relive yesterday%2C,i wouldnt,filler,if,60,NULL,NA
+S[1],filler,Were I to relive yesterday%2C,i would do it all the same again,filler,if,60,NULL,NA
+S[1],filler,On the golden sandy beach,sad the young family,filler,adjunct,21,NULL,NA
+S[1],trial,Anxious boys and portable keyboards,actually go hand in hand,AdjBPand,21,FALSE,TRUE,TRUE
+S[1],filler,Several blissful moments%2C spent in each other's arms%2C,were recollected that day,filler,quantifier,48,NULL,NA
+S[1],filler,When the clock strikes,midnight it's time for bed,filler,wh,33,NULL,NA
+S[1],trial,Drippy hoses,are super annoying,AdjBP,15,FALSE,TRUE,FALSE
+S[1],filler,Amidst the vibrant city lights,i saw her,filler,adjunct,22,NULL,NA
+S[1],filler,Why the stars shine,is a question i asked as a child,filler,wh,32,NULL,NA
+S[1],trial,The sisters and the brides,knew each other from long ago,theBPand,9,TRUE,FALSE,TRUE
+S[1],filler,Whom,does it concern,filler,wh,36,NULL,NA
+S[1],filler,Atop the rugged cliffside lookout,sits a fortress,filler,adjunct,30,NULL,NA
+S[1],trial,The artists,enjoyed each others company,theBP,19,TRUE,FALSE,FALSE
+S[1],filler,If time and money were no obstacles%2C,we could do anything we want,filler,if,51,NULL,NA
+S[1],trial,The dainty spoons and the bold strategies,were thrown aboutt in the meeting,theAdjBPand,12,TRUE,TRUE,TRUE
+S[1],filler,Mr. Johnson and his loyal assistant%2C Ms. Rodriguez,were a remarkable team,filler,name,15,NULL,NA
+S[1],filler,Few precious chances%2C which had eluded them for so long%2C,were offered to them,filler,quantifier,49,NULL,NA
+S[1],trial,Homemade pizzas,are the best kind of pizza,AdjBP,23,FALSE,TRUE,FALSE
+S[1],filler,Professor Thompson and his brilliant student%2C Alice,worked together on the theorem,filler,name,17,NULL,NA
+S[1],filler,Emily%2C Michael%2C and Samantha,are childhood friends,filler,name,12,NULL,NA
+S[1],trial,Maids,provide a service,BP,6,FALSE,FALSE,FALSE
+S[2],filler,If the world was ruled by cats%2C,we'd probably have round-the-world siestas.,filler,if,55,NULL,NA
+S[2],trial,Moms and rugs,don't always get along.,BPand,22,FALSE,FALSE,TRUE
+S[2],filler,Many passionate voices%2C echoing through the room%2C,contribute to giving me a headache.,filler,quantifier,47,NULL,NA
+S[2],filler,Were I to save someone from the past%2C,I would choose La Malinche.,filler,if,59,NULL,NA
+S[2],trial,The artists and the pickles,were an unlikely pairing.,theBPand,19,TRUE,FALSE,TRUE
+S[2],filler,Many voices,rose up from the street at night.,filler,quantifier,44,NULL,NA
+S[2],filler,Whatever happened,on that day%2C we'll never know.,filler,correlative,61,NULL,NA
+S[2],trial,The blunt scissors,don't cut paper well.,theAdjBP,1,TRUE,TRUE,FALSE
+S[2],filler,During a starry summer night,you might be lucky to see a shooting star.,filler,adjunct,24,NULL,NA
+S[2],filler,The dynamic duo of Lucy and Max ,was%2C to some%2C unforgettable.,filler,name,16,NULL,NA
+S[2],trial,The formal entrances and the chaotic airports,never gave a consistent picture of the country.,theAdjBPand,26,TRUE,TRUE,TRUE
+S[2],filler,Sarah and John%2C,recently divorced%2C hated each other.,filler,name,11,NULL,NA
+S[2],filler,Whom,would you like to choose?,filler,wh,36,NULL,NA
+S[2],trial,Ponds and umbrellas,both relate to water.,BPand,14,FALSE,FALSE,TRUE
+S[2],filler,Whichever path they chose,they're sure to be happy.,filler,correlative,64,NULL,NA
+S[2],filler,Who is behind the mask,must be a sinister character.,filler,wh,35,NULL,NA
+S[2],trial,Panicky newspapers,are the bane of society.,AdjBP,24,FALSE,TRUE,FALSE
+S[2],filler,Whose coffee,did you pick up by accident?,filler,wh,37,NULL,NA
+S[2],filler,Several blissful moments%2C spent in each other's arms%2C,can sustain months of separation.,filler,quantifier,48,NULL,NA
+S[2],trial,The astronauts,haven't yet finished their training.,theBP,13,TRUE,FALSE,FALSE
+S[2],filler,If time and money were no obstacles%2C,everyone would be much happier.,filler,if,51,NULL,NA
+S[2],filler,The flower that bloomed like a radiant burst of sunshine,is coveted by many novice botanists.,filler,rc,10,NULL,NA
+S[2],trial,Bears,tend to be attracted to the smell of garbage.,BP,20,FALSE,FALSE,FALSE
+S[2],filler,In the misty mountain valley,twelve dwarves%2C a wizard%2C and a hobbit sang.,filler,adjunct,26,NULL,NA
+S[2],filler,David and Rebecca,conspired to rob a bank.,filler,name,14,NULL,NA
+S[2],trial,Gluttonous kings,abound in fantasy novels.,AdjBP,16,FALSE,TRUE,FALSE
+S[2],filler,Mr. Johnson and his loyal assistant%2C Ms. Rodriguez,hold the school together with their pure enthusiasm.,filler,name,15,NULL,NA
+S[2],filler,Few precious chances%2C which had eluded them for so long%2C,finally fell into their hands.,filler,quantifier,49,NULL,NA
+S[2],trial,The lovely colors and the evil ghosts,in the videogame tantalized the players.,theAdjBPand,18,TRUE,TRUE,TRUE
+S[2],filler,Most challenges,require some degree of determination.,filler,quantifier,45,NULL,NA
+S[2],trial,The familiar headaches and the wooden rulers,were a signal that the semester had returned.,theAdjBPand,10,TRUE,TRUE,TRUE
+S[2],filler,Professor Thompson and his brilliant student%2C Alice,together illuminated much of quantum physics.,filler,name,17,NULL,NA
+S[2],filler,Underneath the trees,the professor carried out her class.,filler,adjunct,29,NULL,NA
+S[2],trial,Pricey sofas and drippy hoses,both cost a lot of money.,AdjBPand,15,FALSE,TRUE,TRUE
+S[2],filler,Some dreams,go to rot.,filler,quantifier,42,NULL,NA
+S[2],filler,Were I to be the mayor of College Park%2C,I would bulldoze the city and start over with better municipal zoning.,filler,if,57,NULL,NA
+S[2],trial,The doors and the debts,tricked the man.,theBPand,3,TRUE,FALSE,TRUE
+S[2],filler,The city that buzzed with vibrant energy day and night,captured hte hearts of millions around the world.,filler,rc,6,NULL,NA
+S[2],filler,Wherever the party was,thrown%2C he was sure to be.,filler,correlative,62,NULL,NA
+S[2],trial,Mysteries and maids,could be the title of a bad historical detective novel.,BPand,6,FALSE,FALSE,TRUE
+S[2],filler,All stars,are in motion.,filler,quantifier,41,NULL,NA
+S[2],filler,On the golden sandy beach,%2C German and British tourists get sunburnt.,filler,adjunct,21,NULL,NA
+S[2],trial,The enchanted sisters,could kick some serious booty.,theAdjBP,9,TRUE,TRUE,FALSE
+S[2],filler,Within the serene garden oasis,there was always water to be had.,filler,adjunct,23,NULL,NA
+S[2],filler,Why the stars shine,different colors%2C I'll never understand.,filler,wh,32,NULL,NA
+S[2],trial,Smiles and dinners,bring joy to every parent's heart.,BPand,30,FALSE,FALSE,TRUE
+S[2],filler,Who holds the key,to the wardrobe has the first shot at Narnia.,filler,wh,31,NULL,NA
+S[2],filler,The Jones twins%2C Emma and Ethan,were loathed by everyone in the school.,filler,name,20,NULL,NA
+S[2],trial,The leggings and the cardigans,were staples of 2010s fashion.,theBPand,11,TRUE,FALSE,TRUE
+S[2],filler,At the bustling market square,you had to watch out for pickpockets.,filler,adjunct,27,NULL,NA
+S[2],filler,The city that never slept,also never seemed to wake up either.,filler,rc,5,NULL,NA
+S[2],trial,Rivers,are the central means of transportation in Amazonia.,BP,4,FALSE,FALSE,FALSE
+S[2],filler,What if you dare,be who you've never dared to be before?,filler,wh,40,NULL,NA
+S[2],filler,The tree that shaded the picnic area,was cut down last week.,filler,rc,4,NULL,NA
+S[2],trial,Ceramic squares and gorgeous flowers,are all over the Porcelain Museum in the city.,AdjBPand,31,FALSE,TRUE,TRUE
+S[2],filler,The dog that barked incessantly,kept every neighbor awake all night.,filler,rc,3,NULL,NA
+S[2],filler,Were I to relive yesterday%2C,I'd think I were going crazy.,filler,if,60,NULL,NA
+S[2],trial,Pale monuments and disheveled mobs,are a constant in Paris.,AdjBPand,7,FALSE,TRUE,TRUE
+S[2],filler,Atop the rugged cliffside lookout,you might see a puffin.,filler,adjunct,30,NULL,NA
+S[2],filler,Emily%2C Michael%2C and Samantha,were the best of friends in middle school.,filler,name,12,NULL,NA
+S[2],trial,The hasty funerals and the cozy tables,sometimes brought family together.,theAdjBPand,2,TRUE,TRUE,TRUE
+S[2],filler,If sentient robots roamed the Earth%2C,the government would have a hell of a time trying to get rid of them.,filler,if,52,NULL,NA
+S[2],filler,Whoever was responsible,for the cat's getting let out should be ashamed of themselves.,filler,correlative,63,NULL,NA
+S[2],trial,The boys,are%2C as usual%2C up to no good.,theBP,21,TRUE,FALSE,FALSE
+S[2],filler,Amidst the vibrant city lights,the couple found each other.,filler,adjunct,22,NULL,NA
+S[2],filler,Within the tranquil coastal village,lie more than a few dark secrets.,filler,adjunct,28,NULL,NA
+S[2],trial,Pink tulips,can be seen in the Netherlands every spring.,AdjBP,8,FALSE,TRUE,FALSE
+S[2],filler,Were I to open a bakery shop%2C,it would also serve the best espresso in town.,filler,if,58,NULL,NA
+S[2],filler,How can we mend,the divisions in this country?,filler,wh,39,NULL,NA
+S[2],trial,The journeys,are long but the destination is sweet.,theBP,5,TRUE,FALSE,FALSE
+S[2],filler,All eager eyes%2C filled with anticipation%2C,scan their emails for an acceptance letter.,filler,quantifier,46,NULL,NA
+S[2],filler,What to do after,you hit rock bottom is your own decision.,filler,wh,38,NULL,NA
+S[2],trial,The untrue answers,to scientific questions have divided society.,theAdjBP,25,TRUE,TRUE,FALSE
+S[2],filler,Few opportunities,for International Students exist in the US.,filler,quantifier,43,NULL,NA
+S[2],filler,Which path to choose,depends on how much you like yourself.,filler,wh,34,NULL,NA
+S[2],trial,The original sketches,are on display in the museum this week.,theAdjBP,17,TRUE,TRUE,FALSE
+S[2],filler,The movie that mesmerized audiences with its breathtaking visuals,just won an award at a film festival.,filler,rc,8,NULL,NA
+S[2],filler,The Johnson siblings%2C Ethan and Olivia ,%2C might just be the smartest in the school.,filler,name,18,NULL,NA
+S[2],trial,The daughters,couldn't wait to bring about their father's murder.,theBP,29,TRUE,FALSE,FALSE
+S[2],filler,The restaurant that delighted taste buds with tantalizing flavors,has been given a Michelin star.,filler,rc,9,NULL,NA
+S[2],filler,Jake%2C Lisa%2C and Alex ,thought it was smart to try to catch a rabid squirrel.,filler,name,19,NULL,NA
+S[2],trial,National dilemmas and homemade pizzas,come about when friends spend time together.,AdjBPand,23,FALSE,TRUE,TRUE
+S[2],filler,If a portal to the Dune universe would open today%2C,I'd smack Paul Atreides in the face just for kicks.,filler,if,53,NULL,NA
+S[2],filler,The computer that crashed in a spectacular display of sparks,was a definite fire hazard.,filler,rc,7,NULL,NA
+S[2],trial,Spoons,are a must in every kitchen.,BP,12,FALSE,FALSE,FALSE
+S[2],filler,The Smith family,wasn't as rich as they made themselves out to be.,filler,name,13,NULL,NA
+S[2],filler,Most vivid dreams%2C which transported them to fantastical realms%2C,were about some movie they'd recently watched.,filler,quantifier,50,NULL,NA
+S[2],trial,Mosquitos,%2C though an important part of the food chain%2C are the worst part of summer.,BP,28,FALSE,FALSE,FALSE
+S[2],filler,The book that kept me up all night,went straight back to the library.,filler,rc,2,NULL,NA
+S[2],filler,The car that raced through the streets,eventually got a ticket for reckless driving.,filler,rc,1,NULL,NA
+S[2],trial,Generous guests,always bring a bottle of wine.,AdjBP,32,FALSE,TRUE,FALSE
+S[2],filler,If artists from different eras collaborated with Billie Eilish%2C,whatever they produced would be an interesting listen.,filler,if,54,NULL,NA
+S[2],filler,Along the road,sprout various types of wildflowers.,filler,adjunct,25,NULL,NA
+S[2],trial,The guns and the babies,are both pet talking points of the American Republican party.,theBPand,27,TRUE,FALSE,TRUE
+S[2],filler,When the clock strikes,twelve%2C you've got to be home.,filler,wh,33,NULL,NA
+S[3],filler,Some dreams,are impossible to realize,filler,quantifier,42,NULL,NA
+S[3],trial,Headaches and rulers,are two of the things I hate the most about being alive,BPand,10,FALSE,FALSE,TRUE
+S[3],filler,Mr. Johnson and his loyal assistant%2C Ms. Rodriguez,stole from the company ,filler,name,15,NULL,NA
+S[3],filler,Many voices,were heard over the radio ,filler,quantifier,44,NULL,NA
+S[3],filler,If I could travel back in time%2C it would be the time when,humans had fishtails,filler,if,56,NULL,NA
+S[3],trial,The unlucky astronauts,died during re-entry after 2 weeks in space,theAdjBP,13,TRUE,TRUE,FALSE
+S[3],filler,All stars,are dying,filler,quantifier,41,NULL,NA
+S[3],filler,All stars,are dying,filler,quantifier,41,NULL,NA
+S[3],filler,The car that raced through the streets,hit Mr. Bob's grocery store ,filler,rc,1,NULL,NA
+S[3],trial,The solid doors and the huge debts,are part of the history of this bank,theAdjBPand,3,TRUE,TRUE,TRUE
+S[3],filler,If artists from different eras collaborated with Billie Eilish%2C,the album would win a Grammy ,filler,if,54,NULL,NA
+S[3],filler,What if you dare,touch the lightbulb,filler,wh,40,NULL,NA
+S[3],trial,The blind artists and the spicy pickles,were banned from New York jazz bars in the 20s,theAdjBPand,19,TRUE,TRUE,TRUE
+S[3],filler,All eager eyes%2C filled with anticipation%2C,they jumped on the puppet ,filler,quantifier,46,NULL,NA
+S[3],filler,During a starry summer night,she heard a blood curdling scream,filler,adjunct,24,NULL,NA
+S[3],trial,The squares and the flowers,were badly drawn on her bedroom wall,theBPand,31,TRUE,FALSE,TRUE
+S[3],filler,Wherever the party was,last week%2C I'm glad I didn't go.,filler,correlative,62,NULL,NA
+S[3],filler,What to do after,a tsunami hits a city like New York ,filler,wh,38,NULL,NA
+S[3],trial,Broad rivers,are easier to navigate ,AdjBP,4,FALSE,TRUE,FALSE
+S[3],filler,Within the tranquil coastal village,they found an old Roman statue ,filler,adjunct,28,NULL,NA
+S[3],filler,Were I to save someone from the past%2C,I would make them pay in gold ,filler,if,59,NULL,NA
+S[3],trial,Colors and ghosts,were all she could think of. ,BPand,18,FALSE,FALSE,TRUE
+S[3],filler,If sentient robots roamed the Earth%2C,I'd welcome our new overlords,filler,if,52,NULL,NA
+S[3],filler,On the golden sandy beach,%2C John asked Mary for a divorce ,filler,adjunct,21,NULL,NA
+S[3],trial,Entrances and airports,always scared Jenna's dog ,BPand,26,FALSE,FALSE,TRUE
+S[3],filler,Were I to be the mayor of College Park%2C,I would start all over again. ,filler,if,57,NULL,NA
+S[3],filler,Emily%2C Michael%2C and Samantha,were not the only victims of the crime.,filler,name,12,NULL,NA
+S[3],trial,The monuments and the mobs,played an important cultural role in New York,theBPand,7,TRUE,FALSE,TRUE
+S[3],filler,Whose coffee,spilled on my new laptop?,filler,wh,37,NULL,NA
+S[3],filler,Jake%2C Lisa%2C and Alex ,were happy to help their grandmother ,filler,name,19,NULL,NA
+S[3],trial,The blissful journeys,on the Orient Express was exclusive to the upper classes,theAdjBP,5,TRUE,TRUE,FALSE
+S[3],filler,The dynamic duo of Lucy and Max ,managed to escape a high security prison ,filler,name,16,NULL,NA
+S[3],filler,Most challenges,are too hard ,filler,quantifier,45,NULL,NA
+S[3],trial,The sofas and the hoses,were on sale last week ,theBPand,15,TRUE,FALSE,TRUE
+S[3],filler,Which path to choose,when you're lost in the countryside ,filler,wh,34,NULL,NA
+S[3],filler,If a portal to the Dune universe would open today%2C,planet earth would lose its nerd population ,filler,if,53,NULL,NA
+S[3],trial,Innocent smiles and costly dinners,are the price to pay when you're dating ,AdjBPand,30,FALSE,TRUE,TRUE
+S[3],filler,Many passionate voices%2C echoing through the room%2C,woke him up from his slumber ,filler,quantifier,47,NULL,NA
+S[3],filler,The movie that mesmerized audiences with its breathtaking visuals,did not even win the Oscar,filler,rc,8,NULL,NA
+S[3],trial,The anxious boys,were standing still in front of the director's office,theAdjBP,21,TRUE,TRUE,FALSE
+S[3],filler,If time and money were no obstacles%2C,I would move to the mountains ,filler,if,51,NULL,NA
+S[3],filler,Whichever path they chose,they lost ,filler,correlative,64,NULL,NA
+S[3],trial,Dainty spoons,were required for the wedding ,AdjBP,12,FALSE,TRUE,FALSE
+S[3],filler,Most vivid dreams%2C which transported them to fantastical realms%2C,were the product of drug consumption ,filler,quantifier,50,NULL,NA
+S[3],filler,The Johnson siblings%2C Ethan and Olivia ,inherited their grandfather's questionable fortune ,filler,name,18,NULL,NA
+S[3],trial,Stubborn mysteries and bashful maids,were the centrepiece of the Agatha Christie novels  ,AdjBPand,6,FALSE,TRUE,TRUE
+S[3],filler,The city that buzzed with vibrant energy day and night,flooded under raising sea levels ,filler,rc,6,NULL,NA
+S[3],filler,In the misty mountain valley,she could see the old haunted cabin ,filler,adjunct,26,NULL,NA
+S[3],trial,The guests,didn't want to leave even though the host started cleaning up,theBP,32,TRUE,FALSE,FALSE
+S[3],filler,Were I to open a bakery shop%2C,I would bake chocolate bread,filler,if,58,NULL,NA
+S[3],filler,The city that never slept,was noisy%2C smelly%2C and impossible to like ,filler,rc,5,NULL,NA
+S[3],trial,Answers,%2C nobody knows them ,BP,25,FALSE,FALSE,FALSE
+S[3],filler,Whatever happened,to Dan%2C I blame his ex wife,filler,correlative,61,NULL,NA
+S[3],filler,Within the serene garden oasis,you could smell a thousand flowers,filler,adjunct,23,NULL,NA
+S[3],trial,The black leggings and the nerdy cardigans,were a uniform in her high school ,theAdjBPand,11,TRUE,TRUE,TRUE
+S[3],filler,Atop the rugged cliffside lookout,they could see the devastation ,filler,adjunct,30,NULL,NA
+S[3],filler,David and Rebecca,got married in Mexico last week,filler,name,14,NULL,NA
+S[3],trial,Busy moms and decorative rugs,were all over her Instagram feed,AdjBPand,22,FALSE,TRUE,TRUE
+S[3],filler,Several blissful moments%2C spent in each other's arms%2C,who could've guess what would come next ,filler,quantifier,48,NULL,NA
+S[3],trial,Sketches,were all over her studio floor ,BP,17,FALSE,FALSE,FALSE
+S[3],filler,The tree that shaded the picnic area,had been spared by the thunderstorm last week,filler,rc,4,NULL,NA
+S[3],filler,Were I to relive yesterday%2C,I would play the correct lottery numbers ,filler,if,60,NULL,NA
+S[3],trial,Sunlit ponds and green umbrellas,are all she could remember ,AdjBPand,14,FALSE,TRUE,TRUE
+S[3],filler,The dog that barked incessantly,was taken by the city after the neighbours complained,filler,rc,3,NULL,NA
+S[3],filler,Who is behind the mask,and controls the supply chain of maple syrup ,filler,wh,35,NULL,NA
+S[3],trial,The inexpensive guns and the active babies,were the cause of the high childhood mortality rate ,theAdjBPand,27,TRUE,TRUE,TRUE
+S[3],filler,The computer that crashed in a spectacular display of sparks,was very old ,filler,rc,7,NULL,NA
+S[3],filler,At the bustling market square,a father was frantically looking for his son ,filler,adjunct,27,NULL,NA
+S[3],trial,The tulips,are a symbol of our friendship ,theBP,8,TRUE,FALSE,FALSE
+S[3],filler,When the clock strikes,it's game over for him,filler,wh,33,NULL,NA
+S[3],filler,Whoever was responsible,for the information leaking needs to be fired,filler,correlative,63,NULL,NA
+S[3],trial,The heroic daughters,of the baker saved the city from the flames,theAdjBP,29,TRUE,TRUE,FALSE
+S[3],filler,The book that kept me up all night,was written by an ex soldier ,filler,rc,2,NULL,NA
+S[3],filler,Few opportunities,are available for graduate students ,filler,quantifier,43,NULL,NA
+S[3],trial,Sisters,are always very close ,BP,9,FALSE,FALSE,FALSE
+S[3],filler,The Jones twins%2C Emma and Ethan,travelled all around the world together ,filler,name,20,NULL,NA
+S[3],filler,Amidst the vibrant city lights,she could barely see him,filler,adjunct,22,NULL,NA
+S[3],trial,The kings,were all beheaded after the revolution that swept the continent ,theBP,16,TRUE,FALSE,FALSE
+S[3],filler,The Smith family,was once again struck by tragedy ,filler,name,13,NULL,NA
+S[3],filler,Who holds the key,to power must be dealt with ,filler,wh,31,NULL,NA
+S[3],trial,Hungry bears,often kill naive hikers ,AdjBP,20,FALSE,TRUE,FALSE
+S[3],filler,Why the stars shine,at night but not during the day%2C mom? ,filler,wh,32,NULL,NA
+S[3],filler,Sarah and John%2C,they were not meant for each other ,filler,name,11,NULL,NA
+S[3],trial,Scissors,are the leading cause of accidents in primary schools,BP,1,FALSE,FALSE,FALSE
+S[3],filler,Professor Thompson and his brilliant student%2C Alice,published a paper they later retracted ,filler,name,17,NULL,NA
+S[3],trial,Fiendish mosquitos,caused the panda pandemic in Japan ,AdjBP,28,FALSE,TRUE,FALSE
+S[3],filler,If the world was ruled by cats%2C,the world would be a litter box,filler,if,55,NULL,NA
+S[3],filler,The flower that bloomed like a radiant burst of sunshine,was poisonous,filler,rc,10,NULL,NA
+S[3],trial,The newspapers,failed to take digital media seriously ,theBP,24,TRUE,FALSE,FALSE
+S[3],filler,Few precious chances%2C which had eluded them for so long%2C,were now apparent to them ,filler,quantifier,49,NULL,NA
+S[3],filler,How can we mend,the strained relationship between workers and corporate?,filler,wh,39,NULL,NA
+S[3],trial,Funerals and tables,require wood,BPand,2,FALSE,FALSE,TRUE
+S[3],filler,Underneath the trees,weird mushrooms appeared in the space of a week,filler,adjunct,29,NULL,NA
+S[4],filler,Underneath the trees,The small dwarves live in secret.,filler,adjunct,29,NULL,NA
+S[4],trial,Hoses,Are found everywhere around the house to water the plants.,BP,15,FALSE,FALSE,FALSE
+S[4],filler,On the golden sandy beach,The horses ran and it seemed like a distant dream for he never saw anything like this before in his life.,filler,adjunct,21,NULL,NA
+S[4],filler,The dog that barked incessantly,Suddenly stopped and jumped two meters high to say hello to his favorite person in the whole world.,filler,rc,3,NULL,NA
+S[4],filler,Whom,Do I tell that I have a problem with my drink?,filler,wh,36,NULL,NA
+S[4],filler,Few precious chances%2C which had eluded them for so long%2C,Never came back and it was a complete tragedy.,filler,quantifier,49,NULL,NA
+S[4],trial,The decorative rugs,Are ugly and hopefully will never be back in fashion.,theAdjBP,22,TRUE,TRUE,FALSE
+S[4],filler,Jake%2C Lisa%2C and Alex ,Went out for a drink and somehow returned home three days later ,filler,name,19,NULL,NA
+S[4],filler,If the world was ruled by cats%2C,Humans would serve them food and empty their litter boxes - oh wait%2C they already do!,filler,if,55,NULL,NA
+S[4],trial,Blind artists,Have incredible sensitivity,AdjBP,19,FALSE,TRUE,FALSE
+S[4],filler,Were I to open a bakery shop%2C,I would dedicate a lot of energy in finding the best ingredients for my pastry,filler,if,58,NULL,NA
+S[4],filler,Were I to relive yesterday%2C,I would enjoy it exactly as I did,filler,if,60,NULL,NA
+S[4],trial,The headaches,Really aren't helpful at times like these but sadly you cannot control them,theBP,10,TRUE,FALSE,FALSE
+S[4],filler,The computer that crashed in a spectacular display of sparks,Is now at a display in the state museum%2C showing the end of an era of computers that will be no more.,filler,rc,7,NULL,NA
+S[4],filler,Along the road,There stood and old tree%2C throwing thick and coolingshade in the scorching sun.,filler,adjunct,25,NULL,NA
+S[4],filler,All stars,We're covered with a thick later of clouds ,filler,quantifier,41,NULL,NA
+S[4],filler,Most vivid dreams%2C which transported them to fantastical realms%2C,Came from psychedelic substances that weren't very legal.,filler,quantifier,50,NULL,NA
+S[4],trial,The towns and the mosquitos,Are like a pair of really good friends.,theBPand,28,TRUE,FALSE,TRUE
+S[4],filler,Who holds the key,That will open the sacred treasure chest,filler,wh,31,NULL,NA
+S[4],filler,If I could travel back in time%2C it would be the time when,I had no obligations and could have fun the entire time ,filler,if,56,NULL,NA
+S[4],filler,If artists from different eras collaborated with Billie Eilish%2C,Her music would be better,filler,if,54,NULL,NA
+S[4],filler,Within the tranquil coastal village,There lived a group of wild boars that the villagers never saw,filler,adjunct,28,NULL,NA
+S[4],trial,The bashful maids,Turned green of envy and threw spells on the newcomers,theAdjBP,6,TRUE,TRUE,FALSE
+S[4],filler,Few opportunities,Arise when you do not combat your fears and step into the unknown,filler,quantifier,43,NULL,NA
+S[4],filler,Whichever path they chose,Clearly depended on him and he just couldn't make up his mind so they all stood there for a long while,filler,correlative,64,NULL,NA
+S[4],filler,During a starry summer night,A boat was alone in the bay and someone on it played a violin and it seemed like magic,filler,adjunct,24,NULL,NA
+S[4],filler,If sentient robots roamed the Earth%2C,Humans would need better AI laws or else there would be war,filler,if,52,NULL,NA
+S[4],trial,Enchanted sisters and reluctant brides,Are roaming among these lands and you never know who you meet,AdjBPand,9,FALSE,TRUE,TRUE
+S[4],filler,Were I to be the mayor of College Park%2C,I would increase public transport,filler,if,57,NULL,NA
+S[4],filler,Some dreams,Are a reflection of our psychology and some are a product of our most vivid imagination,filler,quantifier,42,NULL,NA
+S[4],trial,Flowers,Are growing in the secret garden that only a few people know,BP,31,FALSE,FALSE,FALSE
+S[4],filler,In the misty mountain valley,Zebras quietly grazed on the grass ,filler,adjunct,26,NULL,NA
+S[4],filler,All eager eyes%2C filled with anticipation%2C,Could not be more deceived as the outcome was not what they desired,filler,quantifier,46,NULL,NA
+S[4],trial,Solid doors,Are installed on every house in this town,AdjBP,3,FALSE,TRUE,FALSE
+S[4],filler,Whose coffee,Is the one standing on the window sill for the last three hours,filler,wh,37,NULL,NA
+S[4],trial,The sunlit ponds,Were home to many lotus flowers%2C opening towards the sky,theAdjBP,14,TRUE,TRUE,FALSE
+S[4],filler,Which path to choose,In life is not an easy decision at any stage of one's life,filler,wh,34,NULL,NA
+S[4],filler,What to do after,The dinner is over was a point of argument among them every day,filler,wh,38,NULL,NA
+S[4],trial,Inexpensive guns,Should absolutely be banned,AdjBP,27,FALSE,TRUE,FALSE
+S[4],filler,The flower that bloomed like a radiant burst of sunshine,Suddenly fell and she cought it before it touched the ground,filler,rc,10,NULL,NA
+S[4],filler,Amidst the vibrant city lights,There was a dark alley that not many people dared to enter,filler,adjunct,22,NULL,NA
+S[4],trial,Rectangles and daughters,Are two words that our child can pronounce remarkably well,BPand,29,FALSE,FALSE,TRUE
+S[4],filler,Wherever the party was,He would find himself there unexpectedly,filler,correlative,62,NULL,NA
+S[4],filler,The Jones twins%2C Emma and Ethan,Were the best friends in the whole wide world and they did everything together,filler,name,20,NULL,NA
+S[4],filler,The book that kept me up all night,Is so intense I made my girlfriend read it and she couldn't sleep either,filler,rc,2,NULL,NA
+S[4],filler,The dynamic duo of Lucy and Max ,Made everyone cry at the concert ,filler,name,16,NULL,NA
+S[4],trial,Original sketches and metallic pans,Were the only thing found in this abandoned factory,AdjBPand,17,FALSE,TRUE,TRUE
+S[4],filler,The restaurant that delighted taste buds with tantalizing flavors,Closed without notice and no one knew why,filler,rc,9,NULL,NA
+S[4],filler,Many passionate voices%2C echoing through the room%2C,Were trying to do good in the world%2C but alas%2C the conflict that resulted was not what they hoped for,filler,quantifier,47,NULL,NA
+S[4],trial,The ghosts,Aren't real%2C she claimed%2C but she still didn't want to sleep with her lights off,theBP,18,TRUE,FALSE,FALSE
+S[4],filler,Why the stars shine,So brightly on this island?,filler,wh,32,NULL,NA
+S[4],filler,When the clock strikes,Midnight the entire universe will collapse,filler,wh,33,NULL,NA
+S[4],trial,Untrue answers and outlandish diamonds,Were what made this lying family rich in diamond business ,AdjBPand,25,FALSE,TRUE,TRUE
+S[4],filler,If a portal to the Dune universe would open today%2C,I would enter right away without thinking,filler,if,53,NULL,NA
+S[4],filler,The tree that shaded the picnic area,Bore purple fruits in the fall and no one knew if they were edible,filler,rc,4,NULL,NA
+S[4],trial,The gluttonous kings and the friendly games,Made this kingdom a place for unforgettable parties that people attended from distant lands,theAdjBPand,16,TRUE,TRUE,TRUE
+S[4],filler,Within the serene garden oasis,A small bush grew that was home to an insect that no one knew prior,filler,adjunct,23,NULL,NA
+S[4],filler,Who is behind the mask,Is a question I will not answer even if you torture me,filler,wh,35,NULL,NA
+S[4],trial,Monuments,Are scattered around the city and you can spend days visiting them,BP,7,FALSE,FALSE,FALSE
+S[4],filler,Emily%2C Michael%2C and Samantha,Hated each other so much they made the whole school divide into three groups,filler,name,12,NULL,NA
+S[4],filler,Mr. Johnson and his loyal assistant%2C Ms. Rodriguez,Arrived to the desert among the first to start digging on this archeological site,filler,name,15,NULL,NA
+S[4],filler,Many voices,Were heard in this dark cave but somehow no people were to be found,filler,quantifier,44,NULL,NA
+S[4],filler,Professor Thompson and his brilliant student%2C Alice,Fell in love and got secretly married,filler,name,17,NULL,NA
+S[4],trial,The bridal gifts and the generous guests,Were the two things she remembered most from her wedding,theAdjBPand,32,TRUE,TRUE,TRUE
+S[4],filler,The movie that mesmerized audiences with its breathtaking visuals,Earned so many awards that the news only reported on that,filler,rc,8,NULL,NA
+S[4],filler,The city that never slept,In the past was now almost like a ghost town,filler,rc,5,NULL,NA
+S[4],trial,The entrances,To the festival are closed to those who don't have a ticket,theBP,26,TRUE,FALSE,FALSE
+S[4],filler,The car that raced through the streets,Disappeared from the city until it was found destroyed in a river nearby,filler,rc,1,NULL,NA
+S[4],trial,The spoons and the strategies,Are two words that start with the same sound s,theBPand,12,TRUE,FALSE,TRUE
+S[4],filler,The Smith family,Stays right next to us in a hotel across the street,filler,name,13,NULL,NA
+S[4],trial,The bears and the deputies,Of the bears agreed they would hold this operation secret,theBPand,20,TRUE,FALSE,TRUE
+S[4],filler,David and Rebecca,Loved each other and yet they argued incessantly,filler,name,14,NULL,NA
+S[4],filler,Whatever happened,To my childhood friend that I spent so many days playing with,filler,correlative,61,NULL,NA
+S[4],trial,The costly dinners,Will never end with this situation,theAdjBP,30,TRUE,TRUE,FALSE
+S[4],filler,Were I to save someone from the past%2C,I would save a person who was the kindest to the society,filler,if,59,NULL,NA
+S[4],filler,How can we mend,This machine without any tools or knowledge,filler,wh,39,NULL,NA
+S[4],trial,Black leggings,Should be allowed to wear by black ballerinas,AdjBP,11,FALSE,TRUE,FALSE
+S[4],filler,What if you dare,To do it instead of hiding yourself behind your wall,filler,wh,40,NULL,NA
+S[4],filler,If time and money were no obstacles%2C,I would go to Antarctica to see the penguins,filler,if,51,NULL,NA
+S[4],trial,Pizzas,Are all gone now only the hot dogs remain,BP,23,FALSE,FALSE,FALSE
+S[4],filler,Sarah and John%2C,Friends from childhood%2C didn't see each other for years after John got married,filler,name,11,NULL,NA
+S[4],filler,The Johnson siblings%2C Ethan and Olivia ,All got a flu from their trip and had to rest for days to recover,filler,name,18,NULL,NA
+S[4],trial,Mirrors and journeys,Is the title of my new book on traveling the world,BPand,5,FALSE,FALSE,TRUE
+S[4],filler,Whoever was responsible,Today has to come forth,filler,correlative,63,NULL,NA
+S[4],filler,Atop the rugged cliffside lookout,Stood an abandonedlighthouse ,filler,adjunct,30,NULL,NA
+S[4],filler,Most challenges,Can be resolved when you try hard,filler,quantifier,45,NULL,NA
+S[5],filler,If time and money were no obstacles%2C,most people would dedicate a lot of their time to creative pursuits,filler,if,51,NULL,NA
+S[5],filler,Sarah and John%2C,two of my closest friends%2C met in their first year of college,filler,name,11,NULL,NA
+S[5],trial,The fiendish mosquitos,would not stop buzzing around my face and biting me,theAdjBP,28,TRUE,TRUE,FALSE
+S[5],filler,If a portal to the Dune universe would open today%2C,I would be careful to avoid the gigantic sand worms,filler,if,53,NULL,NA
+S[5],filler,If artists from different eras collaborated with Billie Eilish%2C,they might be surprised that she has achieved such mainstream success,filler,if,54,NULL,NA
+S[5],trial,Black leggings and nerdy cardigans,are an easy go-to look for cold winter days,AdjBPand,11,FALSE,TRUE,TRUE
+S[5],filler,The book that kept me up all night,was about a magical school where students had to memorize endless%2C senseless exercises that began to slowly change how their brains work,filler,rc,2,NULL,NA
+S[5],filler,The city that buzzed with vibrant energy day and night,was actually a very difficult place to live given all the noise,filler,rc,6,NULL,NA
+S[5],trial,The colors and the ghosts,were constantly shifting to create strange tricks of the light,theBPand,18,TRUE,FALSE,TRUE
+S[5],filler,Whatever happened,to me yesterday was strange and made me wonder if something is very wrong with me,filler,correlative,61,NULL,NA
+S[5],filler,Several blissful moments%2C spent in each other's arms%2C,were enough%2C even though we knew we would likely never see each other again,filler,quantifier,48,NULL,NA
+S[5],trial,The innocent smiles and the costly dinners,were not enough to make up for their fundamental incompatibilities,theAdjBPand,30,TRUE,TRUE,TRUE
+S[5],filler,The restaurant that delighted taste buds with tantalizing flavors,soon achieved great renown despite its odd location,filler,rc,9,NULL,NA
+S[5],filler,Who is behind the mask,that you wear in public?,filler,wh,35,NULL,NA
+S[5],trial,Newspapers,used to be a household staple but are becoming rarer and rarer as most news is distributed online,BP,24,FALSE,FALSE,FALSE
+S[5],filler,Whose coffee,was left in the kitchen yesterday afternoon?,filler,wh,37,NULL,NA
+S[5],filler,Few opportunities,like this present themselves to someone who is not even searching them out,filler,quantifier,43,NULL,NA
+S[5],trial,Tulips,always remind me of the Netherlands,BP,8,FALSE,FALSE,FALSE
+S[5],filler,If the world was ruled by cats%2C,humans would have to cater to their every whim even more than we already do,filler,if,55,NULL,NA
+S[5],filler,Which path to choose,is not very clear to me so I will need to ask for advice,filler,wh,34,NULL,NA
+S[5],trial,The stubborn mysteries and the bashful maids,created an atmosphere of confusion and elegance,theAdjBPand,6,TRUE,TRUE,TRUE
+S[5],filler,The Smith family,was known to be reclusive and secretive,filler,name,13,NULL,NA
+S[5],filler,What to do after,high school is often a terrifying question for young students,filler,wh,38,NULL,NA
+S[5],trial,The entrances and the airports,blended together to create a confusing maze that Ana could not seem to escape from,theBPand,26,TRUE,FALSE,TRUE
+S[5],filler,Many voices,echoed down the hallways%2C but I could not see anyone there,filler,quantifier,44,NULL,NA
+S[5],filler,When the clock strikes,midnight%2C you must make sure to be home asleep,filler,wh,33,NULL,NA
+S[5],trial,Blissful journeys,into the countryside provide an escape from the stress of city life,AdjBP,5,FALSE,TRUE,FALSE
+S[5],filler,Mr. Johnson and his loyal assistant%2C Ms. Rodriguez,were sent to the company headquarters to investigate what had gone wrong,filler,name,15,NULL,NA
+S[5],filler,Few precious chances%2C which had eluded them for so long%2C,could be found even when they dedicated themselves to seeking them out,filler,quantifier,49,NULL,NA
+S[5],trial,The headaches and the rulers,continued to pound in her ears until she could take it no longer and left,theBPand,10,TRUE,FALSE,TRUE
+S[5],filler,The car that raced through the streets,was on its way to a government building for a top-secret meeting,filler,rc,1,NULL,NA
+S[5],filler,Why the stars shine,so brightly on the solstice has never been scientifically explained,filler,wh,32,NULL,NA
+S[5],trial,Squares and flowers,were strewn about the canvas%2C creating colorful abstract shapes ,BPand,31,FALSE,FALSE,TRUE
+S[5],filler,Amidst the vibrant city lights,Isabel felt shabby and out of place,filler,adjunct,22,NULL,NA
+S[5],filler,The Johnson siblings%2C Ethan and Olivia ,were close growing up but had since drifted apart,filler,name,18,NULL,NA
+S[5],trial,The dainty spoons,were clearly meant for someone with smaller fingers than she had,theAdjBP,12,TRUE,TRUE,FALSE
+S[5],filler,The tree that shaded the picnic area,was a hundred-year-old oak that was legally protected from being chopped down,filler,rc,4,NULL,NA
+S[5],filler,Whichever path they chose,they knew they had to tread carefully,filler,correlative,64,NULL,NA
+S[5],trial,Guests,are exciting but can also be a nuisance if they have very different habits from you,BP,32,FALSE,FALSE,FALSE
+S[5],filler,Who holds the key,to the door at the end of the hallway?,filler,wh,31,NULL,NA
+S[5],filler,How can we mend,what seems to have been irreparably broken?,filler,wh,39,NULL,NA
+S[5],trial,Unlucky astronauts,might find themselves in a situation that they did not prepare for during their training on Earth,AdjBP,13,FALSE,TRUE,FALSE
+S[5],filler,The flower that bloomed like a radiant burst of sunshine,caught my attention and brightened my entire day,filler,rc,10,NULL,NA
+S[5],filler,The city that never slept,was constantly bustling with noise and light,filler,rc,5,NULL,NA
+S[5],trial,Kings,are an old-fashioned tradition%2C but one that refuses to die,BP,16,FALSE,FALSE,FALSE
+S[5],trial,The sunlit ponds and the green umbrellas,provided a beautiful backdrop to the afternoon walk,theAdjBPand,14,TRUE,TRUE,TRUE
+S[5],filler,In the misty mountain valley,strange sounds seemed to carry through the fog,filler,adjunct,26,NULL,NA
+S[5],filler,Within the tranquil coastal village,Ellie felt completely separated from her day-to-day life,filler,adjunct,28,NULL,NA
+S[5],trial,Anxious boys,may be reacting to the pressures that are placed on them from a young age to succeed and fill a particular social role,AdjBP,21,FALSE,TRUE,FALSE
+S[5],filler,Jake%2C Lisa%2C and Alex ,met up at the movie theater to watch the latest new sci-fi film,filler,name,19,NULL,NA
+S[5],filler,Were I to open a bakery shop%2C,I would only bake desserts inspired by French recipes,filler,if,58,NULL,NA
+S[5],trial,Inexpensive guns and active babies,led to a disturbingly high rate of accidents that year,AdjBPand,27,FALSE,TRUE,TRUE
+S[5],filler,Most vivid dreams%2C which transported them to fantastical realms%2C,were pleasant escapes from reality%2C but some continued to haunt them for months afterward,filler,quantifier,50,NULL,NA
+S[5],filler,Underneath the trees,I spread out a picnic blanket and promptly fell asleep for the rest of the afternoon,filler,adjunct,29,NULL,NA
+S[5],trial,Monuments and mobs,are two things Paris has an abundance of,BPand,7,FALSE,FALSE,TRUE
+S[5],filler,At the bustling market square,I flitted from stall to stall%2C unable to decide what I wanted to buy,filler,adjunct,27,NULL,NA
+S[5],filler,The dog that barked incessantly,was eventually let into the backyard%2C where it continued barking all night,filler,rc,3,NULL,NA
+S[5],trial,The sketches,were rough but bore a clear resemblance to the princess,theBP,17,TRUE,FALSE,FALSE
+S[5],filler,The dynamic duo of Lucy and Max ,took on high school together and remained inseparable throughout college,filler,name,16,NULL,NA
+S[5],filler,The Jones twins%2C Emma and Ethan,considered themselves amateur detectives and tried to solve little mysteries that popped up in their neighborhood,filler,name,20,NULL,NA
+S[5],trial,The sisters,had grown apart since one moved continents and the other acquired a serious boyfriend,theBP,9,TRUE,FALSE,FALSE
+S[5],filler,Emily%2C Michael%2C and Samantha,had a group chat where they sent exclusively memes,filler,name,12,NULL,NA
+S[5],filler,What if you dare,to question your version of reality?,filler,wh,40,NULL,NA
+S[5],trial,The scissors,should not have been left lying around the classroom unguarded,theBP,1,TRUE,FALSE,FALSE
+S[5],filler,Whoever was responsible,for the mistake in the paper will certainly face consequences,filler,correlative,63,NULL,NA
+S[5],filler,Many passionate voices%2C echoing through the room%2C,continued to disagree about the tax plan throughout the rest of the evening,filler,quantifier,47,NULL,NA
+S[5],trial,The answers,were not obvious even to a seasoned crossword solver,theBP,25,TRUE,FALSE,FALSE
+S[5],filler,Along the road,she came across many small cafes and inviting-looking diners,filler,adjunct,25,NULL,NA
+S[5],filler,If sentient robots roamed the Earth%2C,we would have to learn new ways of interacting with them,filler,if,52,NULL,NA
+S[5],trial,Heroic daughters,saved the kingdom during the second war against the goblins,AdjBP,29,FALSE,TRUE,FALSE
+S[5],filler,Were I to be the mayor of College Park%2C,I would make sure all students had access to free parking,filler,if,57,NULL,NA
+S[5],filler,If I could travel back in time%2C it would be the time when,the impressionists were just starting to formulate their ideas,filler,if,56,NULL,NA
+S[5],trial,The broad rivers,flowed lazily through the countryside landscape,theAdjBP,4,TRUE,TRUE,FALSE
+S[5],filler,All eager eyes%2C filled with anticipation%2C,were focused on Jenna as she sat down at the grand piano,filler,quantifier,46,NULL,NA
+S[5],filler,Professor Thompson and his brilliant student%2C Alice,published many papers together even after she had graduated,filler,name,17,NULL,NA
+S[5],trial,Sofas and hoses,were stacked in haphazard piles in the backyard,BPand,15,FALSE,FALSE,TRUE
+S[5],filler,During a starry summer night,I brought a sleeping bag to a field and lay there staring up at the sky,filler,adjunct,24,NULL,NA
+S[5],filler,David and Rebecca,played video games together every night,filler,name,14,NULL,NA
+S[5],trial,The busy moms and the decorative rugs,created quite the scene during the annual fundraising sale,theAdjBPand,22,TRUE,TRUE,TRUE
+S[5],filler,Within the serene garden oasis,Jessica finally felt free to relax,filler,adjunct,23,NULL,NA
+S[5],filler,Whom,I speak to is none of your business,filler,wh,36,NULL,NA
+S[5],trial,The hungry bears,sniffed out the campers' food and ate all of it while they were away,theAdjBP,20,TRUE,TRUE,FALSE
+S[5],filler,The computer that crashed in a spectacular display of sparks,made a surprisingly good recovery and was sold to the next-door neighbors,filler,rc,7,NULL,NA
+S[5],filler,Atop the rugged cliffside lookout,we stared out at the sea and didn't talk,filler,adjunct,30,NULL,NA
+S[5],filler,Were I to save someone from the past%2C,I would need to make sure it didn't change the future by accident,filler,if,59,NULL,NA
+S[5],filler,On the golden sandy beach,I could feel the sun roasting me alive,filler,adjunct,21,NULL,NA
+S[5],trial,Blind artists and spicy pickles,are a deadly combination,AdjBPand,19,FALSE,TRUE,TRUE
+S[5],filler,Wherever the party was,that night%2C I was glad I didn't end up going,filler,correlative,62,NULL,NA
+S[5],filler,Most challenges,are surmountable if you rely on the people around you to help,filler,quantifier,45,NULL,NA
+S[5],trial,Dilemmas and pizzas,were not a fun way to end my Friday evening,BPand,23,FALSE,FALSE,TRUE
+S[5],filler,Were I to relive yesterday%2C,I would have gone on a walk with my sister and her boyfriend,filler,if,60,NULL,NA
+S[5],filler,Some dreams,are not worth striving for,filler,quantifier,42,NULL,NA
+S[5],trial,Solid doors and huge debts,prevented Kelsie from reaching her goal,AdjBPand,3,FALSE,TRUE,TRUE
+S[6],filler,The computer that crashed in a spectacular display of sparks,Belonged to a guy I know from grad school,filler,rc,7,NULL,NA
+S[6],trial,Mysteries and maids,Is the title of a book I'm working on,BPand,6,FALSE,FALSE,TRUE
+S[6],filler,The restaurant that delighted taste buds with tantalizing flavors,Is situated on Baltimore avenue,filler,rc,9,NULL,NA
+S[6],filler,Amidst the vibrant city lights,I can see the Washington monument,filler,adjunct,22,NULL,NA
+S[6],trial,The hasty funerals and the cozy tables,Sleep furiously,theAdjBPand,2,TRUE,TRUE,TRUE
+S[6],filler,Whichever path they chose,Led to a garden,filler,correlative,64,NULL,NA
+S[6],filler,Within the tranquil coastal village,Lived a lovely maid,filler,adjunct,28,NULL,NA
+S[6],trial,The astronauts,Gazed down at the earth,theBP,13,TRUE,FALSE,FALSE
+S[6],filler,If a portal to the Dune universe would open today%2C,I wouldn't enter it,filler,if,53,NULL,NA
+S[6],filler,During a starry summer night,Van Gogh did some painting,filler,adjunct,24,NULL,NA
+S[6],trial,The formal entrances and the chaotic airports,Populate my mind,theAdjBPand,26,TRUE,TRUE,TRUE
+S[6],filler,If sentient robots roamed the Earth%2C,We would have more fun,filler,if,52,NULL,NA
+S[6],filler,How can we mend,A broken heart?,filler,wh,39,NULL,NA
+S[6],trial,The enchanted sisters,Lived in the forest,theAdjBP,9,TRUE,TRUE,FALSE
+S[6],filler,What to do after,We leave a warm shower?,filler,wh,38,NULL,NA
+S[6],filler,The movie that mesmerized audiences with its breathtaking visuals,Was apparently Dune,filler,rc,8,NULL,NA
+S[6],trial,Spoons,Are not forks,BP,12,FALSE,FALSE,FALSE
+S[6],filler,David and Rebecca,Are two friends of mine,filler,name,14,NULL,NA
+S[6],filler,What if you dare,Take more risks,filler,wh,40,NULL,NA
+S[6],trial,The familiar headaches and the wooden rulers,Evoke memories from my childhood,theAdjBPand,10,TRUE,TRUE,TRUE
+S[6],filler,Few opportunities,Are as enticing as this,filler,quantifier,43,NULL,NA
+S[6],filler,Several blissful moments%2C spent in each other's arms%2C,Made life worth living,filler,quantifier,48,NULL,NA
+S[6],trial,The original sketches,Were auctioned for millions of dollars,theAdjBP,17,TRUE,TRUE,FALSE
+S[6],filler,The flower that bloomed like a radiant burst of sunshine,Withered in a few hours,filler,rc,10,NULL,NA
+S[6],filler,Most vivid dreams%2C which transported them to fantastical realms%2C,Made them wake up covered in sweat,filler,quantifier,50,NULL,NA
+S[6],trial,Bears,Sometimes do cocaine,BP,20,FALSE,FALSE,FALSE
+S[6],filler,Many voices,Exist inside her mind,filler,quantifier,44,NULL,NA
+S[6],filler,In the misty mountain valley,A boy was born who would become king,filler,adjunct,26,NULL,NA
+S[6],trial,Ceramic squares and gorgeous flowers,Are everything I can remember from my childhood home,AdjBPand,31,FALSE,TRUE,TRUE
+S[6],filler,Professor Thompson and his brilliant student%2C Alice,Were experts at p hacking,filler,name,17,NULL,NA
+S[6],filler,If artists from different eras collaborated with Billie Eilish%2C,They would write weird songs,filler,if,54,NULL,NA
+S[6],trial,Pricey sofas and drippy hoses,Were sold at the store,AdjBPand,15,FALSE,TRUE,TRUE
+S[6],filler,Wherever the party was,Mary had fun,filler,correlative,62,NULL,NA
+S[6],filler,Emily%2C Michael%2C and Samantha,Are best friends,filler,name,12,NULL,NA
+S[6],trial,The blunt scissors,Destroyed her hair,theAdjBP,1,TRUE,TRUE,FALSE
+S[6],filler,The book that kept me up all night,Was Never let me go,filler,rc,2,NULL,NA
+S[6],filler,Some dreams,Are more vivid than others,filler,quantifier,42,NULL,NA
+S[6],trial,Generous guests,Left donations at the gallery,AdjBP,32,FALSE,TRUE,FALSE
+S[6],filler,Who is behind the mask,That that manwears?,filler,wh,35,NULL,NA
+S[6],filler,When the clock strikes,Midnight%2C her chariot will become a pumpkin,filler,wh,33,NULL,NA
+S[6],trial,Smiles and dinners,Were seeneverywhere last night,BPand,30,FALSE,FALSE,TRUE
+S[6],filler,The Jones twins%2C Emma and Ethan,Could not be more different,filler,name,20,NULL,NA
+S[6],filler,Which path to choose,When you finish grad school?,filler,wh,34,NULL,NA
+S[6],trial,Gluttonous kings,Watched their kingdoms go hungry,AdjBP,16,FALSE,TRUE,FALSE
+S[6],filler,The dog that barked incessantly,Finally shut up at three am,filler,rc,3,NULL,NA
+S[6],filler,Were I to open a bakery shop%2C,I would make more money than if I become a professor,filler,if,58,NULL,NA
+S[6],trial,The artists and the pickles,Were equally smelly,theBPand,19,TRUE,FALSE,TRUE
+S[6],filler,At the bustling market square,A lonely man was busking ,filler,adjunct,27,NULL,NA
+S[6],trial,Pink tulips,Are easy to paint,AdjBP,8,FALSE,TRUE,FALSE
+S[6],filler,The tree that shaded the picnic area,Had been growing for a hundred years,filler,rc,4,NULL,NA
+S[6],filler,Sarah and John%2C,Two of my best friends%2C just got married,filler,name,11,NULL,NA
+S[6],trial,The lovely colors and the evil ghosts,Were the two most interesting features of Luigi's mansion,theAdjBPand,18,TRUE,TRUE,TRUE
+S[6],filler,Mr. Johnson and his loyal assistant%2C Ms. Rodriguez,Confessed their love for one another,filler,name,15,NULL,NA
+S[6],filler,Most challenges,Can be overcome with patient,filler,quantifier,45,NULL,NA
+S[6],trial,Mosquitos,Are extremely annoying at this time of the year,BP,28,FALSE,FALSE,FALSE
+S[6],filler,If time and money were no obstacles%2C,I would get another PhD,filler,if,51,NULL,NA
+S[6],filler,The city that never slept,Finally took a nap,filler,rc,5,NULL,NA
+S[6],trial,The untrue answers,Were all over the letter,theAdjBP,25,TRUE,TRUE,FALSE
+S[6],filler,Within the serene garden oasis,Lied a witch,filler,adjunct,23,NULL,NA
+S[6],filler,Along the road,Mary found bread crumbs,filler,adjunct,25,NULL,NA
+S[6],trial,Pale monuments and disheveled mobs,Were seen in the streets of new York,AdjBPand,7,FALSE,TRUE,TRUE
+S[6],filler,On the golden sandy beach,Mary feel asleep,filler,adjunct,21,NULL,NA
+S[6],filler,Whose coffee,Is the one on the sink,filler,wh,37,NULL,NA
+S[6],trial,The guns and the babies,Were left behind after the bank robbery,theBPand,27,TRUE,FALSE,TRUE
+S[6],filler,The Johnson siblings%2C Ethan and Olivia ,Are identical twins,filler,name,18,NULL,NA
+S[6],filler,Whom,I don't know how to complete this one...,filler,wh,36,NULL,NA
+S[6],trial,The boys,Listened to jazz all night long,theBP,21,TRUE,FALSE,FALSE
+S[6],filler,Underneath the trees,Mary found a skeleton,filler,adjunct,29,NULL,NA
+S[6],filler,The city that buzzed with vibrant energy day and night,Made everyone exhausted,filler,rc,6,NULL,NA
+S[6],trial,The journeys,Led nowhere,theBP,5,TRUE,FALSE,FALSE
+S[6],filler,Why the stars shine,So bright at this time of the night?,filler,wh,32,NULL,NA
+S[6],filler,Jake%2C Lisa%2C and Alex ,Were meeting at the bar,filler,name,19,NULL,NA
+S[6],trial,National dilemmas and homemade pizzas,Are the best in DC,AdjBPand,23,FALSE,TRUE,TRUE
+S[6],filler,Were I to be the mayor of College Park%2C,I would finish the metro station sooner,filler,if,57,NULL,NA
+S[6],filler,The car that raced through the streets,Crashed onto a building,filler,rc,1,NULL,NA
+S[6],trial,Ponds and umbrellas,Are covered in water,BPand,14,FALSE,FALSE,TRUE
+S[6],filler,Who holds the key,To success in this field?,filler,wh,31,NULL,NA
+S[6],filler,Were I to save someone from the past%2C,I would save Richard Montague,filler,if,59,NULL,NA
+S[6],trial,The daughters,Cried as they buried their father,theBP,29,TRUE,FALSE,FALSE
+S[6],filler,Whoever was responsible,For the car crash should be punished,filler,correlative,63,NULL,NA
+S[6],filler,The Smith family,Is a hot mess,filler,name,13,NULL,NA
+S[6],trial,The leggings and the cardigans,Were pricy but the trench coat was cheap,theBPand,11,TRUE,FALSE,TRUE
+S[6],filler,If I could travel back in time%2C it would be the time when,My parents met,filler,if,56,NULL,NA
+S[6],filler,The dynamic duo of Lucy and Max ,Had been dating for almost five years,filler,name,16,NULL,NA
+S[6],trial,Moms and rugs,Are both covered in dust,BPand,22,FALSE,FALSE,TRUE
+S[6],filler,If the world was ruled by cats%2C,We would have much better lives,filler,if,55,NULL,NA
+S[6],filler,All eager eyes%2C filled with anticipation%2C,Watched as Brazil won the world cup,filler,quantifier,46,NULL,NA
+S[6],trial,The doors and the debts,Were both open,theBPand,3,TRUE,FALSE,TRUE
+S[6],filler,Few precious chances%2C which had eluded them for so long%2C,Were finally made available,filler,quantifier,49,NULL,NA
+S[6],trial,Rivers,Ran through the city,BP,4,FALSE,FALSE,FALSE
+S[6],filler,All stars,Are very fun to wear,filler,quantifier,41,NULL,NA
+S[6],filler,Whatever happened,To the girl who fell from the window?,filler,correlative,61,NULL,NA
+S[6],trial,Panicky newspapers,Published that the president had died,AdjBP,24,FALSE,TRUE,FALSE
+S[6],filler,Were I to relive yesterday%2C,I would be eager to have the same breakfast again,filler,if,60,NULL,NA
+S[7],filler,Who holds the key,to the safe.,filler,wh,31,NULL,NA
+S[7],trial,The solid doors and the huge debts,are features of this bank,theAdjBPand,3,TRUE,TRUE,TRUE
+S[7],filler,What to do after,a breakup,filler,wh,38,NULL,NA
+S[7],filler,What to do after,a breakup,filler,wh,38,NULL,NA
+S[7],filler,What to do after,a breakup.,filler,wh,38,NULL,NA
+S[7],filler,The movie that mesmerized audiences with its breathtaking visuals,and engaging plotline.,filler,rc,8,NULL,NA
+S[7],trial,The heroic daughters,saved their brother from the shark.,theAdjBP,29,TRUE,TRUE,FALSE
+S[7],filler,Atop the rugged cliffside lookout,was a steep fall where many people have died.,filler,adjunct,30,NULL,NA
+S[7],filler,Jake%2C Lisa%2C and Alex ,are joining a kickball team.,filler,name,19,NULL,NA
+S[7],trial,The inexpensive guns and the active babies,are encouraging a culture of violence.,theAdjBPand,27,TRUE,TRUE,TRUE
+S[7],filler,Most challenges,can be overcome with hard work and perserverence ,filler,quantifier,45,NULL,NA
+S[7],filler,If sentient robots roamed the Earth%2C,we would never know.,filler,if,52,NULL,NA
+S[7],trial,Answers,to the exams can be found in the back of the book.,BP,25,FALSE,FALSE,FALSE
+S[7],filler,Whoever was responsible,for the death of the boy will go to hell.,filler,correlative,63,NULL,NA
+S[7],filler,The book that kept me up all night,ended with a twist.,filler,rc,2,NULL,NA
+S[7],trial,Colors and ghosts,don't go together.,BPand,18,FALSE,FALSE,TRUE
+S[7],filler,If the world was ruled by cats%2C,it would be a much better place.,filler,if,55,NULL,NA
+S[7],filler,If I could travel back in time%2C it would be the time when,I had no responsibilities,filler,if,56,NULL,NA
+S[7],trial,The monuments and the mobs,scare away the tourists.,theBPand,7,TRUE,FALSE,TRUE
+S[7],filler,Who is behind the mask,of professionality.,filler,wh,35,NULL,NA
+S[7],filler,David and Rebecca,lived happily ever after.,filler,name,14,NULL,NA
+S[7],trial,The squares and the flowers,were arranged in a beautiful garden.,theBPand,31,TRUE,FALSE,TRUE
+S[7],filler,The city that never slept,was suddenly asleep.,filler,rc,5,NULL,NA
+S[7],trial,The anxious boys,ran around in a panic,theAdjBP,21,TRUE,TRUE,FALSE
+S[7],filler,Whatever happened,to the birds and the bees.,filler,correlative,61,NULL,NA
+S[7],filler,The car that raced through the streets,left track marks.,filler,rc,1,NULL,NA
+S[7],trial,The blissful journeys,were my fondest memories.,theAdjBP,5,TRUE,TRUE,FALSE
+S[7],filler,Along the road,there was a serial killer ,filler,adjunct,25,NULL,NA
+S[7],filler,What if you dare,to speak truth to power?,filler,wh,40,NULL,NA
+S[7],trial,The blind artists and the spicy pickles,were the stars of the show.,theAdjBPand,19,TRUE,TRUE,TRUE
+S[7],filler,Amidst the vibrant city lights,the people lived as if there was no tomorrow.,filler,adjunct,22,NULL,NA
+S[7],filler,Few opportunities,come to the poor.,filler,quantifier,43,NULL,NA
+S[7],filler,Some dreams,feel like they will never end.,filler,quantifier,42,NULL,NA
+S[7],filler,When the clock strikes,midnight%2C I must leave.,filler,wh,33,NULL,NA
+S[7],trial,The unlucky astronauts,lost communication with Earth.,theAdjBP,13,TRUE,TRUE,FALSE
+S[7],filler,Whose coffee,is the best?,filler,wh,37,NULL,NA
+S[7],filler,Were I to relive yesterday%2C,I would say everything I was too afraid.,filler,if,60,NULL,NA
+S[7],trial,The newspapers,are dying.,theBP,24,TRUE,FALSE,FALSE
+S[7],filler,Within the serene garden oasis,I stopped to meditate.,filler,adjunct,23,NULL,NA
+S[7],filler,Why the stars shine,kept scientists up at night ages ago.,filler,wh,32,NULL,NA
+S[7],trial,Broad rivers,have strong currents.,AdjBP,4,FALSE,TRUE,FALSE
+S[7],filler,If a portal to the Dune universe would open today%2C,I would run the other way.,filler,if,53,NULL,NA
+S[7],filler,If artists from different eras collaborated with Billie Eilish%2C,it would be an interesting album.,filler,if,54,NULL,NA
+S[7],trial,Entrances and airports,have too much security.,BPand,26,FALSE,FALSE,TRUE
+S[7],filler,How can we mend,a broken heart?,filler,wh,39,NULL,NA
+S[7],filler,Within the tranquil coastal village,lie the rich unplussed by the poverty just outside.,filler,adjunct,28,NULL,NA
+S[7],filler,On the golden sandy beach,the tourists passed their time.,filler,adjunct,21,NULL,NA
+S[7],filler,Were I to save someone from the past%2C,I would do it in a heartbeat.,filler,if,59,NULL,NA
+S[7],trial,Stubborn mysteries and bashful maids,are studied in these chambers.,AdjBPand,6,FALSE,TRUE,TRUE
+S[7],filler,The Smith family,went on vacation.,filler,name,13,NULL,NA
+S[7],filler,At the bustling market square,vendors competed for their daily income.,filler,adjunct,27,NULL,NA
+S[7],trial,Headaches and rulers,are stubborn.,BPand,10,FALSE,FALSE,TRUE
+S[7],filler,During a starry summer night,I appreciated the unknown.,filler,adjunct,24,NULL,NA
+S[7],filler,The city that buzzed with vibrant energy day and night,was a wonderful place to live.,filler,rc,6,NULL,NA
+S[7],trial,Scissors,cut through the credit card.,BP,1,FALSE,FALSE,FALSE
+S[7],filler,All eager eyes%2C filled with anticipation%2C,were drawn to the results.,filler,quantifier,46,NULL,NA
+S[7],filler,All stars,die an energetic death.,filler,quantifier,41,NULL,NA
+S[7],trial,Innocent smiles and costly dinners,disguised their unhappiness.,AdjBPand,30,FALSE,TRUE,TRUE
+S[7],filler,If time and money were no obstacles%2C,I would upend capitalism.,filler,if,51,NULL,NA
+S[7],filler,Few precious chances%2C which had eluded them for so long%2C,were finally in their path.,filler,quantifier,49,NULL,NA
+S[7],trial,The dilemmas and the pizzas,arrived at once.,theBPand,23,TRUE,FALSE,TRUE
+S[7],filler,Many passionate voices%2C echoing through the room%2C,fighting for what they believe in.,filler,quantifier,47,NULL,NA
+S[7],filler,Several blissful moments%2C spent in each other's arms%2C,will never be forgotten.,filler,quantifier,48,NULL,NA
+S[7],trial,Sunlit ponds and green umbrellas,covered the park.,AdjBPand,14,FALSE,TRUE,TRUE
+S[7],filler,In the misty mountain valley,appeared a hungry bear.,filler,adjunct,26,NULL,NA
+S[7],filler,The tree that shaded the picnic area,was thousands of years old.,filler,rc,4,NULL,NA
+S[7],trial,Sisters,and brothers can never be replaced.,BP,9,FALSE,FALSE,FALSE
+S[7],filler,Mr. Johnson and his loyal assistant%2C Ms. Rodriguez,set out to the conference.,filler,name,15,NULL,NA
+S[7],filler,The Johnson siblings%2C Ethan and Olivia ,fought night and day.,filler,name,18,NULL,NA
+S[7],trial,The guests,were surprised by the performance.,theBP,32,TRUE,FALSE,FALSE
+S[7],filler,Were I to be the mayor of College Park%2C,I would build public housing.,filler,if,57,NULL,NA
+S[7],filler,Emily%2C Michael%2C and Samantha,went on vacation.,filler,name,12,NULL,NA
+S[7],trial,Fiendish mosquitos,buzzed all around.,AdjBP,28,FALSE,TRUE,FALSE
+S[7],filler,The flower that bloomed like a radiant burst of sunshine,was the most beautiful I had ever seen.,filler,rc,10,NULL,NA
+S[7],filler,Whichever path they chose,would affect the rest of their lives.,filler,correlative,64,NULL,NA
+S[7],trial,Hungry bears,ate their porridge.,AdjBP,20,FALSE,TRUE,FALSE
+S[7],filler,The computer that crashed in a spectacular display of sparks,was replaced at once.,filler,rc,7,NULL,NA
+S[7],filler,Sarah and John%2C,went on a date to the movies.,filler,name,11,NULL,NA
+S[7],trial,Funerals and tables,are needed to mourn.,BPand,2,FALSE,FALSE,TRUE
+S[7],filler,The dog that barked incessantly,was pleased to see their owner.,filler,rc,3,NULL,NA
+S[7],filler,Many voices,in my head won't ever stop.,filler,quantifier,44,NULL,NA
+S[7],trial,The kings,were brutal in that age.,theBP,16,TRUE,FALSE,FALSE
+S[7],filler,The Jones twins%2C Emma and Ethan,looked nothing alike.,filler,name,20,NULL,NA
+S[7],filler,Underneath the trees,the children played.,filler,adjunct,29,NULL,NA
+S[7],trial,Sketches,of the scene covered the office.,BP,17,FALSE,FALSE,FALSE
+S[7],filler,The restaurant that delighted taste buds with tantalizing flavors,received a Michelin star,filler,rc,9,NULL,NA
+S[7],filler,Professor Thompson and his brilliant student%2C Alice,published the most cited paper of all time.,filler,name,17,NULL,NA
+S[7],trial,The tulips,were stubborn and refused to die.,theBP,8,TRUE,FALSE,FALSE
+S[7],filler,Were I to open a bakery shop%2C,I would sell my famous cinnamon buns.,filler,if,58,NULL,NA
+S[7],filler,The dynamic duo of Lucy and Max ,were fierce competiters.,filler,name,16,NULL,NA
+S[7],trial,Busy moms and decorative rugs,are all over the blog.,AdjBPand,22,FALSE,TRUE,TRUE
+S[7],filler,Most vivid dreams%2C which transported them to fantastical realms%2C,were quickly forgotten.,filler,quantifier,50,NULL,NA
+S[7],filler,Wherever the party was,I would be sure to be there.,filler,correlative,62,NULL,NA
+S[7],trial,Dainty spoons,and dainty forks decorated the table.,AdjBP,12,FALSE,TRUE,FALSE
+S[7],filler,Which path to choose,was difficult to choose.,filler,wh,34,NULL,NA

@@ -17,6 +17,8 @@ execute:
 format:
   pdf:
       toc: false
+      cite-method: biblatex
+      biblatexoptions: [backend=biber, style=apa, sorting=nyt, sortcites=true, hyperref=false, doi=false, url=false]
       #shift-heading-level-by: 2
       fig-pos: "H"
       fig-cap-location: top
@@ -45,7 +47,7 @@ format:
               \mythetitle
               \ifx \theauthor\empty  \else \ – \theauthor \fi
               \ifx \thedate\empty  \else \ – \thedate \ \fi
-              – Word Count: 1169
+              – Word Count: 1338
             }
           }
           \fancyfoot[C]{\thepage}

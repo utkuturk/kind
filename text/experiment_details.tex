@@ -79,29 +79,6 @@
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
-\newlength{\cslhangindent}
-\setlength{\cslhangindent}{1.5em}
-\newlength{\csllabelwidth}
-\setlength{\csllabelwidth}{3em}
-\newlength{\cslentryspacingunit} % times entry-spacing
-\setlength{\cslentryspacingunit}{\parskip}
-\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
- {% don't indent paragraphs
-  \setlength{\parindent}{0pt}
-  % turn on hanging indent if param 1 is 1
-  \ifodd #1
-  \let\oldpar\par
-  \def\par{\hangindent=\cslhangindent\oldpar}
-  \fi
-  % set entry spacing
-  \setlength{\parskip}{#2\cslentryspacingunit}
- }%
- {}
-\usepackage{calc}
-\newcommand{\CSLBlock}[1]{#1\hfill\break}
-\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
-\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \usepackage{expex}
 \let\expexgla\gla
@@ -120,7 +97,7 @@
     \mythetitle
     \ifx \theauthor\empty  \else \ – \theauthor \fi
     \ifx \thedate\empty  \else \ – \thedate \ \fi
-    – Word Count: 1169
+    – Word Count: 1338
   }
 }
 \fancyfoot[C]{\thepage}
@@ -134,22 +111,6 @@
 \titleformat{\subsection}[runin]{\normalfont\bfseries}{\thesubsection}{.5em}{}[.]
 \titleformat{\subsubsection}[runin]{\normalfont\bfseries}{\thesubsubsection.}{.5em}{}[.]
 \KOMAoption{captions}{tableheading,figureheading}
-\makeatletter
-\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
-\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
-\definecolor{quarto-callout-color}{HTML}{909090}
-\definecolor{quarto-callout-note-color}{HTML}{0758E5}
-\definecolor{quarto-callout-important-color}{HTML}{CC1914}
-\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
-\definecolor{quarto-callout-tip-color}{HTML}{00A047}
-\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
-\definecolor{quarto-callout-color-frame}{HTML}{acacac}
-\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
-\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
-\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
-\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
-\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
-\makeatother
 \makeatletter
 \makeatother
 \makeatletter
@@ -206,6 +167,8 @@
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
+\usepackage[backend=biber,style=apa,sorting=nyt,sortcites=true,hyperref=false,doi=false,url=false]{biblatex}
+\addbibresource{refs.bib}
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
@@ -221,21 +184,19 @@
 
 \title{Experiment Details}
 \author{Utku Turk and Ellen Lau}
-\date{2023-07-20}
+\date{2023-08-08}
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, breakable, enhanced, boxrule=0pt, sharp corners, interior hidden, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, breakable, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, frame hidden, interior hidden, sharp corners]}{\end{tcolorbox}}\fi
 
 \hypertarget{experiment}{%
 \section{Experiment}\label{experiment}}
 
-Given previous discussion about Lau and Liao
-(\protect\hyperlink{ref-LauLiao2018}{2018}) and following
-work,\footnote{mainly discuss how syntactic structure might not be the main thing.}
-the semantic contribution of the items is need to be discussed. Even
-though there are multitude of theoretical discussions on the nature of
-bare plurals in English, there is no clear agreement on the nature of
+Given previous discussion about \textcite{LauLiao2018} and following
+work, the semantic contribution of the items is need to be discussed.
+Even though there are multitude of theoretical discussions on the nature
+of bare plurals in English, there is no clear agreement on the nature of
 their mental or behavioral representations.
 
 The present study tested people's a priori tendency to complete sentence
@@ -316,12 +277,11 @@ Modified and Coordinated Definite Plurals & The steamy mirrors and
 blissful journeys \\
 \end{longtable}
 
-Noun phrases and adjectives were selected from the original study by Lau
-and Liao (\protect\hyperlink{ref-LauLiao2018}{2018}). Noun phrases were
-selected randomly, and the same adjectives from the original study was
-used for those noun phrases. Similarly, the coordinands were also kept
-constant between this study and the original study by Lau and Liao
-(\protect\hyperlink{ref-LauLiao2018}{2018}).
+Noun phrases and adjectives were selected from the original study by
+\textcite{LauLiao2018}. Noun phrases were selected randomly, and the
+same adjectives from the original study was used for those noun phrases.
+Similarly, the coordinands were also kept constant between this study
+and the original study by \textcite{LauLiao2018}.
 
 To preclude participants from limiting themselves to a small set of
 context, we included 64 filler sentences. Fillers consisted of
@@ -370,21 +330,23 @@ Correlatives & Wherever the party was & 4 \\
 & & \emph{Total}: 64 \\
 \end{longtable}
 
+Within the whole experiment, the number of preambles that may serve as a
+plural head was 0.53\% of the total items.
+
 \hypertarget{judgment-task}{%
 \paragraph{Judgment Task}\label{judgment-task}}
 
 The second part of the experiment consisted two types of sentences: (i)
 completed versions of the sentences in the first part and (ii) sentences
-from Frazier et al. (\protect\hyperlink{ref-FrazierEtAl2007}{2007})
-study. Sentences from the first part of the experiment was acquired
-through a pilot study carried out voluntarily by University of Maryland
-graduate students. We selected 30 sentences from these sentences,
-covering all experimental conditions and filler types. From Frazier et
-al. (\protect\hyperlink{ref-FrazierEtAl2007}{2007}) study, we included
-20 items using only two conditions from the experiment, which used bare
-plurals in the subject positions. We manipulated whether the first
-sentence is an episodic (\ref{f-item-a}) or a generic sentence
-(\ref{f-item-c}).
+from \textcite{FrazierEtAl2007} study. Sentences from the first part of
+the experiment was acquired through a pilot study carried out
+voluntarily by University of Maryland graduate students. We selected 22
+filler sentences and 32 experimental sentences from the pilot study,
+covering all experimental conditions (except definite ones) and filler
+types. From \textcite{FrazierEtAl2007} study, we included 20 items using
+only two conditions from the experiment, which used bare plurals in the
+subject positions. We manipulated whether the first sentence is an
+episodic (\ref{f-item-a}) or a generic sentence (\ref{f-item-c}).
 
 \lingset{exskip=0pt,belowglpreambleskip=0pt,aboveglftskip=0pt,everyglpreamble=,everygla=,everyglb=,everyglc=,everyglft=}
 
@@ -400,20 +362,20 @@ last night.// \endgl  \xe
 \paragraph{Completion Task}\label{completion-task-1}}
 
 The experiment was run online in PCIbex platform
-(\protect\hyperlink{ref-Drummond2013}{Drummond 2013};
-\protect\hyperlink{ref-ZehrSchwarz2018}{Zehr and Schwarz 2018}). Each
-participant session took approximately 25 minutes. Participants provided
-demographic information and gave informed consent to participate in the
-experiment. A practice and instrucstions sessions preceded the
-experiment, in which participants were provided with a set of sentence
-fragments. Instruction sections included two trials with bare plural
-noun phrases as sentence fragments, after they were probed to complete
-them, they were also provided other possible completions which featured
-both existential and generic examples. In this section, they were told
-to not repeat themselves while completing sentences and provide vivid
+\autocite{Drummond2013,ZehrSchwarz2018}. Each participant session took
+approximately 25 minutes. Participants provided demographic information
+and gave informed consent to participate in the experiment. A practice
+and instructions sessions preceded the experiment, in which participants
+were provided with a set of sentence fragments. Instruction sections
+included a comprehension question to confirm that they understood the
+task. This section also included two trials with bare plural noun
+phrases as sentence fragments, after they were probed to complete them,
+they were also provided other possible completions which featured both
+existential and generic examples. In this section, they were told to not
+repeat themselves while completing sentences and provide vivid
 completions. They were also instructed about the character (15) and time
 limit (25 seconds). In the practice section, they were asked to complete
-\textbf{10?} sentence fragments.
+7 sentence fragments.
 
 Each trial began with 200 ms blank screen, and followed by a full
 sentence presentation in the center of the screen that stayed in the
@@ -422,12 +384,10 @@ the sentence completiong and press \texttt{\textsc{enter}} key. During
 the practice item, a warning message in red font appeared if they did
 not respond within 25 seconds or write more than 15 characters,
 including whitespaces. Sentence fragments and instructions were
-presented in black \textbf{24?}-point case Helvetica font on a white
-background.
+presented in black 16-point case Helvetica font on a white background.
 
 Items were randomly paired into 8 different lists according to a
-balanced Latin-square design
-(\protect\hyperlink{ref-Bradley1958}{Bradley 1958}). Balanced
+balanced Latin-square design \autocite{Bradley1958}. Balanced
 Latin-square made sure that each item would appear in either one of the
 condition and not any other for a participant. It also removes the
 immediate carry-over effects: A condition will precede another condition
@@ -437,137 +397,50 @@ exactly once. The items in these lists were shuffled as well.
 \paragraph{Judgment Task}\label{judgment-task-1}}
 
 The experiment was run online in PCIbex platform
-(\protect\hyperlink{ref-Drummond2013}{Drummond 2013};
-\protect\hyperlink{ref-ZehrSchwarz2018}{Zehr and Schwarz 2018}). Each
-participant session took approximately 25 minutes. Participants were
-directed from the previous task, and greeted by a welcome screen.
-Following the initial screen, the instruction and the practice screen
-were presented, in which participants judge \textbf{10?} sentences. In
-the instructions screen, participants were told to judge sentences as
-fast and accurately as possible. They were also instructed about time
-limit (25 seconds).
+\autocite{Drummond2013,ZehrSchwarz2018}. Each participant session took
+approximately 25 minutes. Participants were directed from the previous
+task, and greeted by a welcome screen. Following the initial screen, the
+instruction and the practice screen were presented, in which
+participants judge \textbf{10?} sentences. In the instructions screen,
+participants were told to judge sentences as fast and accurately as
+possible. They were also instructed about time limit (25 seconds).
 
-Each trial began with 200 ms blank screen, and followed by a full
-sentencen presentation in the center of the screen that stayed in the
-screen for 25 seconds. In this time period, they were expected to read
-the sentence and judge it using the Likert scale presented in the
-screen. During the practice item, a warning message in red font appeared
-if they did not respond within 25 seconds. Sentences and instructions
-were presented in black \textbf{24?}-point case Helvetica font on a
+Each trial began with 200 ms blank screen, and followed by a asterisk in
+the middle of the screen as a fixation point, that stayed in the screen
+for 500 ms and presented in black 16-point case Helvetica font on a
 white background.
+
+Following blank screen and fixation point, the full sentence was
+presented in the center of the screen and stayed on the screen for 25
+seconds. In this time period, they were expected to read the sentence
+and judge it using the Likert (1-7) scale presented in the screen.
+During the practice item, a warning message in red font appeared if they
+did not respond within 25 seconds. Sentences and instructions were
+presented in black 16-point case Helvetica font on a white background.
 
 \hypertarget{participants}{%
 \subsubsection{Participants}\label{participants}}
 
-\begin{itemize}
-\tightlist
-\item
-  A total of \textbf{40?} participants will be recruited through
-  Prolific. They will be paid \textbf{5?} US dollars.
-\item
-  Written informed consent was obtained from all participants.
-\end{itemize}
-
-\hypertarget{exclusion-criteria}{%
-\paragraph{Exclusion Criteria}\label{exclusion-criteria}}
-
-\begin{itemize}
-\tightlist
-\item
-  Speakers that were not native English speakers were excluded.
-\item
-  Participants that failed to XXX task will be exclude, since they will
-  be treated as bots.
-\item
-  Participants that complete sentence in an inappropriate or repeating
-  way will be excluded.
-\item
-  Such as completions in the same manner all the time or completions as
-  random strings.
-\end{itemize}
-
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, left=2mm, rightrule=.15mm, toprule=.15mm, coltitle=black, opacityback=0, colframe=quarto-callout-important-color-frame, colback=white, leftrule=.75mm, colbacktitle=quarto-callout-important-color!10!white, bottomrule=.15mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{To-dos}, titlerule=0mm, breakable, toptitle=1mm, bottomtitle=1mm, arc=.35mm]
-
-experiment:
-
-\begin{itemize}
-\tightlist
-\item
-  include ``you will not have any money if you do this and this.''
-\item
-  include zach's task or counting task.
-\item
-  maybe include in the instructions that there are some special tasks
-\item
-  when a task start with ``!!!'' give only the correct answer.
-\end{itemize}
-
-completion materials:
-
-\begin{itemize}
-\tightlist
-\item
-  how many plural and singular heads do participants see?
-\end{itemize}
-
-completion procedure: how many practice items
-
-\end{tcolorbox}
+A total of 40 participants will be recruited through Prolific. They will
+be paid \textbf{5?} US dollars. Written informed consent was obtained
+from all participants. All participants are intented to be English
+native speakers from United States, and participants that are not native
+English speakers will be excluded. Participants who answered the
+comprehension question in the instructions wrongly will be excluded as
+well. In order to detect bots, we included a dialect recognition task
+following \textcite{Maher2023}, in which participants will listen an
+audio recording and select the dialect used in the audio. Participants
+that failed to correctly recognize the dialect task will be exclude,
+since they will be treated as bots. Participants that complete sentence
+in an inappropriate or repeating way, such as completions in the same
+manner all the time or completions as random strings, will also be
+excluded.
 
 \hypertarget{references}{%
-\section{References}\label{references}}
+\subsubsection{References}\label{references}}
 
-\(~\)
+\printbibliography[heading=none]
 
-\hypertarget{refs}{}
-\begin{CSLReferences}{1}{0}
-\leavevmode\vadjust pre{\hypertarget{ref-Bradley1958}{}}%
-Bradley, James V. 1958. {``Complete Counterbalancing of Immediate
-Sequential Effects in a Latin Square Design.''} \emph{Journal of the
-American Statistical Association} 53 (282): 525--28.
-
-\leavevmode\vadjust pre{\hypertarget{ref-Drummond2013}{}}%
-Drummond, Alex. 2013. {``{\emph{Ibex Farm}}.''}
-
-\leavevmode\vadjust pre{\hypertarget{ref-FrazierEtAl2007}{}}%
-Frazier, Lyn, Helen Majewski, Masako Hirotani, and Keith Rayner. 2007.
-{``Processing Bare Plurals and Indefinites: Evidence from Eye
-Movements.''} \emph{University of Massachusetts Occasional Papers in
-Linguistics} 33 (1): 4.
-
-\leavevmode\vadjust pre{\hypertarget{ref-LauLiao2018}{}}%
-Lau, Ellen, and Chia-Hsuan Liao. 2018. {``Linguistic Structure Across
-Time: ERP Responses to Coordinated and Uncoordinated Noun Phrases.''}
-\emph{Language, Cognition and Neuroscience} 33 (5): 633--47.
-
-\leavevmode\vadjust pre{\hypertarget{ref-ZehrSchwarz2018}{}}%
-Zehr, J., and F. Schwarz. 2018. {``{PennController for Internet Based
-Experiments (IBEX)}.''}
-
-\leavevmode\vadjust pre{\hypertarget{ref-Bradley1958}{}}%
-Bradley, James V. 1958. {``Complete Counterbalancing of Immediate
-Sequential Effects in a Latin Square Design.''} \emph{Journal of the
-American Statistical Association} 53 (282): 525--28.
-
-\leavevmode\vadjust pre{\hypertarget{ref-Drummond2013}{}}%
-Drummond, Alex. 2013. {``{\emph{Ibex Farm}}.''}
-
-\leavevmode\vadjust pre{\hypertarget{ref-FrazierEtAl2007}{}}%
-Frazier, Lyn, Helen Majewski, Masako Hirotani, and Keith Rayner. 2007.
-{``Processing Bare Plurals and Indefinites: Evidence from Eye
-Movements.''} \emph{University of Massachusetts Occasional Papers in
-Linguistics} 33 (1): 4.
-
-\leavevmode\vadjust pre{\hypertarget{ref-LauLiao2018}{}}%
-Lau, Ellen, and Chia-Hsuan Liao. 2018. {``Linguistic Structure Across
-Time: ERP Responses to Coordinated and Uncoordinated Noun Phrases.''}
-\emph{Language, Cognition and Neuroscience} 33 (5): 633--47.
-
-\leavevmode\vadjust pre{\hypertarget{ref-ZehrSchwarz2018}{}}%
-Zehr, J., and F. Schwarz. 2018. {``{PennController for Internet Based
-Experiments (IBEX)}.''}
-
-\end{CSLReferences}
 
 
 

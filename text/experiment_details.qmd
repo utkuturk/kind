@@ -1,15 +1,15 @@
 ```{r}
 #| label: variables
 # general
-Npart <- "**40?**"
+Npart <- "40"
 Nexcl_native <- "**NULL**"
-font <- "**24?**-point case Helvetica"
+font <- "16-point case Helvetica"
 paid <- "**5?**"
 
 # part 1
 Ntrial <- 4
 Ncond <- 8
-Nprac <- "**10?**"
+Nprac <- 7
 t_blank <- 200
 t_trial <- 25
 t_exp <- "25 minutes"
@@ -18,14 +18,15 @@ ch_limit <- 15
 # part 2
 Nprac2 <- "**10?**"
 t_blank2 <- 200
+t_ast <- 500
+font_ast <- "16-point case Helvetica"
 t_trial2 <- 25
 t_exp2 <- "25 minutes"
 ```
 
 # Experiment
 
-Given previous discussion about @LauLiao2018
-and following work,\footnote{mainly discuss how syntactic structure might not be the main thing.}
+Given previous discussion about @LauLiao2018 and following work,
 the semantic contribution of the items is need to be discussed.
 Even though there are multitude of theoretical discussions on the nature of bare plurals in English,
 there is no clear agreement on the nature of their mental or behavioral representations.
@@ -119,7 +120,7 @@ we included 64 filler sentences.
 Fillers consisted of structures that are different from the experimental items.
 They can be categorized into 9 different groups as shown in @tbl-fillers.
 
-<!-- TODO write how many plurals heads or singular heads participants are seeing in total. -->
+
 
 | Filler Type             | Example                                                  |       Count |
 | ----------------------- | -------------------------------------------------------- | ----------: |
@@ -136,6 +137,9 @@ They can be categorized into 9 different groups as shown in @tbl-fillers.
 
 : All filler types, examples, and counts. {#tbl-fillers}
 
+Within the whole experiment,
+the number of preambles that may serve as a plural head was `r round((32+19)/(32+19+34+11),2)`% of the total items.
+
 #### Judgment Task
 
 The second part of the experiment consisted two types of sentences:
@@ -143,7 +147,8 @@ The second part of the experiment consisted two types of sentences:
 (ii) sentences from @FrazierEtAl2007 study.
 Sentences from the first part of the experiment was acquired through a pilot study
 carried out voluntarily by University of Maryland graduate students.
-We selected 30 sentences from these sentences, covering all experimental conditions and filler types.
+We selected 22 filler sentences and 32 experimental sentences from the pilot study,
+covering all experimental conditions (except definite ones) and filler types.
 From @FrazierEtAl2007 study, we included 20 items using only two conditions from the experiment,
 which used bare plurals in the subject positions.
 We manipulated whether the first sentence is an episodic (\ref{f-item-a}) or a generic sentence (\ref{f-item-c}).
@@ -164,10 +169,12 @@ The experiment was run online in PCIbex platform [@Drummond2013;@ZehrSchwarz2018
 Each participant session took approximately `r t_exp`.
 Participants provided demographic information and
 gave informed consent to participate in the experiment.
-A practice and instrucstions sessions preceded the experiment,
-<!-- TODO How many practice items? -->
+A practice and instructions sessions preceded the experiment,
 in which participants were provided with a set of sentence fragments.
-Instruction sections included two trials with bare plural noun phrases as sentence fragments,
+Instruction sections included a comprehension question to
+confirm that they understood the task.
+This section also included
+two trials with bare plural noun phrases as sentence fragments,
 after they were probed to complete them,
 they were also provided other possible completions
 which featured both existential and generic examples.
@@ -208,29 +215,37 @@ participants were told to judge sentences as fast and accurately as possible.
 They were also instructed about time limit (`r t_trial2` seconds).
 
 Each trial began with `r t_blank2` ms blank screen,
-and followed by a full sentencen presentation in the center of the screen
-that stayed in the screen for `r t_trial2` seconds.
+and followed by a asterisk in the middle of the screen as a fixation point,
+that stayed in the screen for `r t_ast` ms
+and presented in black `r font_ast` font on a white background.
+
+Following blank screen and fixation point,
+the full sentence was presented in the center of the screen
+and stayed on the screen for `r t_trial2` seconds.
 In this time period, they were expected to read the sentence and
-judge it using the Likert scale presented in the screen.
+judge it using the Likert (1-7) scale presented in the screen.
 During the practice item,
 a warning message in red font appeared if they did not respond within `r t_trial` seconds.
 Sentences and instructions were presented in black `r font` font on a white background.
 
 ### Participants
 
-- A total of `r Npart` participants will be recruited through Prolific. They will be paid `r paid` US dollars.
-- Written informed consent was obtained from all participants.
+A total of `r Npart` participants will be recruited through Prolific.
+They will be paid `r paid` US dollars.
+Written informed consent was obtained from all participants.
+All participants are intented to be English native speakers from United States, and
+participants that are not native English speakers will be excluded.
+Participants who answered the comprehension question in the instructions wrongly
+will be excluded as well.
+In order to detect bots, we included a dialect recognition task following @Maher2023,
+in which participants will listen an audio recording and select the dialect used in the audio.
+Participants that failed to correctly recognize the dialect task will be exclude, since they will be treated as bots.
+Participants that complete sentence in an inappropriate or repeating way,
+such as completions in the same manner all the time or completions as random strings, will also be excluded.
 
-#### Exclusion Criteria
-
-- Speakers that were not native English speakers were excluded.
-- Participants that failed to XXX task will be exclude, since they will be treated as bots.
-- Participants that complete sentence in an inappropriate or repeating way will be excluded.
-- Such as completions in the same manner all the time or completions as random strings.
 
 
-
-:::{.callout-important}
+<!-- :::{.callout-important}
 ## To-dos
 
 experiment:
@@ -239,15 +254,10 @@ experiment:
 - include zach's task or counting task.
 - maybe include in the instructions that there are some special tasks
 - when a task start with "!!!" give only the correct answer.
+::: -->
 
-completion materials:
 
-- how many plural and singular heads do participants see?
+### References
 
-completion procedure: how many practice items
-
+::: {#refs}
 :::
-
-
-# References
-$~$

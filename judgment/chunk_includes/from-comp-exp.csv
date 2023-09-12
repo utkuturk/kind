@@ -1,0 +1,33 @@
+sentence,itemnum,condition,the,and,adj,group
+Fiendish mosquitos buzzed all around.,1,AdjBP,FALSE,FALSE,TRUE,A
+Panicky newspapers Published that the president had died,2,AdjBP,FALSE,FALSE,TRUE,B
+Fiendish mosquitos caused the panda pandemic in Japan ,3,AdjBP,FALSE,FALSE,TRUE,C
+Blind artists Have incredible sensitivity,4,AdjBP,FALSE,FALSE,TRUE,D
+Pricey sofas and drippy hoses Were sold at the store,5,AdjBPand,FALSE,TRUE,TRUE,E
+Solid doors and huge debts prevented Kelsie from reaching her goal,6,AdjBPand,FALSE,TRUE,TRUE,F
+Steamy mirrors and blissful journeys are what you'd expect of an adventure,7,AdjBPand,FALSE,TRUE,TRUE,G
+Stubborn mysteries and bashful maids are studied in these chambers.,8,AdjBPand,FALSE,TRUE,TRUE,H
+Rugs %2C when good quality%2C are quite expensive,9,BP,FALSE,FALSE,FALSE,H
+Sketches of the scene covered the office.,10,BP,FALSE,FALSE,FALSE,A
+Bears Sometimes do cocaine,11,BP,FALSE,FALSE,FALSE,B
+Scissors are the leading cause of accidents in primary schools,12,BP,FALSE,FALSE,FALSE,C
+Ponds and umbrellas Are covered in water,13,BPand,FALSE,TRUE,FALSE,D
+Ponds and umbrellas both relate to water.,14,BPand,FALSE,TRUE,FALSE,E
+Funerals and tables are needed to mourn.,15,BPand,FALSE,TRUE,FALSE,F
+Headaches and rulers are two of the things I hate the most about being alive,16,BPand,FALSE,TRUE,FALSE,G
+The sunlit ponds Were home to many lotus flowers%2C opening towards the sky,17,theAdjBP,TRUE,FALSE,TRUE,B
+The anxious boys ran around in a panic,18,theAdjBP,TRUE,FALSE,TRUE,C
+The blissful journeys on the Orient Express was exclusive to the upper classes,19,theAdjBP,TRUE,FALSE,TRUE,D
+The blunt scissors Destroyed her hair,20,theAdjBP,TRUE,FALSE,TRUE,E
+The lovely colors and the evil ghosts in the videogame tantalized the players.,21,theAdjBPand,TRUE,TRUE,TRUE,F
+The inexpensive guns and the active babies are encouraging a culture of violence.,22,theAdjBPand,TRUE,TRUE,TRUE,G
+The inexpensive guns and the active babies were the cause of the high childhood mortality rate ,23,theAdjBPand,TRUE,TRUE,TRUE,H
+The gluttonous kings and the friendly games Made this kingdom a place for unforgettable parties that people attended from distant lands,24,theAdjBPand,TRUE,TRUE,TRUE,A
+The entrances To the festival are closed to those who don't have a ticket,25,theBP,TRUE,FALSE,FALSE,G
+The tulips were stubborn and refused to die.,26,theBP,TRUE,FALSE,FALSE,H
+The sketches were rough but bore a clear resemblance to the princess,27,theBP,TRUE,FALSE,FALSE,A
+The boys Listened to jazz all night long,28,theBP,TRUE,FALSE,FALSE,B
+The headaches and the rulers continued to pound in her ears until she could take it no longer and left,29,theBPand,TRUE,TRUE,FALSE,C
+The towns and the mosquitos Are like a pair of really good friends.,30,theBPand,TRUE,TRUE,FALSE,D
+The squares and the flowers were badly drawn on her bedroom wall,31,theBPand,TRUE,TRUE,FALSE,E
+The monuments and the mobs scare away the tourists.,32,theBPand,TRUE,TRUE,FALSE,F
