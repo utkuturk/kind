@@ -1,0 +1,23 @@
+sentence,type,condition,itemnum,the,and,adj
+"Along the road, there was a serial killer.",adjunct,filler,1,filler,filler,filler
+"Underneath the trees, I spread out a picnic blanket and promptly fell asleep for the rest of the afternoon.",adjunct,filler,2,filler,filler,filler
+"Within the tranquil coastal village, there lived a group of wild boars that the villagers never saw.",adjunct,filler,3,filler,filler,filler
+Whoever was responsible for the mistake in the paper will certainly face consequences.,correlative,filler,4,filler,filler,filler
+Whichever path they chose clearly depended on him and he just couldn't make up his mind so they all stood there for a long while.,correlative,filler,5,filler,filler,filler
+"Wherever the party was thrown, he was sure to be.",correlative,filler,6,filler,filler,filler
+"Were I to open a bakery shop, it would also serve the best espresso in town.",if,filler,7,filler,filler,filler
+"Were I to save someone from the past, I would save a person who was the kindest to the society.",if,filler,8,filler,filler,filler
+"If sentient robots roamed the Earth, we would have to learn new ways of interacting with them.",if,filler,9,filler,filler,filler
+The dynamic duo of Lucy and Max  took on high school together and remained inseparable throughout college.,name,filler,10,filler,filler,filler
+"Emily, Michael, and Samantha are childhood friends.",name,filler,11,filler,filler,filler
+David and Rebecca got married in Mexico last week.,name,filler,12,filler,filler,filler
+"Few precious chances, which had eluded them for so long, were offered to them.",quantifier,filler,13,filler,filler,filler
+"Several blissful moments, spent in each other's arms, who could've guess what would come next.",quantifier,filler,14,filler,filler,filler
+"Many passionate voices, echoing through the room, were trying to do good in the world, but alas, the conflict that resulted was not what they hoped for.",quantifier,filler,15,filler,filler,filler
+The movie that mesmerized audiences with its breathtaking visuals did not even win the oscar.,rc,filler,16,filler,filler,filler
+The car that raced through the streets hit Mr. Bob's Grocery Store.,rc,filler,17,filler,filler,filler
+The computer that crashed in a spectacular display of sparks was a definite fire hazard.,rc,filler,18,filler,filler,filler
+What if you dare to speak before the Queen?,wh,filler,19,filler,filler,filler
+Who holds the key to the safe?,wh,filler,20,filler,filler,filler
+"Why the stars shine at night but not during the day, mom?",wh,filler,21,filler,filler,filler
+"Most vivid dreams, which transported them to fantastical realms, were pleasant escapes from reality, but some continued to haunt them for months afterward.",quantifier,filler,22,filler,filler,filler

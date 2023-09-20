@@ -1,0 +1,33 @@
+sentence,itemnum,condition,the,and,adj,type,group
+Drippy hoses are super annoying.,1,AdjBP,FALSE,FALSE,TRUE,trial,A
+Pink tulips can be seen in the netherlands every spring.,2,AdjBP,FALSE,FALSE,TRUE,trial,B
+Anxious boys may be reacting to the pressures that are placed on them from a young age to succeed and fill a particular social role.,3,AdjBP,FALSE,FALSE,TRUE,trial,C
+Hungry bears ate their porridge.,4,AdjBP,FALSE,FALSE,TRUE,trial,D
+Untrue answers and outlandish diamonds were what made this lying family rich in diamond business.,5,AdjBPand,FALSE,TRUE,TRUE,trial,E
+Solid doors and huge debts prevented kelsie from reaching her goal.,6,AdjBPand,FALSE,TRUE,TRUE,trial,F
+Pricey sofas and drippy hoses both cost a lot of money.,7,AdjBPand,FALSE,TRUE,TRUE,trial,G
+Anxious boys and portable keyboards actually go hand in hand.,8,AdjBPand,FALSE,TRUE,TRUE,trial,H
+Ponds are a beautiful place to have a picnic by.,9,BP,FALSE,FALSE,FALSE,trial,H
+Sisters are always very close.,10,BP,FALSE,FALSE,FALSE,trial,A
+Answers to the exams can be found in the back of the book.,11,BP,FALSE,FALSE,FALSE,trial,B
+"Mosquitos, though an important part of the food chain, are the worst part of summer.",12,BP,FALSE,FALSE,FALSE,trial,C
+"Squares and flowers were strewn about the canvas, creating colorful abstract shapes.",13,BPand,FALSE,TRUE,FALSE,trial,D
+Tulips and remarks regarding her appearance were all that he gave her.,14,BPand,FALSE,TRUE,FALSE,trial,E
+Ponds and umbrellas both relate to water.,15,BPand,FALSE,TRUE,FALSE,trial,F
+Mirrors and journeys is the title of my new book on traveling the world.,16,BPand,FALSE,TRUE,FALSE,trial,G
+The heroic daughters saved their brother from the shark.,17,theAdjBP,TRUE,FALSE,TRUE,trial,B
+"The sunlit ponds were home to many lotus flowers, opening towards the sky.",18,theAdjBP,TRUE,FALSE,TRUE,trial,C
+The unlucky astronauts died during re-entry after 2 weeks in space.,19,theAdjBP,TRUE,FALSE,TRUE,trial,D
+The enchanted sisters lived in the forest.,20,theAdjBP,TRUE,FALSE,TRUE,trial,E
+The hasty funerals and the cozy tables sleep furiously.,21,theAdjBPand,TRUE,TRUE,TRUE,trial,F
+The blind artists and the spicy pickles were the stars of the show.,22,theAdjBPand,TRUE,TRUE,TRUE,trial,G
+The flat towns and the fiendish mosquitos made for a hellish vacation.,23,theAdjBPand,TRUE,TRUE,TRUE,trial,H
+The formal entrances and the chaotic airports never gave a consistent picture of the country.,24,theAdjBPand,TRUE,TRUE,TRUE,trial,A
+"The boys are, as usual, up to no good.",25,theBP,TRUE,FALSE,FALSE,trial,G
+The doors opened before her.,26,theBP,TRUE,FALSE,FALSE,trial,H
+The tulips were stubborn and refused to die.,27,theBP,TRUE,FALSE,FALSE,trial,A
+The headaches really aren't helpful at times like these but sadly you cannot control them.,28,theBP,TRUE,FALSE,FALSE,trial,B
+The headaches and the rulers continued to pound in her ears until she could take it no longer and left.,29,theBPand,TRUE,TRUE,FALSE,trial,C
+The squares and the flowers were arranged in a beautiful garden.,30,theBPand,TRUE,TRUE,FALSE,trial,D
+The squares and the flowers were badly drawn on her bedroom wall.,31,theBPand,TRUE,TRUE,FALSE,trial,E
+The sketches and the pans were strewn across the messy room.,32,theBPand,TRUE,TRUE,FALSE,trial,F
